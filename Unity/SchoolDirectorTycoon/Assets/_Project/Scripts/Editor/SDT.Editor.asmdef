@@ -1,0 +1,13 @@
+{
+    "name": "SDT.Editor",
+    "rootNamespace": "SchoolDirectorTycoon.EditorTools",
+    "references": [
+        "SDT.World",
+        "SDT.Bridge",
+        "Unity.InputSystem",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": ["Editor"],
+    "autoReferenced": false
+}

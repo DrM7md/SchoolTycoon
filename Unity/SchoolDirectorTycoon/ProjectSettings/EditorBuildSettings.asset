@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Project/Scenes/Campus.unity
+    guid: 8dca45c387cc3dd4991cd5c917300a56
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

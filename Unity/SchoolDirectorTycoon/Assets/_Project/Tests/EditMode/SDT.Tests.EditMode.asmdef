@@ -1,7 +1,7 @@
 {
     "name": "SDT.Tests.EditMode",
     "rootNamespace": "SchoolDirectorTycoon.Tests",
-    "references": ["SDT.Bridge", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
+    "references": ["SDT.Bridge", "SDT.World", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
     "includePlatforms": ["Editor"],
     "overrideReferences": true,
     "precompiledReferences": [

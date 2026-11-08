@@ -269,6 +269,60 @@
                                          "processors":  "",
                                          "interactions":  "",
                                          "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "EndDay",
+                                         "type":  "Button",
+                                         "id":  "bfe299ff-d5a7-4f11-9e48-a7d1c6988792",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Facility1",
+                                         "type":  "Button",
+                                         "id":  "c071eb08-a80d-491e-92f1-27f579d4be56",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Facility2",
+                                         "type":  "Button",
+                                         "id":  "0595c76e-946a-40c7-9970-961907141737",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Facility3",
+                                         "type":  "Button",
+                                         "id":  "fcd23c0e-0395-4c9c-936f-612ae8d8eed0",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Facility4",
+                                         "type":  "Button",
+                                         "id":  "16e858b1-46f7-4584-9649-1a85d918d778",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Facility5",
+                                         "type":  "Button",
+                                         "id":  "cd5c262a-0caf-4a4e-8d6d-040c338fb97a",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
                                      }
                                  ],
                      "bindings":  [
@@ -346,6 +400,72 @@
                                           "processors":  "",
                                           "groups":  "Keyboard\u0026Mouse",
                                           "action":  "Cancel",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "00827b8f-8298-4eaf-9935-c43167ac9f77",
+                                          "path":  "\u003cKeyboard\u003e/n",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "EndDay",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "ea055577-8838-4eac-83c9-fba86fb70ae7",
+                                          "path":  "\u003cKeyboard\u003e/1",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Facility1",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "b3b2b18c-2d0e-421f-8589-4549c52225de",
+                                          "path":  "\u003cKeyboard\u003e/2",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Facility2",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "e0740d68-f3d7-4bba-9e32-e03ec5e287e7",
+                                          "path":  "\u003cKeyboard\u003e/3",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Facility3",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "d083f50f-0f00-4448-acd8-83d2341f7760",
+                                          "path":  "\u003cKeyboard\u003e/4",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Facility4",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "1d2dfdec-2776-4f94-966e-fbdabc0107d6",
+                                          "path":  "\u003cKeyboard\u003e/5",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Facility5",
                                           "isComposite":  false,
                                           "isPartOfComposite":  false
                                       }
