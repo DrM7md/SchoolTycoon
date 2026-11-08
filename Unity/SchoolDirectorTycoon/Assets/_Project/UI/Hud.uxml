@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Hud.uss" />
+    <ui:VisualElement name="root" class="hud" picking-mode="Ignore">
+        <ui:VisualElement name="top-bar" class="bar top-bar">
+            <ui:VisualElement class="stats">
+                <ui:Label name="day" class="stat stat--primary" />
+                <ui:Label name="cash" class="stat" />
+                <ui:Label name="students" class="stat" />
+                <ui:Label name="reputation" class="stat" />
+                <ui:Label name="quality" class="stat" />
+                <ui:Label name="net" class="stat stat--net" />
+            </ui:VisualElement>
+            <ui:VisualElement class="time">
+                <ui:VisualElement name="speeds" class="speeds" />
+                <ui:Button name="end-day" class="button button--accent" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="center" class="center" picking-mode="Ignore">
+            <ui:VisualElement name="incident" class="card incident">
+                <ui:Label name="incident-text" class="card__text" />
+                <ui:VisualElement class="card__actions">
+                    <ui:Button name="intervene" class="button button--accent" />
+                    <ui:Button name="ignore" class="button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label name="outcome" class="card outcome" />
+        </ui:VisualElement>
+
+        <ui:Label name="toast" class="toast" picking-mode="Ignore" />
+
+        <ui:VisualElement name="build-bar" class="bar build-bar">
+            <ui:Label name="build-hint" class="build-hint" />
+            <ui:VisualElement name="facilities" class="facilities" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

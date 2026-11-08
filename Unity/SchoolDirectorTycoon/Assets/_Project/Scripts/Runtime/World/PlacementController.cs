@@ -28,6 +28,12 @@ namespace SchoolDirectorTycoon.World
 
         public FacilityKind? Selected { get; private set; }
 
+        /// <summary>Set by the HUD so clicks on UI do not build through it.</summary>
+        public Func<Vector2, bool>? IsPointerOverUi { get; set; }
+
+        /// <summary>Raised after the selection changes, for the HUD build bar.</summary>
+        public event Action? SelectionChanged;
+
         /// <summary>Last rejection as a RuleCode name, for the HUD to localize.</summary>
         public string? LastRejection { get; private set; }
 
@@ -56,6 +62,7 @@ namespace SchoolDirectorTycoon.World
             if (ghost != null) Destroy(ghost);
             ghost = null;
             ghostRenderers = Array.Empty<Renderer>();
+            SelectionChanged?.Invoke();
             if (kind == null || palette == null) return;
             ghost = Placeholders.Building(kind.Value, palette.StyleFor(kind.Value), transform);
             ghost.name = "Ghost";
@@ -86,6 +93,7 @@ namespace SchoolDirectorTycoon.World
             if (viewCamera == null || point == null) return;
             Ray ray = viewCamera.ScreenPointToRay(point.ReadValue<Vector2>());
             if (!GridMetrics.TryRayToCell(ray, out int c, out int r)) return;
+            if (IsPointerOverUi?.Invoke(point.ReadValue<Vector2>()) == true) return;
             column = c; row = r;
         }
 

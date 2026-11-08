@@ -20,14 +20,19 @@ namespace SchoolDirectorTycoon.EditorTools
         private const string SettingsDir = Root + "/Settings";
         private const string ScenePath = Root + "/Scenes/Campus.unity";
         private const string PalettePath = SettingsDir + "/CampusPalette.asset";
-        private const string ActionsPath = SettingsDir + "/SchoolDirectorTycoon.inputactions";
+        private const string ActionsPath = Root + "/Resources/SchoolDirectorTycoon.inputactions";
 
         [MenuItem("SDT/Rebuild Campus Scene")]
         public static void Build()
         {
+            // Seeding creates assets and can trigger reimports that invalidate objects loaded earlier,
+            // so it runs before anything is loaded for the scene.
+            LocalizationSeed.Seed();
             EnsurePipeline();
             CampusPalette palette = EnsurePalette();
-            var actions = AssetDatabase.LoadAssetAtPath<InputActionAsset>(ActionsPath);
+            AssetDatabase.ImportAsset(ActionsPath, ImportAssetOptions.ForceSynchronousImport);
+            var actions = AssetDatabase.LoadMainAssetAtPath(ActionsPath) as InputActionAsset
+                ?? throw new System.InvalidOperationException("Input actions asset not found: " + ActionsPath);
 
             var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
 
@@ -76,6 +81,16 @@ namespace SchoolDirectorTycoon.EditorTools
             SetRef(boot, "placement", placement);
             SetRef(boot, "dayClock", clock);
 
+            var hudGo = new GameObject("HUD");
+            var document = hudGo.AddComponent<UnityEngine.UIElements.UIDocument>();
+            document.panelSettings = EnsurePanelSettings();
+            document.visualTreeAsset = AssetDatabase.LoadAssetAtPath<UnityEngine.UIElements.VisualTreeAsset>(UiDir + "/Hud.uxml")
+                ?? throw new System.InvalidOperationException("Hud.uxml missing");
+            var hud = hudGo.AddComponent<SchoolDirectorTycoon.UI.HudController>();
+            SetRef(hud, "bootstrap", boot);
+            SetRef(hud, "palette", palette);
+            SetRef(hudGo.AddComponent<SchoolDirectorTycoon.UI.DevCapture>(), "bootstrap", boot);
+
             Directory.CreateDirectory(Path.GetDirectoryName(ScenePath)!);
             EditorSceneManager.SaveScene(scene, ScenePath);
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(ScenePath, true) };
@@ -104,6 +119,27 @@ namespace SchoolDirectorTycoon.EditorTools
                 ?? throw new System.InvalidOperationException($"{target.GetType().Name}.{field} not found");
             property.objectReferenceValue = value;
             so.ApplyModifiedPropertiesWithoutUndo();
+            if (value != null && property.objectReferenceValue != value)
+                throw new System.InvalidOperationException($"{target.GetType().Name}.{field} did not keep {value.name} (persistent={EditorUtility.IsPersistent(value)}, id={value.GetInstanceID()})");
+        }
+
+        private const string UiDir = Root + "/UI";
+
+        private static UnityEngine.UIElements.PanelSettings EnsurePanelSettings()
+        {
+            string path = UiDir + "/HudPanelSettings.asset";
+            var panel = AssetDatabase.LoadAssetAtPath<UnityEngine.UIElements.PanelSettings>(path);
+            if (panel == null)
+            {
+                panel = ScriptableObject.CreateInstance<UnityEngine.UIElements.PanelSettings>();
+                AssetDatabase.CreateAsset(panel, path);
+            }
+            panel.themeStyleSheet = AssetDatabase.LoadAssetAtPath<UnityEngine.UIElements.ThemeStyleSheet>(UiDir + "/HudTheme.tss");
+            panel.scaleMode = UnityEngine.UIElements.PanelScaleMode.ScaleWithScreenSize;
+            panel.referenceResolution = new Vector2Int(1600, 900);
+            panel.match = 0.5f;
+            EditorUtility.SetDirty(panel);
+            return panel;
         }
 
         private static void EnsurePipeline()

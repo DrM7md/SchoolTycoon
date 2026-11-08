@@ -9,3 +9,5 @@
 *.sln
 *.slnx
 .vs/
+
+/[Bb]uilds/

@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: e5ded55468b041d418f2b8f227535ffc, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 16764438439788569
+  m_TableData:
+  - m_Id: 431620096
+    m_Localized: Day {day} / {total}
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 502923264
+    m_Localized: Cash {cash:N0}
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 502923265
+    m_Localized: Students {students} / {capacity}
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 502923266
+    m_Localized: Reputation {value}
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 507117568
+    m_Localized: Quality {value}
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 507117569
+    m_Localized: Yesterday {net:+#,0;-#,0;0}
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 507117570
+    m_Localized: End Day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117571
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117572
+    m_Localized: "{speed}\xD7"
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 507117573
+    m_Localized: "Choose a facility (1\u20135), then click a lot"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117574
+    m_Localized: "Placing {name} \u2014 click a lot, right-click or Esc to cancel"
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 507117575
+    m_Localized: '{key}  {name}
+
+      {price:N0}'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 507117576
+    m_Localized: Intervene ({cost:N0})
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 507117577
+    m_Localized: Ignore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117578
+    m_Localized: Classroom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117579
+    m_Localized: Lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117580
+    m_Localized: Library
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117581
+    m_Localized: Bus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117582
+    m_Localized: Canteen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117583
+    m_Localized: Campaign won! The school is thriving.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117584
+    m_Localized: Campaign lost. The school could not meet its goals.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117585
+    m_Localized: A teacher is absent today. Pay for cover, or let classes suffer?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117586
+    m_Localized: A parent has filed a complaint. Respond now, or let it go?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117587
+    m_Localized: Choose a lot off the main path.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117588
+    m_Localized: That lot is already occupied.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117589
+    m_Localized: Not enough cash to build this facility.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117590
+    m_Localized: Tuition is outside the allowed range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117591
+    m_Localized: There is no incident awaiting a decision.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117592
+    m_Localized: Not enough cash to intervene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117593
+    m_Localized: The campaign has ended.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117594
+    m_Localized: Resolve the incident first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117595
+    m_Localized: You have reached the limit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117596
+    m_Localized: No employee holds this role.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 16764438439788569
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 431620096
+        - id: 502923264
+        - id: 502923265
+        - id: 502923266
+        - id: 507117568
+        - id: 507117569
+        - id: 507117572
+        - id: 507117574
+        - id: 507117575
+        - id: 507117576

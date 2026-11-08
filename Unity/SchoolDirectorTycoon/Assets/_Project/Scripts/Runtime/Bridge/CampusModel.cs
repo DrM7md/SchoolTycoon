@@ -50,6 +50,13 @@ namespace SchoolDirectorTycoon.Bridge
 
         public static bool EndDay(GameSession session) => session.Dispatch(Simulation.AdvanceDay);
 
+        public static bool ResolveIncident(GameSession session, bool intervene) =>
+            session.Dispatch(state => Simulation.ResolveIncident(state, intervene));
+
+        /// <summary>Cost of intervening in the pending incident, or 0 when none is pending.</summary>
+        public static int PendingIncidentCost(GameSession session) =>
+            session.State.PendingIncident is Incident incident ? Simulation.IncidentCost(incident) : 0;
+
         /// <summary>Calls <paramref name="onChanged"/> after each applied command, without exposing Core
         /// types to the caller. Dispose the result to unsubscribe.</summary>
         public static System.IDisposable OnChanged(GameSession session, System.Action onChanged)

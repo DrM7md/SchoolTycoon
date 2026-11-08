@@ -4,6 +4,7 @@
 
 - قرار اعتماد Unity 6 عميلًا قادمًا بالإنجليزية أولًا، وتجهيز البنية للتعريب لاحقًا. أضيفت وثيقة [الانتقال إلى Unity](UnityMigration.md). أضيفت وثائق [خطة الإنتاج](ProductionPlan.md) و[أبحاث السوق](MarketResearch.md) و[التعليم الخاص في قطر](QatarEducation.md)، ورؤية الأعوام الدراسية في وثيقة التصميم.
 - تُبنى النواة الآن لـ `net10.0` و`netstandard2.1` بلغة C# 9. أضيف `RuleCode` إلى `RuleException` لتعريب رسائل الرفض بالرمز. أصبح استبدال ملف الحفظ عبر `File.Replace`. لم يتغير مخطط الحفظ (الإصدار 2).
+- واجهة HUD في Unity بـ UI Toolkit وجداول Localization: الإحصاءات والسرعة وEnd Day وقرار الحدث والنتيجة وشريط البناء ورسائل الرفض المرئية. بناء Windows تطويري ولقطة آلية. 16 اختبار EditMode ناجحة.
 - مشهد حرم أولي في Unity: شبكة 14 × 12 وممر، وكاميرا، ووضع بناء بالمفاتيح 1–5 عبر أوامر النواة، ورفض مرئي بلا صوت، ومولّد مشهد بالكود. 14 اختبار EditMode ناجحة.
 - هيكل مشروع Unity 6 في `Unity/SchoolDirectorTycoon` مع asmdefs وطبقة Bridge (`GameSession` و`DayClock` و`SaveService`) واختبار ثبات EditMode، وسكربت `tools/CopyCoreToUnity.ps1` لنسخ النواة. فُتح المشروع في Unity 6000.0.85f2 (2026-11-08) ونجحت اختبارات EditMode الثمانية بما فيها الحفظ عبر `System.Text.Json` على Mono. يُشحن `System.Runtime.CompilerServices.Unsafe` مع النواة لأن حزم URP لا توفره، وأُزيلت حزم القالب المتصلة بالشبكة (`analytics` و`purchasing` و`collab-proxy` و`multiplayer.center`) من `manifest.json`.
 - نجحت 8/8 مجموعات تحقق للنواة واختبار واجهة Windows.

@@ -10,3 +10,7 @@ This project was written by hand without the editor. These steps need the editor
 6. Disable Unity Analytics / cloud services (Project Settings > Services). The game stays offline.
 7. Window > General > Test Runner > EditMode > Run All. All tests in `SDT.Tests.EditMode` must pass on Mono.
 8. Commit every generated `.meta` file and the new `ProjectSettings/*.asset` files. Never commit `Library/`, `Temp/`, `Logs/` or `UserSettings/`.
+
+## Scene and HUD
+
+Regenerate with **SDT > Rebuild Campus Scene** (also seeds the English String Table). Input actions live in `Assets/_Project/Resources` and are loaded by name at runtime. Dev build: `-executeMethod SchoolDirectorTycoon.EditorTools.DevBuild.Windows -buildPath <dir>`; run the player with `-sdtShot <file.png>` for a scripted screenshot.

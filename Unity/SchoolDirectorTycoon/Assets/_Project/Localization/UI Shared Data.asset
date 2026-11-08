@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: e5ded55468b041d418f2b8f227535ffc
+  m_Entries:
+  - m_Id: 431620096
+    m_Key: hud.day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502923264
+    m_Key: hud.cash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502923265
+    m_Key: hud.students
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502923266
+    m_Key: hud.reputation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117568
+    m_Key: hud.quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117569
+    m_Key: hud.net
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117570
+    m_Key: hud.endDay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117571
+    m_Key: hud.pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117572
+    m_Key: hud.speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117573
+    m_Key: build.hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117574
+    m_Key: build.selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117575
+    m_Key: build.item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117576
+    m_Key: incident.intervene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117577
+    m_Key: incident.ignore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117578
+    m_Key: facility.Classroom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117579
+    m_Key: facility.Lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117580
+    m_Key: facility.Library
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117581
+    m_Key: facility.Bus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117582
+    m_Key: facility.Canteen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117583
+    m_Key: outcome.Won
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117584
+    m_Key: outcome.Lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117585
+    m_Key: incident.Absence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117586
+    m_Key: incident.Complaint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117587
+    m_Key: rule.LotOnMainPath
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117588
+    m_Key: rule.LotOccupied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117589
+    m_Key: rule.InsufficientCashToBuild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117590
+    m_Key: rule.TuitionOutOfRange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117591
+    m_Key: rule.NoPendingIncident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117592
+    m_Key: rule.InsufficientCashToIntervene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117593
+    m_Key: rule.CampaignEnded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117594
+    m_Key: rule.IncidentPending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117595
+    m_Key: rule.LimitReached
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507117596
+    m_Key: rule.RoleEmpty
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 16764438439788568
+  references:
+    version: 2
+    RefIds:
+    - rid: 16764438439788568
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1794109189460

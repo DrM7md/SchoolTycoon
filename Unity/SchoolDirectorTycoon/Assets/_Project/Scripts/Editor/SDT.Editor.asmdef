@@ -3,6 +3,9 @@
     "rootNamespace": "SchoolDirectorTycoon.EditorTools",
     "references": [
         "SDT.World",
+        "SDT.UI",
+        "Unity.Localization",
+        "Unity.Localization.Editor",
         "SDT.Bridge",
         "Unity.InputSystem",
         "Unity.RenderPipelines.Core.Runtime",
