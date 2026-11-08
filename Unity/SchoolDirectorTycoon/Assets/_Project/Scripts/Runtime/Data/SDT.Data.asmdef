@@ -1,0 +1,6 @@
+{
+    "name": "SDT.Data",
+    "rootNamespace": "SchoolDirectorTycoon.Data",
+    "references": [],
+    "autoReferenced": true
+}

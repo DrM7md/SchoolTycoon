@@ -1,0 +1,14 @@
+{
+    "name": "SDT.Tests.EditMode",
+    "rootNamespace": "SchoolDirectorTycoon.Tests",
+    "references": ["SDT.Bridge", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
+    "includePlatforms": ["Editor"],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "SchoolDirectorTycoon.Core.dll",
+        "System.Collections.Immutable.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

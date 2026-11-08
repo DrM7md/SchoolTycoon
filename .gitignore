@@ -1,0 +1,17 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+.local-sdk/
+TestResults/
+
+# Release output
+artifacts/
+
+# Unity (see Unity/SchoolDirectorTycoon/.gitignore for the full list)
+Unity/SchoolDirectorTycoon/[Ll]ibrary/
+Unity/SchoolDirectorTycoon/[Tt]emp/
+Unity/SchoolDirectorTycoon/[Ll]ogs/
+Unity/SchoolDirectorTycoon/[Uu]ser[Ss]ettings/
+Unity/SchoolDirectorTycoon/[Bb]uild*/

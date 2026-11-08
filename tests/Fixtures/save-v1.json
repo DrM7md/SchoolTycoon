@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "State": {
+    "Day": 7,
+    "Cash": 6848,
+    "Students": 55,
+    "Tuition": 34,
+    "Reputation": 62,
+    "Quality": 69,
+    "Campus": {
+      "Classrooms": 3,
+      "Labs": 1,
+      "Libraries": 0,
+      "Buses": 0,
+      "Canteens": 0
+    },
+    "Staff": {
+      "Teachers": 4,
+      "AcademicDirectors": 0,
+      "Deputies": 0,
+      "Accountants": 0,
+      "Morale": 80
+    },
+    "RandomState": 1408667750,
+    "PendingIncident": null,
+    "ResponseCost": 0,
+    "InvestmentToday": 0,
+    "Reports": [
+      {
+        "Day": 1,
+        "Tuition": 1428,
+        "Transport": 0,
+        "Canteen": 0,
+        "Payroll": 680,
+        "Operations": 806,
+        "ResponseCost": 0,
+        "Investment": 7500,
+        "Arrivals": 2,
+        "Departures": 0,
+        "ClosingCash": 6442,
+        "Quality": 66,
+        "Reputation": 53
+      },
+      {
+        "Day": 2,
+        "Tuition": 1496,
+        "Transport": 0,
+        "Canteen": 0,
+        "Payroll": 680,
+        "Operations": 812,
+        "ResponseCost": 240,
+        "Investment": 0,
+        "Arrivals": 2,
+        "Departures": 0,
+        "ClosingCash": 6206,
+        "Quality": 67,
+        "Reputation": 56
+      },
+      {
+        "Day": 3,
+        "Tuition": 1564,
+        "Transport": 0,
+        "Canteen": 0,
+        "Payroll": 680,
+        "Operations": 818,
+        "ResponseCost": 0,
+        "Investment": 0,
+        "Arrivals": 2,
+        "Departures": 0,
+        "ClosingCash": 6272,
+        "Quality": 68,
+        "Reputation": 57
+      },
+      {
+        "Day": 4,
+        "Tuition": 1666,
+        "Transport": 0,
+        "Canteen": 0,
+        "Payroll": 680,
+        "Operations": 827,
+        "ResponseCost": 0,
+        "Investment": 0,
+        "Arrivals": 3,
+        "Departures": 0,
+        "ClosingCash": 6431,
+        "Quality": 68,
+        "Reputation": 58
+      },
+      {
+        "Day": 5,
+        "Tuition": 1768,
+        "Transport": 0,
+        "Canteen": 0,
+        "Payroll": 680,
+        "Operations": 836,
+        "ResponseCost": 180,
+        "Investment": 0,
+        "Arrivals": 3,
+        "Departures": 0,
+        "ClosingCash": 6503,
+        "Quality": 69,
+        "Reputation": 61
+      },
+      {
+        "Day": 6,
+        "Tuition": 1870,
+        "Transport": 0,
+        "Canteen": 0,
+        "Payroll": 680,
+        "Operations": 845,
+        "ResponseCost": 0,
+        "Investment": 0,
+        "Arrivals": 3,
+        "Departures": 0,
+        "ClosingCash": 6848,
+        "Quality": 69,
+        "Reputation": 62
+      }
+    ]
+  }
+}

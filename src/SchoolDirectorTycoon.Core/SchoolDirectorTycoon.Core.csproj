@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- net10.0 serves the WPF client and tests; netstandard2.1 is the Unity 6 build (see Docs/UnityMigration.md).
+       One C# dialect (9) for both targets so code that compiles here also compiles inside Unity. -->
+  <PropertyGroup>
+    <TargetFrameworks>net10.0;netstandard2.1</TargetFrameworks>
+    <LangVersion>9.0</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+    <PackageReference Include="System.Text.Json" Version="9.0.11" />
+    <PackageReference Include="System.Collections.Immutable" Version="9.0.11" />
+    <!-- One matched 9.0.11 servicing set (no cross-major mix). Pinned explicitly because STJ 9.0.11 depends on it. -->
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.11" />
+  </ItemGroup>
+
+</Project>

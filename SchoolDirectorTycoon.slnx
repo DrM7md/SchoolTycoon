@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SchoolDirectorTycoon.Core/SchoolDirectorTycoon.Core.csproj" />
+    <Project Path="src/SchoolDirectorTycoon.Desktop/SchoolDirectorTycoon.Desktop.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SchoolDirectorTycoon.Desktop.Tests/SchoolDirectorTycoon.Desktop.Tests.csproj" />
+    <Project Path="tests/SchoolDirectorTycoon.Tests/SchoolDirectorTycoon.Tests.csproj" />
+    <Project Path="tests/SchoolDirectorTycoon.Tests.NetStandard/SchoolDirectorTycoon.Tests.NetStandard.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,12 @@
+{
+    "name": "SDT.Bridge",
+    "rootNamespace": "SchoolDirectorTycoon.Bridge",
+    "references": [],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "SchoolDirectorTycoon.Core.dll",
+        "System.Collections.Immutable.dll"
+    ],
+    "autoReferenced": false,
+    "noEngineReferences": false
+}

@@ -1,0 +1,6 @@
+{
+    "name": "SDT.World",
+    "rootNamespace": "SchoolDirectorTycoon.World",
+    "references": ["SDT.Bridge"],
+    "autoReferenced": true
+}

@@ -1,0 +1,565 @@
+{
+    "name":  "SchoolDirectorTycoon",
+    "maps":  [
+                 {
+                     "name":  "Camera",
+                     "id":  "384f28ab-2edb-4085-8bad-3b3ac605e539",
+                     "actions":  [
+                                     {
+                                         "name":  "Pan",
+                                         "type":  "Value",
+                                         "id":  "d67b243c-bf84-47f9-85d1-7fdb920b1ea7",
+                                         "expectedControlType":  "Vector2",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     },
+                                     {
+                                         "name":  "Drag",
+                                         "type":  "Button",
+                                         "id":  "10b2e962-0b8c-4ed7-a1e8-dc1cedb03304",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Point",
+                                         "type":  "PassThrough",
+                                         "id":  "76d6148f-456c-4af0-959a-9941caa37322",
+                                         "expectedControlType":  "Vector2",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     },
+                                     {
+                                         "name":  "Zoom",
+                                         "type":  "Value",
+                                         "id":  "ee33333e-1bcf-41e8-9ddc-1524a54a706b",
+                                         "expectedControlType":  "Axis",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     },
+                                     {
+                                         "name":  "Rotate",
+                                         "type":  "Value",
+                                         "id":  "985421d3-c67d-4e87-8699-3fa25c1e5cdc",
+                                         "expectedControlType":  "Axis",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     }
+                                 ],
+                     "bindings":  [
+                                      {
+                                          "name":  "2DVector",
+                                          "id":  "bb71fd1a-a16e-443e-a464-a33de3cda238",
+                                          "path":  "2DVector",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "",
+                                          "action":  "Pan",
+                                          "isComposite":  true,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "up",
+                                          "id":  "c76ad101-bf0c-4b8f-b88e-49428710210a",
+                                          "path":  "\u003cKeyboard\u003e/w",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Pan",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "down",
+                                          "id":  "04895dc4-75b2-4ee1-b990-26543f6604a4",
+                                          "path":  "\u003cKeyboard\u003e/s",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Pan",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "left",
+                                          "id":  "593b955c-908f-4406-af24-402096b354ea",
+                                          "path":  "\u003cKeyboard\u003e/a",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Pan",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "right",
+                                          "id":  "e70f4544-e93c-4da7-9f5f-d91d5208d39c",
+                                          "path":  "\u003cKeyboard\u003e/d",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Pan",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "2DVector",
+                                          "id":  "971d7180-35dd-4d5f-889e-83984f8d872d",
+                                          "path":  "2DVector",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "",
+                                          "action":  "Pan",
+                                          "isComposite":  true,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "up",
+                                          "id":  "28935fe8-e836-45e6-bd4d-de248a7c9160",
+                                          "path":  "\u003cKeyboard\u003e/upArrow",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Pan",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "down",
+                                          "id":  "2ecaa958-ef66-4405-9bf9-6fef03dd937f",
+                                          "path":  "\u003cKeyboard\u003e/downArrow",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Pan",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "left",
+                                          "id":  "6fe8e58d-4014-4af8-b5d1-e02b896b9023",
+                                          "path":  "\u003cKeyboard\u003e/leftArrow",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Pan",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "right",
+                                          "id":  "4397ce99-d171-4982-898a-86e8a1d77424",
+                                          "path":  "\u003cKeyboard\u003e/rightArrow",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Pan",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "7dddd739-21d6-4cff-8a68-927da2370976",
+                                          "path":  "\u003cMouse\u003e/rightButton",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Drag",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "bb493798-5532-4b83-be25-c55e48dca4d3",
+                                          "path":  "\u003cMouse\u003e/position",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Point",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "a7f031cf-e116-4bca-9547-d1bce8e414c7",
+                                          "path":  "\u003cMouse\u003e/scroll/y",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Zoom",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "1DAxis",
+                                          "id":  "558dc8e9-8df0-45a2-a46c-1ed5a65835f2",
+                                          "path":  "1DAxis",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "",
+                                          "action":  "Rotate",
+                                          "isComposite":  true,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "negative",
+                                          "id":  "57a3fb4f-7f0b-4b73-9196-3f0aff7a8e80",
+                                          "path":  "\u003cKeyboard\u003e/q",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Rotate",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "positive",
+                                          "id":  "4d0397bc-b635-4d75-bf88-f718d457423d",
+                                          "path":  "\u003cKeyboard\u003e/e",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Rotate",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      }
+                                  ]
+                 },
+                 {
+                     "name":  "Build",
+                     "id":  "cd7b5db9-9684-4fae-938b-784db379e414",
+                     "actions":  [
+                                     {
+                                         "name":  "Select",
+                                         "type":  "Button",
+                                         "id":  "c72143f2-a9a7-44df-a1ea-c035b78918e0",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Point",
+                                         "type":  "PassThrough",
+                                         "id":  "41732e2b-5027-47e6-8926-aa4a2933e217",
+                                         "expectedControlType":  "Vector2",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     },
+                                     {
+                                         "name":  "Confirm",
+                                         "type":  "Button",
+                                         "id":  "b0cd3cf5-f172-4812-90fc-4563f59d3fcf",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Cancel",
+                                         "type":  "Button",
+                                         "id":  "fc8c6617-fb50-4c25-86b7-3a630ddfa8ce",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     }
+                                 ],
+                     "bindings":  [
+                                      {
+                                          "name":  "",
+                                          "id":  "2686f14e-15ad-416b-b88e-e6a373c5eaea",
+                                          "path":  "\u003cMouse\u003e/leftButton",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Select",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "14c83de0-d500-498f-9af0-35b04275f5f8",
+                                          "path":  "\u003cMouse\u003e/position",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Point",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "992a24c6-0832-4a66-bf64-e5293c2b1ba8",
+                                          "path":  "\u003cKeyboard\u003e/enter",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Confirm",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "35d71a41-8f64-477e-9ccc-d0aa06918e24",
+                                          "path":  "\u003cKeyboard\u003e/space",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Confirm",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "735a60a9-617f-437b-acb9-ea01596f1466",
+                                          "path":  "\u003cMouse\u003e/leftButton",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Confirm",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "0d2927a5-cda3-4db1-9e7b-0c0e086b398d",
+                                          "path":  "\u003cKeyboard\u003e/escape",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Cancel",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "59d890bd-c155-4501-8498-0fd877783d7d",
+                                          "path":  "\u003cMouse\u003e/rightButton",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Cancel",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      }
+                                  ]
+                 },
+                 {
+                     "name":  "UI",
+                     "id":  "f758105e-e1ae-4a0e-a780-05a1c67ffde0",
+                     "actions":  [
+                                     {
+                                         "name":  "Navigate",
+                                         "type":  "PassThrough",
+                                         "id":  "463c24b7-c500-400a-8060-957fed865da4",
+                                         "expectedControlType":  "Vector2",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     },
+                                     {
+                                         "name":  "Submit",
+                                         "type":  "Button",
+                                         "id":  "41f46cd6-0f89-4aa8-a2ef-1bd55bbff913",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Cancel",
+                                         "type":  "Button",
+                                         "id":  "8be0c3b4-4a28-4890-b929-d0e0b7e7415d",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  false
+                                     },
+                                     {
+                                         "name":  "Point",
+                                         "type":  "PassThrough",
+                                         "id":  "cb93aebf-0ee6-4b0f-a944-cbf452cbeaa8",
+                                         "expectedControlType":  "Vector2",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     },
+                                     {
+                                         "name":  "Click",
+                                         "type":  "PassThrough",
+                                         "id":  "05c40ce4-cdbc-41f4-a037-0ea1776d2027",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     },
+                                     {
+                                         "name":  "ScrollWheel",
+                                         "type":  "PassThrough",
+                                         "id":  "dccb47b0-a209-4514-a600-c4a640f5fa3b",
+                                         "expectedControlType":  "Vector2",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     },
+                                     {
+                                         "name":  "RightClick",
+                                         "type":  "PassThrough",
+                                         "id":  "8c50e9d3-b444-41ce-a77e-4effcca3d0f9",
+                                         "expectedControlType":  "Button",
+                                         "processors":  "",
+                                         "interactions":  "",
+                                         "initialStateCheck":  true
+                                     }
+                                 ],
+                     "bindings":  [
+                                      {
+                                          "name":  "2DVector",
+                                          "id":  "ddcf0828-9e93-4d31-b808-ca3d5a311dd9",
+                                          "path":  "2DVector",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "",
+                                          "action":  "Navigate",
+                                          "isComposite":  true,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "up",
+                                          "id":  "8a35ce4b-6922-4134-a96d-3406f5edb579",
+                                          "path":  "\u003cKeyboard\u003e/upArrow",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Navigate",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "down",
+                                          "id":  "33611792-7ed9-43c1-bcce-963dedab0695",
+                                          "path":  "\u003cKeyboard\u003e/downArrow",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Navigate",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "left",
+                                          "id":  "2af546d9-628f-488a-b689-a9b0b3a9d670",
+                                          "path":  "\u003cKeyboard\u003e/leftArrow",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Navigate",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "right",
+                                          "id":  "89eb5749-c339-4c4b-86a6-28ff6f43ade4",
+                                          "path":  "\u003cKeyboard\u003e/rightArrow",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Navigate",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  true
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "188737ee-39d0-4112-afef-ebb08a0de7fe",
+                                          "path":  "\u003cKeyboard\u003e/enter",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Submit",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "78bfd3e1-18a6-4e19-87c0-f01ee9cf10f3",
+                                          "path":  "\u003cKeyboard\u003e/escape",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Cancel",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "b4f4938e-9b14-46cf-8227-a0590608a463",
+                                          "path":  "\u003cMouse\u003e/position",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Point",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "48df2fe6-c127-4064-a9c1-f3c8593c9343",
+                                          "path":  "\u003cMouse\u003e/leftButton",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "Click",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "15d7042a-ce19-4524-8bc1-d3b14df0c031",
+                                          "path":  "\u003cMouse\u003e/scroll",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "ScrollWheel",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      },
+                                      {
+                                          "name":  "",
+                                          "id":  "84851db0-e0b3-4ca7-9e06-2a7e5476b939",
+                                          "path":  "\u003cMouse\u003e/rightButton",
+                                          "interactions":  "",
+                                          "processors":  "",
+                                          "groups":  "Keyboard\u0026Mouse",
+                                          "action":  "RightClick",
+                                          "isComposite":  false,
+                                          "isPartOfComposite":  false
+                                      }
+                                  ]
+                 }
+             ],
+    "controlSchemes":  [
+                           {
+                               "name":  "Keyboard\u0026Mouse",
+                               "bindingGroup":  "Keyboard\u0026Mouse",
+                               "devices":  [
+                                               {
+                                                   "devicePath":  "\u003cKeyboard\u003e",
+                                                   "isOptional":  false,
+                                                   "isOR":  false
+                                               },
+                                               {
+                                                   "devicePath":  "\u003cMouse\u003e",
+                                                   "isOptional":  false,
+                                                   "isOR":  false
+                                               }
+                                           ]
+                           }
+                       ]
+}

@@ -1,0 +1,20 @@
+name: Core tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      # NuGet.Config clears package sources for offline local builds; CI restores from nuget.org.
+      - run: dotnet nuget add source https://api.nuget.org/v3/index.json --name nuget.org --configfile NuGet.Config
+      - run: dotnet build -c Release -m:1 -p:UseSharedCompilation=false
+      - run: dotnet run --project tests/SchoolDirectorTycoon.Tests -c Release --no-build
+      - run: dotnet run --project tests/SchoolDirectorTycoon.Tests.NetStandard -c Release --no-build
+      - run: dotnet run --project tests/SchoolDirectorTycoon.Desktop.Tests -c Release --no-build

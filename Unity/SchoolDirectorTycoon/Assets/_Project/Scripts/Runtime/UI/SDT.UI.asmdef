@@ -1,0 +1,6 @@
+{
+    "name": "SDT.UI",
+    "rootNamespace": "SchoolDirectorTycoon.UI",
+    "references": ["SDT.Bridge"],
+    "autoReferenced": true
+}

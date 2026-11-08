@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Runs the same Core test suite against Core's netstandard2.1 build (the one Unity ships).
+       net48 cannot consume netstandard2.1, so the host stays net10.0 and the ProjectReference is
+       forced to the netstandard2.1 asset; the runtime then binds Core's System.Text.Json reference
+       to the framework copy, so this exercises the ns2.1-compiled Core code, not the package DLLs. -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SchoolDirectorTycoon.Core\SchoolDirectorTycoon.Core.csproj"
+                      SetTargetFramework="TargetFramework=netstandard2.1" />
+    <Compile Include="..\SchoolDirectorTycoon.Tests\Program.cs" Link="Program.cs" />
+    <None Include="$(MSBuildThisFileDirectory)..\Fixtures\*.json" Link="Fixtures\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

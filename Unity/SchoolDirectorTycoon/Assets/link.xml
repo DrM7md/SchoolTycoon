@@ -1,0 +1,6 @@
+<linker>
+  <!-- Core is reflected over by System.Text.Json (records, enums, converters); keep it whole under IL2CPP stripping. -->
+  <assembly fullname="SchoolDirectorTycoon.Core" preserve="all" />
+  <assembly fullname="System.Text.Json" preserve="all" />
+  <assembly fullname="System.Collections.Immutable" preserve="all" />
+</linker>
