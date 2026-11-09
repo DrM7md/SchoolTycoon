@@ -39,7 +39,7 @@ namespace SchoolDirectorTycoon.Tests
             needed.AddRange(Enum.GetNames(typeof(Facility)).Select(HudKeys.Facility));
             needed.AddRange(Enum.GetNames(typeof(Incident)).Select(HudKeys.Incident));
 
-            var missing = needed.Where(k => !LocalizationSeed.English.ContainsKey(k)).ToList();
+            var missing = needed.Where(k => !LocalizationSeed.English.ContainsKey(k) && !ChronicleText.English.ContainsKey(k)).ToList();
             Assert.IsEmpty(missing, "Missing English entries: " + string.Join(", ", missing));
         }
 

@@ -20,6 +20,7 @@ namespace SchoolDirectorTycoon.World
 
         public GameSession? Session { get; private set; }
         public PlacementController? Placement => placement;
+        public CampusPalette? Palette => palette;
         public DayClock? Clock => dayClock;
 
         /// <summary>Resources name of the default actions. The scene field is optional: a scene reference to the
@@ -45,6 +46,8 @@ namespace SchoolDirectorTycoon.World
             grid.Build(palette!);
             buildings.Bind(Session, palette!);
             placement.Bind(Session, palette!, cameraRig.ViewCamera, actions);
+            placement.SelectionChanged += () => grid.SetGridVisible(placement.Selected != null);
+            if (palette!.HasLandscape) gameObject.AddComponent<CampusLifeView>().Bind(Session, palette);
             if (dayClock != null)
             {
                 dayClock.Session = Session;

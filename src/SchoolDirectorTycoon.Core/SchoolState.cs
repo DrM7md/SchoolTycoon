@@ -11,7 +11,9 @@ namespace SchoolDirectorTycoon.Core
     public enum RuleCode
     {
         LotOnMainPath, LotOccupied, InsufficientCashToBuild, TuitionOutOfRange, NoPendingIncident,
-        InsufficientCashToIntervene, CampaignEnded, IncidentPending, LimitReached, RoleEmpty
+        InsufficientCashToIntervene, CampaignEnded, IncidentPending, LimitReached, RoleEmpty,
+        ChronicleEventPending, ChronicleNoPendingEvent, ChronicleUnknownChoice,
+        LifeNotEnoughCash, LifeInvalidPlan, LifeWrongPhase, LifeUnknownActivity, LifeNoLetter, LifeLetterWaiting
     }
 
     public sealed record Campus(int Classrooms, int Labs, int Libraries, int Buses, int Canteens)

@@ -44,8 +44,10 @@ namespace SchoolDirectorTycoon.World
                     Release(existing.go);
                 }
 
-                GameObject go = Placeholders.Building(building.Kind, palette.StyleFor(building.Kind), transform);
+                GameObject go = FacilityModels.Create(building.Kind, palette, transform);
                 go.transform.localPosition = GridMetrics.CellCenter(building.Column, building.Row);
+                // Models are authored with the entrance on -Z; turn the ones below the path to face it.
+                go.transform.localRotation = building.Row < CampusModel.MainPathRow ? Quaternion.Euler(0f, 180f, 0f) : Quaternion.identity;
                 views[key] = (building.Kind, go);
                 if (animate)
                 {

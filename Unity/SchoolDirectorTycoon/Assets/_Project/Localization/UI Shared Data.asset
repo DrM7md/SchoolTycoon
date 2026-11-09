@@ -147,6 +147,1450 @@ MonoBehaviour:
     m_Key: rule.RoleEmpty
     m_Metadata:
       m_Items: []
+  - m_Id: 198885393432576
+    m_Key: ch.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124352
+    m_Key: ch.week
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124353
+    m_Key: ch.cash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124354
+    m_Key: ch.students
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124355
+    m_Key: ch.next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124356
+    m_Key: ch.new
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124357
+    m_Key: ch.decide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124358
+    m_Key: ch.log.week
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124359
+    m_Key: ch.log.start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124360
+    m_Key: ch.delta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124361
+    m_Key: ch.stat.Cash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124362
+    m_Key: ch.stat.Students
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124363
+    m_Key: ch.stat.Reputation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124364
+    m_Key: ch.stat.Parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124365
+    m_Key: ch.stat.Staff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124366
+    m_Key: ch.stat.Academics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124367
+    m_Key: ch.ending.YearCompleted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124368
+    m_Key: ch.ending.Bankrupt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124369
+    m_Key: ch.ending.Dismissed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124370
+    m_Key: ch.ending.StaffWalkout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124371
+    m_Key: ch.ending.body.YearCompleted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124372
+    m_Key: ch.ending.body.Bankrupt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124373
+    m_Key: ch.ending.body.Dismissed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124374
+    m_Key: ch.ending.body.StaffWalkout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124375
+    m_Key: ch.grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124376
+    m_Key: rule.ChronicleEventPending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124377
+    m_Key: rule.ChronicleNoPendingEvent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124378
+    m_Key: rule.ChronicleUnknownChoice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124379
+    m_Key: story.opening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124380
+    m_Key: story.busy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124381
+    m_Key: story.quiet.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124382
+    m_Key: story.quiet.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124383
+    m_Key: story.quiet.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124384
+    m_Key: story.quiet.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124385
+    m_Key: story.quiet.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124386
+    m_Key: story.quiet.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124387
+    m_Key: ev.grade_favor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124388
+    m_Key: ev.grade_favor.refuse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124389
+    m_Key: ev.grade_favor.refuse.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124390
+    m_Key: ev.grade_favor.change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124391
+    m_Key: ev.grade_favor.change.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124392
+    m_Key: ev.grade_favor.change.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124393
+    m_Key: ev.star_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124394
+    m_Key: ev.star_offer.raise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124395
+    m_Key: ev.star_offer.raise.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124396
+    m_Key: ev.star_offer.promise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124397
+    m_Key: ev.star_offer.promise.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124398
+    m_Key: ev.star_offer.release
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124399
+    m_Key: ev.star_offer.release.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124400
+    m_Key: ev.exam_leak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124401
+    m_Key: ev.exam_leak.retake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124402
+    m_Key: ev.exam_leak.retake.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124403
+    m_Key: ev.exam_leak.silence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124404
+    m_Key: ev.exam_leak.silence.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124405
+    m_Key: ev.exam_leak.silence.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124406
+    m_Key: ev.exam_leak.investigate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124407
+    m_Key: ev.exam_leak.investigate.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124408
+    m_Key: ev.inspection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124409
+    m_Key: ev.inspection.welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124410
+    m_Key: ev.inspection.welcome.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124411
+    m_Key: ev.inspection.welcome.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124412
+    m_Key: ev.inspection.prepare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124413
+    m_Key: ev.inspection.prepare.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124414
+    m_Key: ev.inspection.delay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124415
+    m_Key: ev.inspection.delay.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124416
+    m_Key: ev.inspection.delay.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124417
+    m_Key: ev.ac_failure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124418
+    m_Key: ev.ac_failure.repair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124419
+    m_Key: ev.ac_failure.repair.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124420
+    m_Key: ev.ac_failure.patch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124421
+    m_Key: ev.ac_failure.patch.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124422
+    m_Key: ev.ac_failure.wait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124423
+    m_Key: ev.ac_failure.wait.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124424
+    m_Key: ev.ac_failure.wait.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124425
+    m_Key: ev.bus_delay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124426
+    m_Key: ev.bus_delay.new_route
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124427
+    m_Key: ev.bus_delay.new_route.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124428
+    m_Key: ev.bus_delay.apologize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124429
+    m_Key: ev.bus_delay.apologize.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124430
+    m_Key: ev.bus_delay.hire_driver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124431
+    m_Key: ev.bus_delay.hire_driver.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124432
+    m_Key: ev.tuition_debt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124433
+    m_Key: ev.tuition_debt.grant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124434
+    m_Key: ev.tuition_debt.grant.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124435
+    m_Key: ev.tuition_debt.instalments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124436
+    m_Key: ev.tuition_debt.instalments.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124437
+    m_Key: ev.tuition_debt.expel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124438
+    m_Key: ev.tuition_debt.expel.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124439
+    m_Key: ev.donor_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124440
+    m_Key: ev.donor_name.accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124441
+    m_Key: ev.donor_name.accept.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124442
+    m_Key: ev.donor_name.plaque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124443
+    m_Key: ev.donor_name.plaque.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124444
+    m_Key: ev.donor_name.decline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124445
+    m_Key: ev.donor_name.decline.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124446
+    m_Key: ev.bully_video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124447
+    m_Key: ev.bully_video.suspend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124448
+    m_Key: ev.bully_video.suspend.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124449
+    m_Key: ev.bully_video.mediate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124450
+    m_Key: ev.bully_video.mediate.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124451
+    m_Key: ev.bully_video.mediate.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124452
+    m_Key: ev.bully_video.counselor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124453
+    m_Key: ev.bully_video.counselor.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124454
+    m_Key: ev.ramadan_hours
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124455
+    m_Key: ev.ramadan_hours.shorten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124456
+    m_Key: ev.ramadan_hours.shorten.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124457
+    m_Key: ev.ramadan_hours.keep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124458
+    m_Key: ev.ramadan_hours.keep.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124459
+    m_Key: ev.ramadan_hours.flex
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124460
+    m_Key: ev.ramadan_hours.flex.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124461
+    m_Key: ev.national_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124462
+    m_Key: ev.national_day.big
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124463
+    m_Key: ev.national_day.big.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124464
+    m_Key: ev.national_day.modest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124465
+    m_Key: ev.national_day.modest.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124466
+    m_Key: ev.national_day.skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124467
+    m_Key: ev.national_day.skip.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124468
+    m_Key: ev.science_fair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124469
+    m_Key: ev.science_fair.sponsor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124470
+    m_Key: ev.science_fair.sponsor.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124471
+    m_Key: ev.science_fair.basic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124472
+    m_Key: ev.science_fair.basic.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124473
+    m_Key: ev.science_fair.cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124474
+    m_Key: ev.science_fair.cancel.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124475
+    m_Key: ev.teacher_conflict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124476
+    m_Key: ev.teacher_conflict.hear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124477
+    m_Key: ev.teacher_conflict.hear.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124478
+    m_Key: ev.teacher_conflict.order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124479
+    m_Key: ev.teacher_conflict.order.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124480
+    m_Key: ev.teacher_conflict.transfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124481
+    m_Key: ev.teacher_conflict.transfer.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124482
+    m_Key: ev.parent_influencer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124483
+    m_Key: ev.parent_influencer.meet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124484
+    m_Key: ev.parent_influencer.meet.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124485
+    m_Key: ev.parent_influencer.statement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124486
+    m_Key: ev.parent_influencer.statement.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124487
+    m_Key: ev.parent_influencer.legal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124488
+    m_Key: ev.parent_influencer.legal.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124489
+    m_Key: ev.parent_influencer.legal.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124490
+    m_Key: ev.lab_accident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124491
+    m_Key: ev.lab_accident.close_lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124492
+    m_Key: ev.lab_accident.close_lab.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124493
+    m_Key: ev.lab_accident.train
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124494
+    m_Key: ev.lab_accident.train.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124495
+    m_Key: ev.lab_accident.carry_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124496
+    m_Key: ev.lab_accident.carry_on.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124497
+    m_Key: ev.lab_accident.carry_on.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124498
+    m_Key: ev.rival_poach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124499
+    m_Key: ev.rival_poach.scholarship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124500
+    m_Key: ev.rival_poach.scholarship.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124501
+    m_Key: ev.rival_poach.open_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124502
+    m_Key: ev.rival_poach.open_day.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124503
+    m_Key: ev.rival_poach.ignore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124504
+    m_Key: ev.rival_poach.ignore.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124505
+    m_Key: ev.canteen_health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124506
+    m_Key: ev.canteen_health.healthy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124507
+    m_Key: ev.canteen_health.healthy.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124508
+    m_Key: ev.canteen_health.warn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124509
+    m_Key: ev.canteen_health.warn.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124510
+    m_Key: ev.canteen_health.change_vendor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124511
+    m_Key: ev.canteen_health.change_vendor.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124512
+    m_Key: ev.cheating_son
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124513
+    m_Key: ev.cheating_son.zero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124514
+    m_Key: ev.cheating_son.zero.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124515
+    m_Key: ev.cheating_son.warn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124516
+    m_Key: ev.cheating_son.warn.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124517
+    m_Key: ev.cheating_son.cover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124518
+    m_Key: ev.cheating_son.cover.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124519
+    m_Key: ev.cheating_son.cover.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124520
+    m_Key: ev.teacher_burnout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124521
+    m_Key: ev.teacher_burnout.relief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124522
+    m_Key: ev.teacher_burnout.relief.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124523
+    m_Key: ev.teacher_burnout.day_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124524
+    m_Key: ev.teacher_burnout.day_off.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124525
+    m_Key: ev.teacher_burnout.push
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124526
+    m_Key: ev.teacher_burnout.push.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124527
+    m_Key: ev.olympiad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124528
+    m_Key: ev.olympiad.coach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124529
+    m_Key: ev.olympiad.coach.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124530
+    m_Key: ev.olympiad.send
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124531
+    m_Key: ev.olympiad.send.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124532
+    m_Key: ev.olympiad.send.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124533
+    m_Key: ev.olympiad.pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124534
+    m_Key: ev.olympiad.pass.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124535
+    m_Key: ev.sandstorm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124536
+    m_Key: ev.sandstorm.close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124537
+    m_Key: ev.sandstorm.close.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124538
+    m_Key: ev.sandstorm.online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124539
+    m_Key: ev.sandstorm.online.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124540
+    m_Key: ev.sandstorm.open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124541
+    m_Key: ev.sandstorm.open.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124542
+    m_Key: ev.sandstorm.open.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124543
+    m_Key: ev.arabic_curriculum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124544
+    m_Key: ev.arabic_curriculum.expand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124545
+    m_Key: ev.arabic_curriculum.expand.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124546
+    m_Key: ev.arabic_curriculum.balance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124547
+    m_Key: ev.arabic_curriculum.balance.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124548
+    m_Key: ev.arabic_curriculum.english
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124549
+    m_Key: ev.arabic_curriculum.english.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124550
+    m_Key: ev.tablet_deal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124551
+    m_Key: ev.tablet_deal.buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124552
+    m_Key: ev.tablet_deal.buy.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124553
+    m_Key: ev.tablet_deal.pilot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124554
+    m_Key: ev.tablet_deal.pilot.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124555
+    m_Key: ev.tablet_deal.decline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124556
+    m_Key: ev.tablet_deal.decline.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124557
+    m_Key: ev.alumni_visit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124558
+    m_Key: ev.alumni_visit.host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124559
+    m_Key: ev.alumni_visit.host.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124560
+    m_Key: ev.alumni_visit.ask_fund
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124561
+    m_Key: ev.alumni_visit.ask_fund.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124562
+    m_Key: ev.alumni_visit.ask_fund.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124563
+    m_Key: ev.alumni_visit.skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124564
+    m_Key: ev.alumni_visit.skip.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124565
+    m_Key: ev.salary_late
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124566
+    m_Key: ev.salary_late.loan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124567
+    m_Key: ev.salary_late.loan.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124568
+    m_Key: ev.salary_late.explain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124569
+    m_Key: ev.salary_late.explain.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124570
+    m_Key: ev.salary_late.cut_trip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124571
+    m_Key: ev.salary_late.cut_trip.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124572
+    m_Key: ev.special_needs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124573
+    m_Key: ev.special_needs.adapt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124574
+    m_Key: ev.special_needs.adapt.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124575
+    m_Key: ev.special_needs.partial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124576
+    m_Key: ev.special_needs.partial.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124577
+    m_Key: ev.special_needs.decline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124578
+    m_Key: ev.special_needs.decline.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124579
+    m_Key: ev.football_final
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124580
+    m_Key: ev.football_final.bus_fans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124581
+    m_Key: ev.football_final.bus_fans.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124582
+    m_Key: ev.football_final.cheer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124583
+    m_Key: ev.football_final.cheer.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124584
+    m_Key: ev.football_final.exams_first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124585
+    m_Key: ev.football_final.exams_first.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124586
+    m_Key: ev.roof_leak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124587
+    m_Key: ev.roof_leak.replace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124588
+    m_Key: ev.roof_leak.replace.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124589
+    m_Key: ev.roof_leak.cheap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124590
+    m_Key: ev.roof_leak.cheap.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124591
+    m_Key: ev.roof_leak.cheap.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124592
+    m_Key: ev.roof_leak.move_class
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124593
+    m_Key: ev.roof_leak.move_class.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124594
+    m_Key: ev.gossip_group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124595
+    m_Key: ev.gossip_group.join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124596
+    m_Key: ev.gossip_group.join.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124597
+    m_Key: ev.gossip_group.newsletter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124598
+    m_Key: ev.gossip_group.newsletter.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124599
+    m_Key: ev.gossip_group.ban
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124600
+    m_Key: ev.gossip_group.ban.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124601
+    m_Key: ev.final_exams
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124602
+    m_Key: ev.final_exams.revision
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124603
+    m_Key: ev.final_exams.revision.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124604
+    m_Key: ev.final_exams.normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124605
+    m_Key: ev.final_exams.normal.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124606
+    m_Key: ev.final_exams.easy_paper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124607
+    m_Key: ev.final_exams.easy_paper.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198885473124608
+    m_Key: ev.final_exams.easy_paper.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203355108016128
+    m_Key: ch.lang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896635609088
+    m_Key: life.day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896723689472
+    m_Key: life.log.day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896723689473
+    m_Key: life.setup.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896727883776
+    m_Key: life.setup.intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896727883777
+    m_Key: life.setup.open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896727883778
+    m_Key: life.building.villa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896727883779
+    m_Key: life.building.villa.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078080
+    m_Key: life.building.campus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078081
+    m_Key: life.building.campus.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078082
+    m_Key: life.building.academy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078083
+    m_Key: life.building.academy.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078084
+    m_Key: life.form.seats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078085
+    m_Key: life.form.fee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078086
+    m_Key: life.form.teachers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078087
+    m_Key: life.form.admins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078088
+    m_Key: life.form.start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078089
+    m_Key: life.form.periods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078090
+    m_Key: life.est.setup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078091
+    m_Key: life.est.settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078092
+    m_Key: life.settings.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078093
+    m_Key: life.settings.apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078094
+    m_Key: life.settings.cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078095
+    m_Key: life.clock.period
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078096
+    m_Key: life.clock.break
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078097
+    m_Key: life.clock.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078098
+    m_Key: life.clock.left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078099
+    m_Key: life.clock.skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078100
+    m_Key: life.speed.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078101
+    m_Key: life.speed.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078102
+    m_Key: life.speed.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078103
+    m_Key: life.speed.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078104
+    m_Key: life.evening.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078105
+    m_Key: life.evening.body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078106
+    m_Key: life.evening.settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078107
+    m_Key: life.act.tutoring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078108
+    m_Key: life.act.tutoring.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078109
+    m_Key: life.act.gym_night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078110
+    m_Key: life.act.gym_night.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078111
+    m_Key: life.act.gym_night.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078112
+    m_Key: life.act.gym_contract
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078113
+    m_Key: life.act.gym_contract.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078114
+    m_Key: life.act.parents_night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078115
+    m_Key: life.act.parents_night.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078116
+    m_Key: life.act.home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078117
+    m_Key: life.act.home.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078118
+    m_Key: life.opening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078119
+    m_Key: life.week
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078120
+    m_Key: life.adjusted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078121
+    m_Key: life.quiet.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078122
+    m_Key: life.quiet.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078123
+    m_Key: life.quiet.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078124
+    m_Key: life.quiet.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078125
+    m_Key: life.quiet.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078126
+    m_Key: life.quiet.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078127
+    m_Key: life.quiet.6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078128
+    m_Key: life.quiet.7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078129
+    m_Key: life.letter.tag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078130
+    m_Key: life.letter.reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078131
+    m_Key: life.letter.away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078132
+    m_Key: life.letter.collect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078133
+    m_Key: life.letter.tease
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078134
+    m_Key: life.letter.salem.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078135
+    m_Key: life.letter.noura.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078136
+    m_Key: life.letter.yousef.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078137
+    m_Key: life.letter.salem.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078138
+    m_Key: life.letter.noura.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078139
+    m_Key: life.letter.yousef.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078140
+    m_Key: life.letter.salem.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078141
+    m_Key: life.letter.salem.2.opt.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078142
+    m_Key: life.letter.salem.2.opt.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078143
+    m_Key: life.letter.salem.2.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078144
+    m_Key: life.letter.salem.2.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078145
+    m_Key: life.letter.noura.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078146
+    m_Key: life.letter.noura.2.opt.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078147
+    m_Key: life.letter.noura.2.opt.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078148
+    m_Key: life.letter.noura.2.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078149
+    m_Key: life.letter.noura.2.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078150
+    m_Key: life.letter.yousef.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078151
+    m_Key: life.letter.yousef.2.opt.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078152
+    m_Key: life.letter.yousef.2.opt.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078153
+    m_Key: life.letter.yousef.2.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078154
+    m_Key: life.letter.yousef.2.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078155
+    m_Key: life.letter.salem.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078156
+    m_Key: life.letter.noura.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078157
+    m_Key: life.letter.yousef.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078158
+    m_Key: life.letter.salem.4.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078159
+    m_Key: life.letter.salem.4.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078160
+    m_Key: life.letter.noura.4.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078161
+    m_Key: life.letter.noura.4.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078162
+    m_Key: life.letter.yousef.4.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078163
+    m_Key: life.letter.yousef.4.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078164
+    m_Key: life.letter.plain.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078165
+    m_Key: life.letter.plain.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078166
+    m_Key: life.letter.plain.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078167
+    m_Key: life.letter.plain.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078168
+    m_Key: life.letter.plain.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078169
+    m_Key: rule.LifeNotEnoughCash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078170
+    m_Key: rule.LifeInvalidPlan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078171
+    m_Key: rule.LifeWrongPhase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078172
+    m_Key: rule.LifeUnknownActivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078173
+    m_Key: rule.LifeNoLetter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358896732078174
+    m_Key: rule.LifeLetterWaiting
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -85,6 +85,56 @@ namespace SchoolDirectorTycoon.Tests
         }
 
         [Test]
+        public void EveryFacilityIsOneMergedRendererInsideItsLot()
+        {
+            var palette = TestPalette();
+            var parent = new GameObject("Parent");
+            try
+            {
+                GameObject greybox = FacilityModels.Create(FacilityKind.Bus, palette, parent.transform);
+                Assert.IsNull(greybox.GetComponent<MeshFilter>(), "without detail materials the greybox is used");
+
+                palette.glass = new Material(palette.ground);
+                palette.trim = new Material(palette.ground);
+                palette.accent = new Material(palette.ground);
+                var shipped = UnityEditor.AssetDatabase.LoadAssetAtPath<CampusPalette>("Assets/_Project/Settings/CampusPalette.asset");
+                if (shipped == null) Assert.Ignore("Run SDT/Rebuild Campus Scene first.");
+                for (int i = 0; i < palette.facilities.Length; i++) palette.facilities[i].size = shipped.facilities[i].size;
+                foreach (FacilityKind kind in Enum.GetValues(typeof(FacilityKind)))
+                {
+                    GameObject model = FacilityModels.Create(kind, palette, parent.transform);
+                    MeshRenderer[] renderers = model.GetComponentsInChildren<MeshRenderer>();
+                    Assert.AreEqual(1, renderers.Length, kind.ToString());
+                    Mesh mesh = model.GetComponent<MeshFilter>().sharedMesh;
+                    Assert.AreEqual(renderers[0].sharedMaterials.Length, mesh.subMeshCount, kind.ToString());
+                    Assert.LessOrEqual(mesh.subMeshCount, 5, kind.ToString());
+                    Bounds b = mesh.bounds;
+                    Assert.AreEqual(0f, b.min.y, 0.001f, kind + " pivot at ground");
+                    Assert.Less(Mathf.Max(Mathf.Abs(b.min.x), Mathf.Abs(b.max.x)), GridMetrics.TileSize * 0.5f, kind + " width");
+                    Assert.Less(Mathf.Max(Mathf.Abs(b.min.z), Mathf.Abs(b.max.z)), GridMetrics.TileSize * 0.5f, kind + " depth");
+                }
+            }
+            finally
+            {
+                UnityEngine.Object.DestroyImmediate(parent);
+                UnityEngine.Object.DestroyImmediate(palette);
+            }
+        }
+
+        [Test]
+        public void TerrainStaysBelowCampusAndRisesBeyondIt()
+        {
+            for (int row = 0; row < CampusModel.Rows; row++)
+            for (int column = 0; column < CampusModel.Columns; column++)
+            {
+                Vector3 p = GridMetrics.CellCenter(column, row);
+                Assert.Less(CampusGridView.TerrainHeight(p.x, p.z), -0.05f);
+            }
+            Vector3 c = GridMetrics.Center;
+            Assert.Greater(CampusGridView.TerrainHeight(c.x + GridMetrics.Width + 90f, c.z), 0.5f);
+        }
+
+        [Test]
         public void GeneratedPaletteAssetIsValid()
         {
 #if UNITY_EDITOR

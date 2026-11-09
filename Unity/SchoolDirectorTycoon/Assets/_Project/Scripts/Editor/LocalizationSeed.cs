@@ -20,6 +20,9 @@ namespace SchoolDirectorTycoon.EditorTools
         /// <summary>English seed text. Arguments are named Smart String placeholders.</summary>
         public static readonly IReadOnlyDictionary<string, string> English = new Dictionary<string, string>
         {
+            ["rule.ChronicleEventPending"] = "Decide the current event first.",
+            ["rule.ChronicleNoPendingEvent"] = "There is no event waiting for a decision.",
+            ["rule.ChronicleUnknownChoice"] = "That choice is not available.",
             [HudKeys.Day] = "Day {day} / {total}",
             [HudKeys.Cash] = "Cash {cash:N0}",
             [HudKeys.Students] = "Students {students} / {capacity}",
@@ -80,12 +83,27 @@ namespace SchoolDirectorTycoon.EditorTools
             var table = (StringTable)collection.GetTable(english.Identifier)
                 ?? (StringTable)collection.AddNewTable(english.Identifier);
 
-            foreach (KeyValuePair<string, string> pair in English)
+            foreach (KeyValuePair<string, string> pair in System.Linq.Enumerable.Concat(English, ChronicleText.English))
             {
                 if (table.GetEntry(pair.Key) != null) continue;
                 StringTableEntry entry = table.AddEntry(pair.Key, pair.Value);
                 entry.IsSmart = pair.Value.Contains("{");
             }
+            Locale arabic = LocalizationEditorSettings.GetLocale(new LocaleIdentifier("ar"));
+            if (arabic == null)
+            {
+                arabic = Locale.CreateLocale(new LocaleIdentifier("ar"));
+                AssetDatabase.CreateAsset(arabic, Dir + "/Arabic (ar).asset");
+                LocalizationEditorSettings.AddLocale(arabic);
+            }
+            var arabicTable = (StringTable)collection.GetTable(arabic.Identifier)
+                ?? (StringTable)collection.AddNewTable(arabic.Identifier);
+            foreach (KeyValuePair<string, string> pair in ChronicleText.Arabic)
+            {
+                if (arabicTable.GetEntry(pair.Key) != null) continue;
+                arabicTable.AddEntry(pair.Key, pair.Value).IsSmart = pair.Value.Contains("{");
+            }
+            EditorUtility.SetDirty(arabicTable);
             EditorUtility.SetDirty(table);
             EditorUtility.SetDirty(collection.SharedData);
             EditorUtility.SetDirty(settings);

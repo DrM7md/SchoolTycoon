@@ -21,7 +21,7 @@ MonoBehaviour:
   facilities:
   - body: {fileID: 2100000, guid: ffddddbcc3cfd1844a6bd64a8594bce8, type: 2}
     roof: {fileID: 2100000, guid: c046e9138e62d874689a9db430f2bedd, type: 2}
-    size: {x: 0.8, y: 3.2, z: 0.8}
+    size: {x: 0.86, y: 3.4, z: 0.72}
   - body: {fileID: 2100000, guid: 9f15acc3d6fadbc48a0d6848bdc2f25f, type: 2}
     roof: {fileID: 2100000, guid: c046e9138e62d874689a9db430f2bedd, type: 2}
     size: {x: 0.8, y: 4, z: 0.8}
@@ -29,8 +29,19 @@ MonoBehaviour:
     roof: {fileID: 2100000, guid: c046e9138e62d874689a9db430f2bedd, type: 2}
     size: {x: 0.85, y: 5, z: 0.85}
   - body: {fileID: 2100000, guid: 5cf46790df60ec143af274464d6eb93b, type: 2}
-    roof: {fileID: 2100000, guid: c046e9138e62d874689a9db430f2bedd, type: 2}
+    roof: {fileID: 2100000, guid: 32f865d2efbfff34989e20a36095b35a, type: 2}
     size: {x: 0.45, y: 1.8, z: 0.8}
   - body: {fileID: 2100000, guid: 4a5ec89dcccfdb44081514ce1d60bc28, type: 2}
     roof: {fileID: 2100000, guid: c046e9138e62d874689a9db430f2bedd, type: 2}
     size: {x: 0.85, y: 2.6, z: 0.7}
+  glass: {fileID: 2100000, guid: a7894edf038917d458cc3aeb8f41c98a, type: 2}
+  trim: {fileID: 2100000, guid: 3b1caa505de62244b979cd587a7d48f3, type: 2}
+  accent: {fileID: 2100000, guid: a68197dfe13dcad46903d7fd0546db41, type: 2}
+  sand: {fileID: 2100000, guid: 7b443d356899d9c4a8eced3a27ef7082, type: 2}
+  paving: {fileID: 2100000, guid: 0c0947b1aa05a004c9cc6f9d53a91532, type: 2}
+  walkway: {fileID: 2100000, guid: 54f50539d2db9b44aa4d3a154b2f9c78, type: 2}
+  curb: {fileID: 2100000, guid: f4c275c338b960f49a4f93d2fffbb1c6, type: 2}
+  wall: {fileID: 2100000, guid: edf1c5c5eb353314899c2d405e2ef0f8, type: 2}
+  grass: {fileID: 2100000, guid: c525524863ea2804f95796b350d471c0, type: 2}
+  palmTrunk: {fileID: 2100000, guid: 44ccd6a9c7112324887982d076de452a, type: 2}
+  palmLeaf: {fileID: 2100000, guid: d603f29a72f0fa242ae84c22d068c64f, type: 2}

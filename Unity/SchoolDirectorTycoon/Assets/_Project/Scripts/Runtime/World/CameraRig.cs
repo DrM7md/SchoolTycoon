@@ -10,7 +10,7 @@ namespace SchoolDirectorTycoon.World
     {
         [SerializeField] private Camera? viewCamera;
         [SerializeField] private InputActionAsset? actions;
-        [SerializeField] private float panSpeed = 1.1f;          // per unit of distance, per second
+        [SerializeField] private float panSpeed = 0.55f;          // per unit of distance, per second
         [SerializeField] private float rotateSpeed = 90f;        // degrees per second
         [SerializeField] private float zoomStep = 0.12f;         // fraction of distance per wheel notch
         [SerializeField] private float minDistance = 12f, maxDistance = 90f;
@@ -20,7 +20,7 @@ namespace SchoolDirectorTycoon.World
         [SerializeField] private float smoothing = 12f;
 
         private InputAction? pan, drag, point, zoom, rotate;
-        private float yaw = 45f, pitch = 50f, distance = 55f, targetDistance = 55f;
+        private float yaw = 45f, pitch = 50f, distance = 42f, targetDistance = 42f;
         private Vector3 targetPivot;
         private Vector2 lastPoint;
 
@@ -52,7 +52,7 @@ namespace SchoolDirectorTycoon.World
         public void ResetView()
         {
             targetPivot = GridMetrics.Center;
-            yaw = 45f; pitch = 50f; targetDistance = 55f;
+            yaw = 45f; pitch = 50f; targetDistance = 42f;
         }
 
         private void LateUpdate()
@@ -63,7 +63,8 @@ namespace SchoolDirectorTycoon.World
 
             Vector2 move = pan?.ReadValue<Vector2>() ?? Vector2.zero;
             Vector2 pointer = point?.ReadValue<Vector2>() ?? Vector2.zero;
-            if (edgePan && Application.isFocused && pointer != Vector2.zero)
+            bool pointerInWindow = pointer.x >= 0f && pointer.y >= 0f && pointer.x <= Screen.width && pointer.y <= Screen.height;
+            if (edgePan && Application.isFocused && pointerInWindow && pointer != Vector2.zero)
             {
                 if (pointer.x <= edgePixels) move.x -= 1f; else if (pointer.x >= Screen.width - edgePixels) move.x += 1f;
                 if (pointer.y <= edgePixels) move.y -= 1f; else if (pointer.y >= Screen.height - edgePixels) move.y += 1f;

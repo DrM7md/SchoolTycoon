@@ -26,6 +26,25 @@ namespace SchoolDirectorTycoon.World
         [Tooltip("One entry per FacilityKind, in enum order.")]
         public FacilityStyle[] facilities = new FacilityStyle[CampusModel.FacilityCount];
 
+        [Header("Detail materials (optional; without them facilities use greybox shapes)")]
+        public Material glass;
+        public Material trim;
+        public Material accent;
+        public Material sand;
+        [Header("Landscape (optional)")]
+        public Material paving;
+        public Material walkway;
+        public Material curb;
+        public Material wall;
+        public Material grass;
+        public Material palmTrunk;
+        public Material palmLeaf;
+
+        public bool HasLandscape => HasDetailMaterials && paving != null && walkway != null && curb != null
+            && wall != null && grass != null && palmTrunk != null && palmLeaf != null;
+
+        public bool HasDetailMaterials => glass != null && trim != null && accent != null;
+
         public FacilityStyle StyleFor(FacilityKind kind) => facilities[(int)kind];
 
         /// <summary>Empty when valid; otherwise the first problem found.</summary>

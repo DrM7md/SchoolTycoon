@@ -16,7 +16,9 @@ var tests = new (string Name, Action Run)[]
     ("Save slots round-trip and resume deterministically", RoundTrip),
     ("Save replacement and format validation", InvalidSaves),
     ("Save backup fallback and error codes", BackupFallback),
-    ("Golden v1/v2 save fixtures replay to a fixed hash", GoldenFixtures)
+    ("Golden v1/v2 save fixtures replay to a fixed hash", GoldenFixtures),
+    ("Chronicle year is deterministic, guarded and balanced", ChronicleYear),
+    ("School life runs the clock, letters, saves and balance", SchoolLifeYear)
 };
 
 if (args.Length == 2 && args[0] == "--write-fixtures")
@@ -312,6 +314,168 @@ static T WithTemporaryDirectory<T>(Func<string, T> run)
     var directory = Directory.CreateTempSubdirectory("school-director-test-");
     try { return run(directory.FullName); }
     finally { directory.Delete(recursive: true); }
+}
+
+static void SchoolLifeYear()
+{
+    var good = new LifePlan("campus", 180, 220, 9, 3, 450, 6);
+    static LifeState Play(uint seed, LifePlan plan, Func<LifeState, int, string> tonight)
+    {
+        LifeState s = SchoolLife.Open(SchoolLife.New(seed), plan);
+        int turn = 0;
+        while (s.Ending == ChronicleEnding.InProgress)
+        {
+            if (s.PendingEvent != null) s = SchoolLife.Choose(s, ChronicleDeck.Find(s.PendingEvent).Choices[turn++ % ChronicleDeck.Find(s.PendingEvent).Choices.Length].Id);
+            else if (s.Phase == LifePhase.School) s = SchoolLife.Advance(s, 7);
+            else s = SchoolLife.Evening(s, tonight(s, turn++));
+        }
+        return s;
+    }
+    Func<LifeState, int, string> balanced = (s, t) => t % 3 == 0 ? "home" : t % 3 == 1 ? "tutoring" : "parents_night";
+    Func<LifeState, int, string> greedy = (s, t) => "tutoring";
+    Check(Play(9, good, balanced).Log.SequenceEqual(Play(9, good, balanced).Log));
+
+    // Setup and the clock
+    LifeState fresh = SchoolLife.New(3);
+    Expect(RuleCode.LifeInvalidPlan, () => SchoolLife.Open(fresh, good with { Seats = 181 }));
+    Expect(RuleCode.LifeInvalidPlan, () => SchoolLife.Open(fresh, good with { Teachers = 0 }));
+    Expect(RuleCode.LifeNotEnoughCash, () => SchoolLife.Open(fresh with { Cash = 100 }, good));
+    Expect(RuleCode.LifeWrongPhase, () => SchoolLife.Advance(fresh, 5));
+    LifeState day = SchoolLife.Open(fresh, good) with { EventToday = "bus_delay", EventMinute = 500 };
+    Check(day.Minute == 450 && SchoolLife.EndMinute(good) == 450 + 6 * 45 + 20);
+    day = SchoolLife.Advance(day, 1000);
+    Check(day.PendingEvent == "bus_delay" && day.Minute == 500);
+    LifeState atEvent = day;
+    Expect(RuleCode.ChronicleEventPending, () => SchoolLife.Advance(atEvent, 1));
+    Expect(RuleCode.LifeWrongPhase, () => SchoolLife.Evening(atEvent, "home"));
+    day = SchoolLife.Choose(day, "apologize");
+    day = SchoolLife.Advance(day, 1000);
+    Check(day.Phase == LifePhase.Evening && day.Minute == SchoolLife.EndMinute(good));
+    Check(SchoolLife.Activities(day).Contains("gym_contract"));
+    Check(!SchoolLife.Activities(day with { Plan = good with { BuildingId = "villa", Seats = 90 } }).Contains("gym_night"));
+    LifeState evening = day;
+    Expect(RuleCode.LifeUnknownActivity, () => SchoolLife.Evening(evening with { GymContract = true }, "gym_night"));
+    LifeState rested = SchoolLife.Evening(day, "gym_contract");
+    Check(rested.GymContract && rested.Day == 2 && rested.Phase == LifePhase.School);
+    Expect(RuleCode.LifeInvalidPlan, () => SchoolLife.Adjust(evening, good with { BuildingId = "villa", Seats = 50 }));
+    LifeState hired = SchoolLife.Adjust(day, good with { Teachers = 10 });
+    Check(hired.Plan!.Teachers == 10 && hired.Cash == day.Cash - SchoolLife.HiringCost);
+
+    // Morning letters and days away
+    LifeState letters = SchoolLife.Open(fresh, good);
+    Check(SchoolLife.Greet(fresh, 100).PendingLetter == null);
+    letters = SchoolLife.Greet(letters, 100);
+    LifeState waiting = letters;
+    Check(letters.PendingLetter == "life.letter.salem.0" && letters.Streak == 1 && SchoolLife.Greet(letters, 100) == letters);
+    Expect(RuleCode.LifeLetterWaiting, () => SchoolLife.Advance(waiting, 1));
+    int cash = letters.Cash;
+    letters = SchoolLife.ReadLetter(letters);
+    LifeState afterRead = letters;
+    Check(letters.Cash == cash + 400 && letters.PendingLetter == null);
+    Expect(RuleCode.LifeNoLetter, () => SchoolLife.ReadLetter(afterRead));
+    Check(SchoolLife.Greet(letters, 100) == letters && SchoolLife.Greet(letters, 99) == letters);
+    letters = SchoolLife.Greet(letters with { GymContract = true }, 102);
+    Check(letters.Streak == 2 && letters.LetterBonus == 600 && letters.AwayIncome == 2 * SchoolLife.GymContractAwayDaily);
+    Check(SchoolLife.Greet(SchoolLife.ReadLetter(letters), 110).Streak == 1);
+
+    var keys = System.Collections.Immutable.ImmutableArray.Create("salem:b");
+    Check(SchoolLife.LetterKey(12, keys) == "life.letter.salem.4.b" && SchoolLife.LetterKey(13, keys) == "life.letter.noura.4.a" && SchoolLife.LetterKey(15, keys) == "life.letter.plain.0");
+    LifeState decide = SchoolLife.Greet(SchoolLife.Open(fresh, good) with { LetterIndex = 6 }, 50);
+    Check(decide.PendingLetter == "life.letter.salem.2");
+    Expect(RuleCode.ChronicleUnknownChoice, () => SchoolLife.ReadLetter(decide));
+    Expect(RuleCode.ChronicleUnknownChoice, () => SchoolLife.ReadLetter(decide, "z"));
+    Check(SchoolLife.ReadLetter(decide, "b").Decisions.Single() == "salem:b");
+    Check(SchoolLife.LetterChoices("life.letter.plain.2").Count == 0);
+
+    // Save round trip, including mid-event and setup states
+    foreach (LifeState sample in new[] { fresh, decide, atEvent, Play(4, good, balanced) })
+    {
+        string text = LifeSave.Write(sample);
+        Check(LifeSave.Write(LifeSave.Read(text)) == text);
+    }
+    Throws<FormatException>(() => LifeSave.Read("SDTLIFE 99\n"));
+    Throws<FormatException>(() => LifeSave.Read("SDTLIFE 1\ncash=x"));
+
+    // Balance
+    const int runs = 400;
+    foreach (var (name, plan, policy, min, max) in new[] {
+        ("sensible", good, balanced, 55, 100),
+        ("greedy nights", good, greedy, 0, 40),
+        ("skeleton staff", good with { Teachers = 3, Admins = 1, Fee = 420 }, balanced, 0, 50),
+        ("empty villa", new LifePlan("villa", 90, 480, 5, 2, 450, 6), balanced, 0, 35),
+        ("oversized", new LifePlan("academy", 320, 150, 18, 6, 450, 6), balanced, 0, 70) })
+    {
+        int done = 0, money = 0;
+        for (uint seed = 1; seed <= runs; seed++)
+        {
+            LifeState end = Play(seed, plan, policy);
+            if (end.Ending == ChronicleEnding.YearCompleted) done++;
+            money += end.Cash / runs;
+        }
+        int percent = done * 100 / runs;
+        Console.WriteLine($"  life {name}: {percent}% finish, average cash {money}");
+        if (percent < min || percent > max) throw new InvalidOperationException($"Balance: {name} finished {percent}%, expected {min}-{max}.");
+    }
+
+    static void Expect(RuleCode code, Action action)
+    {
+        try { action(); }
+        catch (RuleException error) when (error.Code == code) { return; }
+        throw new InvalidOperationException("Expected " + code);
+    }
+}
+
+static void ChronicleYear()
+{
+    Check(ChronicleDeck.All.Length == 30);
+    Check(ChronicleDeck.All.Select(e => e.Id).Distinct().Count() == 30);
+    Check(ChronicleDeck.All.All(e => e.Choices.Length >= 2 && e.Choices.Select(c => c.Id).Distinct().Count() == e.Choices.Length));
+    Check(ChronicleDeck.All.SelectMany(e => e.Choices).All(c => (c.Failure == null) == (c.RiskPercent == 0)));
+
+    static ChronicleState Play(uint seed, Func<ChronicleEvent, uint, string> pick)
+    {
+        ChronicleState state = Chronicle.New(seed);
+        uint turn = seed;
+        while (state.Ending == ChronicleEnding.InProgress)
+        {
+            state = state.PendingEvent == null
+                ? Chronicle.NextWeek(state)
+                : Chronicle.Choose(state, pick(ChronicleDeck.Find(state.PendingEvent), turn++ * 2654435761u));
+        }
+        return state;
+    }
+
+    Func<ChronicleEvent, uint, string> random = (e, r) => e.Choices[(int)((r >> 8) % (uint)e.Choices.Length)].Id;
+    Func<ChronicleEvent, uint, string> first = (e, r) => e.Choices[0].Id;
+    Func<ChronicleEvent, uint, string> last = (e, r) => e.Choices[e.Choices.Length - 1].Id;
+    Func<ChronicleEvent, uint, string> careful = (e, r) => e.Choices.OrderBy(c => c.Failure != null ? 1 : 0)
+        .ThenByDescending(c => c.Effect.Reputation + c.Effect.Parents + c.Effect.Staff + c.Effect.Academics + c.Effect.Cash / 1500).First().Id;
+
+    Check(Play(77, random).Log.SequenceEqual(Play(77, random).Log));
+    ChronicleState opening = Chronicle.New(5);
+    Expect(RuleCode.ChronicleNoPendingEvent, () => Chronicle.Choose(opening, "x"));
+
+    const int runs = 2000;
+    foreach (var (name, policy, min, max) in new[] { ("random", random, 25, 90), ("first", first, 20, 95), ("last", last, 0, 70), ("careful", careful, 50, 100) })
+    {
+        int done = 0, events = 0;
+        for (uint seed = 1; seed <= runs; seed++)
+        {
+            ChronicleState end = Play(seed, policy);
+            if (end.Ending == ChronicleEnding.YearCompleted) done++;
+            events += end.UsedEvents.Length;
+        }
+        int percent = done * 100 / runs;
+        Console.WriteLine($"  chronicle {name}: {percent}% finish the year, {events / runs} events");
+        if (percent < min || percent > max) throw new InvalidOperationException($"Balance: {name} finished {percent}%, expected {min}-{max}.");
+    }
+
+    static void Expect(RuleCode code, Action action)
+    {
+        try { action(); }
+        catch (RuleException error) { Check(error.Code == code); return; }
+        throw new InvalidOperationException("Expected a rejection.");
+    }
 }
 
 static void Check(bool condition)

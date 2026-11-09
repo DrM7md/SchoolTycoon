@@ -23,6 +23,7 @@ namespace SchoolDirectorTycoon.World
         private IDisposable? rejected;
         private GameObject? ghost;
         private Renderer[] ghostRenderers = Array.Empty<Renderer>();
+        private Material? ghostMaterial;
         private float shake;
         private int column = -1, row = -1;
 
@@ -64,7 +65,8 @@ namespace SchoolDirectorTycoon.World
             ghostRenderers = Array.Empty<Renderer>();
             SelectionChanged?.Invoke();
             if (kind == null || palette == null) return;
-            ghost = Placeholders.Building(kind.Value, palette.StyleFor(kind.Value), transform);
+            ghost = FacilityModels.Create(kind.Value, palette, transform);
+            ghostMaterial = null;
             ghost.name = "Ghost";
             ghostRenderers = ghost.GetComponentsInChildren<Renderer>();
         }
@@ -107,7 +109,16 @@ namespace SchoolDirectorTycoon.World
             bool valid = CampusModel.IsBuildable(column, row) && !CampusModel.IsOccupied(session, column, row);
             shake = Mathf.Max(0f, shake - Time.unscaledDeltaTime);
             Material material = valid && shake <= 0f ? palette.ghostValid : palette.ghostInvalid;
-            foreach (Renderer r in ghostRenderers) r.sharedMaterial = material;
+            if (material != ghostMaterial)
+            {
+                ghostMaterial = material;
+                foreach (Renderer r in ghostRenderers)
+                {
+                    var slots = new Material[r.sharedMaterials.Length];
+                    Array.Fill(slots, material);
+                    r.sharedMaterials = slots;
+                }
+            }
 
             Vector3 position = GridMetrics.CellCenter(column, row);
             if (shake > 0f) position.x += Mathf.Sin(shake * 60f) * 0.25f * (shake / ShakeSeconds);

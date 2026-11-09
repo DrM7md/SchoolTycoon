@@ -1,0 +1,96 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Chronicle.uss" />
+    <ui:VisualElement name="root" class="ch">
+        <ui:VisualElement class="ch-head">
+            <ui:VisualElement class="ch-row">
+                <ui:Label name="title" class="ch-title" />
+                <ui:Button name="lang" class="ch-lang" />
+            </ui:VisualElement>
+            <ui:VisualElement class="ch-row">
+                <ui:Label name="week" class="ch-meta" />
+                <ui:Label name="students" class="ch-meta" />
+                <ui:Label name="cash" class="ch-money" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="clock" class="ch-clock">
+            <ui:VisualElement class="ch-row">
+                <ui:Label name="clock-time" class="ch-clock__time" />
+                <ui:VisualElement class="ch-clock__info">
+                    <ui:Label name="clock-period" class="ch-clock__period" />
+                    <ui:Label name="clock-left" class="ch-clock__left" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="ch-clock__track"><ui:VisualElement name="clock-fill" class="ch-clock__fill" /></ui:VisualElement>
+            <ui:VisualElement name="clock-dots" class="ch-dots" />
+            <ui:VisualElement class="ch-speeds">
+                <ui:Button name="speed-0" class="ch-speed" />
+                <ui:Button name="speed-1" class="ch-speed" />
+                <ui:Button name="speed-2" class="ch-speed" />
+                <ui:Button name="speed-3" class="ch-speed" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:ScrollView name="log" class="ch-log" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" />
+        <ui:VisualElement name="stats" class="ch-stats" />
+        <ui:Button name="next" class="ch-next" />
+
+        <ui:VisualElement name="event" class="ch-overlay hidden">
+            <ui:VisualElement class="ch-card">
+                <ui:Label name="event-tag" class="ch-tag" />
+                <ui:Label name="event-body" class="ch-body" />
+                <ui:VisualElement name="choices" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="evening" class="ch-overlay ch-overlay--night hidden">
+            <ui:VisualElement class="ch-card">
+                <ui:Label name="evening-title" class="ch-ending" />
+                <ui:Label name="evening-body" class="ch-body" />
+                <ui:VisualElement name="evening-choices" />
+                <ui:Button name="evening-settings" class="ch-link" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="settings" class="ch-overlay ch-overlay--night hidden">
+            <ui:VisualElement class="ch-card">
+                <ui:Label name="settings-title" class="ch-ending" />
+                <ui:VisualElement name="settings-form" />
+                <ui:Label name="settings-estimate" class="ch-estimate" />
+                <ui:Button name="settings-apply" class="ch-next ch-next--card" />
+                <ui:Button name="settings-cancel" class="ch-link" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="letter" class="ch-overlay hidden">
+            <ui:VisualElement class="ch-card ch-card--letter">
+                <ui:Label name="letter-tag" class="ch-tag" />
+                <ui:Label name="letter-body" class="ch-body" />
+                <ui:Label name="letter-reward" class="ch-reward" />
+                <ui:Label name="letter-away" class="ch-reward" />
+                <ui:VisualElement name="letter-choices" />
+                <ui:Label name="letter-tease" class="ch-tease" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ending" class="ch-overlay hidden">
+            <ui:VisualElement class="ch-card">
+                <ui:Label name="ending-title" class="ch-ending" />
+                <ui:Label name="ending-body" class="ch-body" />
+                <ui:Label name="ending-grade" class="ch-grade" />
+                <ui:Button name="restart" class="ch-next ch-next--card" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="setup" class="ch-screen hidden">
+            <ui:VisualElement class="ch-head">
+                <ui:VisualElement class="ch-row">
+                    <ui:Label name="setup-title" class="ch-title" />
+                    <ui:Button name="lang-setup" class="ch-lang" />
+                </ui:VisualElement>
+                <ui:Label name="setup-intro" class="ch-intro" />
+            </ui:VisualElement>
+            <ui:ScrollView class="ch-log" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden">
+                <ui:VisualElement name="setup-form" />
+            </ui:ScrollView>
+            <ui:Label name="setup-estimate" class="ch-estimate" />
+            <ui:Button name="setup-open" class="ch-next" />
+        </ui:VisualElement>
+
+        <ui:Label name="toast" class="ch-toast" picking-mode="Ignore" />
+    </ui:VisualElement>
+</ui:UXML>

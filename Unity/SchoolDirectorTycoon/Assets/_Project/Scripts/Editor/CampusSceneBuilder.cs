@@ -37,16 +37,16 @@ namespace SchoolDirectorTycoon.EditorTools
             var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
 
             RenderSettings.ambientMode = AmbientMode.Trilight;
-            RenderSettings.ambientSkyColor = new Color(0.62f, 0.72f, 0.86f);
-            RenderSettings.ambientEquatorColor = new Color(0.58f, 0.60f, 0.56f);
-            RenderSettings.ambientGroundColor = new Color(0.32f, 0.30f, 0.26f);
+            RenderSettings.ambientSkyColor = new Color(0.56f, 0.62f, 0.72f);
+            RenderSettings.ambientEquatorColor = new Color(0.50f, 0.47f, 0.42f);
+            RenderSettings.ambientGroundColor = new Color(0.36f, 0.31f, 0.25f);
 
             var sun = new GameObject("Sun").AddComponent<Light>();
             sun.type = LightType.Directional;
-            sun.color = new Color(1f, 0.95f, 0.86f);
-            sun.intensity = 1.25f;
+            sun.color = new Color(1f, 0.92f, 0.80f);
+            sun.intensity = 1.0f;
             sun.shadows = LightShadows.Soft;
-            sun.transform.rotation = Quaternion.Euler(48f, 135f, 0f);
+            sun.transform.rotation = Quaternion.Euler(42f, 120f, 0f);
 
             var rigGo = new GameObject("CameraRig");
             var rig = rigGo.AddComponent<CameraRig>();
@@ -57,8 +57,9 @@ namespace SchoolDirectorTycoon.EditorTools
             cam.nearClipPlane = 0.3f;
             cam.farClipPlane = 400f;
             cam.clearFlags = CameraClearFlags.SolidColor;
-            cam.backgroundColor = new Color(0.68f, 0.80f, 0.92f);
-            camGo.AddComponent<UniversalAdditionalCameraData>();
+            cam.backgroundColor = new Color(0.66f, 0.79f, 0.90f);
+            camGo.AddComponent<UniversalAdditionalCameraData>().renderPostProcessing = true;
+            EnsurePostProcessing();
             SetRef(rig, "viewCamera", cam);
             SetRef(rig, "actions", actions);
 
@@ -80,6 +81,11 @@ namespace SchoolDirectorTycoon.EditorTools
             SetRef(boot, "buildings", buildings);
             SetRef(boot, "placement", placement);
             SetRef(boot, "dayClock", clock);
+
+            // UI Toolkit receives pointer events from the Input System through this module.
+            var eventSystem = new GameObject("EventSystem");
+            eventSystem.AddComponent<UnityEngine.EventSystems.EventSystem>();
+            eventSystem.AddComponent<UnityEngine.InputSystem.UI.InputSystemUIInputModule>();
 
             var hudGo = new GameObject("HUD");
             var document = hudGo.AddComponent<UnityEngine.UIElements.UIDocument>();
@@ -151,10 +157,15 @@ namespace SchoolDirectorTycoon.EditorTools
                 var renderer = ScriptableObject.CreateInstance<UniversalRendererData>();
                 AssetDatabase.CreateAsset(renderer, SettingsDir + "/URP_Renderer.asset");
                 asset = UniversalRenderPipelineAsset.Create(renderer);
-                asset.shadowDistance = 150f;
                 asset.msaaSampleCount = 4;
                 AssetDatabase.CreateAsset(asset, path);
             }
+            // Just past the farthest camera zoom, so the shadow map is not spread over empty distance.
+            asset.shadowDistance = 120f;
+            asset.shadowCascadeCount = 3;
+            asset.mainLightShadowmapResolution = 4096;
+            EditorUtility.SetDirty(asset);
+            EnsureAmbientOcclusion();
             GraphicsSettings.defaultRenderPipeline = asset;
             QualitySettings.renderPipeline = asset;
         }
@@ -169,20 +180,34 @@ namespace SchoolDirectorTycoon.EditorTools
                 AssetDatabase.CreateAsset(palette, PalettePath);
             }
 
-            palette.ground = Mat("M_Ground", new Color(0.47f, 0.62f, 0.36f));
-            palette.tileLight = Mat("M_LotLight", new Color(0.58f, 0.72f, 0.45f));
-            palette.tileDark = Mat("M_LotDark", new Color(0.53f, 0.68f, 0.41f));
-            palette.path = Mat("M_Path", new Color(0.86f, 0.80f, 0.66f));
+            const string tex = Root + "/Art/Textures/";
+            palette.ground = Mat("M_Ground", new Color(0.78f, 0.70f, 0.57f));
+            palette.tileLight = Mat("M_LotLight", new Color(0.30f, 0.80f, 0.62f, 0.30f), transparent: true);
+            palette.tileDark = Mat("M_LotDark", new Color(0.30f, 0.80f, 0.62f, 0.20f), transparent: true);
+            palette.path = Mat("M_Path", new Color(0.62f, 0.57f, 0.50f));
             palette.ghostValid = Mat("M_GhostValid", new Color(0.35f, 0.85f, 0.55f, 0.5f), transparent: true);
             palette.ghostInvalid = Mat("M_GhostInvalid", new Color(0.95f, 0.30f, 0.28f, 0.55f), transparent: true);
 
-            Material roof = Mat("M_Roof", new Color(0.36f, 0.33f, 0.31f));
+            palette.sand = Textured(Mat("M_Sand", Color.white), CampusTextures.Sand(tex + "T_Sand.png", new Color(0.72f, 0.62f, 0.47f), new Color(0.60f, 0.50f, 0.37f), 13f));
+            palette.paving = Textured(Mat("M_Paving", Color.white), CampusTextures.Pavers(tex + "T_Paving.png", new Color(0.66f, 0.63f, 0.57f), new Color(0.58f, 0.55f, 0.49f), new Color(0.44f, 0.41f, 0.37f), 16, 3f));
+            palette.walkway = Textured(Mat("M_Walkway", Color.white), CampusTextures.Pavers(tex + "T_Walkway.png", new Color(0.58f, 0.46f, 0.42f), new Color(0.46f, 0.36f, 0.33f), new Color(0.34f, 0.28f, 0.26f), 12, 7f));
+            palette.curb = Mat("M_Curb", new Color(0.86f, 0.84f, 0.80f));
+            palette.wall = Mat("M_Wall", new Color(0.80f, 0.72f, 0.60f));
+            palette.grass = Mat("M_Grass", new Color(0.36f, 0.45f, 0.24f));
+            palette.palmTrunk = Mat("M_PalmTrunk", new Color(0.42f, 0.33f, 0.24f));
+            palette.palmLeaf = Mat("M_PalmLeaf", new Color(0.27f, 0.42f, 0.20f));
+            palette.glass = Mat("M_Glass", new Color(0.15f, 0.25f, 0.31f), smoothness: 0.9f);
+            palette.trim = Mat("M_Trim", new Color(0.93f, 0.91f, 0.86f));
+            palette.accent = Mat("M_Accent", new Color(0.45f, 0.09f, 0.19f)); // Qatari maroon
+
+            // One campus identity: related stone tones, with form rather than paint telling the buildings apart.
+            Material roof = Mat("M_Roof", new Color(0.52f, 0.49f, 0.45f));
             palette.facilities = new FacilityStyle[CampusModel.FacilityCount];
-            palette.facilities[(int)FacilityKind.Classroom] = Style(Mat("M_Classroom", new Color(0.93f, 0.89f, 0.80f)), roof, 0.80f, 3.2f, 0.80f);
-            palette.facilities[(int)FacilityKind.Lab] = Style(Mat("M_Lab", new Color(0.70f, 0.84f, 0.93f)), roof, 0.80f, 4.0f, 0.80f);
-            palette.facilities[(int)FacilityKind.Library] = Style(Mat("M_Library", new Color(0.78f, 0.55f, 0.40f)), roof, 0.85f, 5.0f, 0.85f);
-            palette.facilities[(int)FacilityKind.Bus] = Style(Mat("M_Bus", new Color(0.98f, 0.78f, 0.20f)), roof, 0.45f, 1.8f, 0.80f);
-            palette.facilities[(int)FacilityKind.Canteen] = Style(Mat("M_Canteen", new Color(0.90f, 0.62f, 0.55f)), roof, 0.85f, 2.6f, 0.70f);
+            palette.facilities[(int)FacilityKind.Classroom] = Style(Mat("M_Classroom", new Color(0.72f, 0.62f, 0.48f)), roof, 0.86f, 3.4f, 0.72f);
+            palette.facilities[(int)FacilityKind.Lab] = Style(Mat("M_Lab", new Color(0.78f, 0.74f, 0.66f)), roof, 0.80f, 4.0f, 0.80f);
+            palette.facilities[(int)FacilityKind.Library] = Style(Mat("M_Library", new Color(0.62f, 0.50f, 0.38f)), roof, 0.85f, 5.0f, 0.85f);
+            palette.facilities[(int)FacilityKind.Bus] = Style(Mat("M_Bus", new Color(0.93f, 0.70f, 0.16f)), Mat("M_BusDark", new Color(0.16f, 0.16f, 0.17f)), 0.45f, 1.8f, 0.80f);
+            palette.facilities[(int)FacilityKind.Canteen] = Style(Mat("M_Canteen", new Color(0.76f, 0.67f, 0.55f)), roof, 0.85f, 2.6f, 0.70f);
 
             EditorUtility.SetDirty(palette);
             string problem = palette.Validate();
@@ -190,10 +215,71 @@ namespace SchoolDirectorTycoon.EditorTools
             return palette;
         }
 
+        private static Material Textured(Material material, Texture2D texture)
+        {
+            material.SetTexture("_BaseMap", texture);
+            EditorUtility.SetDirty(material);
+            return material;
+        }
+
+        private static void EnsurePostProcessing()
+        {
+            string path = SettingsDir + "/CampusVolume.asset";
+            var profile = AssetDatabase.LoadAssetAtPath<VolumeProfile>(path);
+            if (profile == null)
+            {
+                profile = ScriptableObject.CreateInstance<VolumeProfile>();
+                AssetDatabase.CreateAsset(profile, path);
+            }
+            if (!profile.TryGet(out Tonemapping tone)) tone = profile.Add<Tonemapping>(true);
+            tone.mode.Override(TonemappingMode.Neutral);
+            if (!profile.TryGet(out ColorAdjustments color)) color = profile.Add<ColorAdjustments>(true);
+            color.postExposure.Override(-0.1f);
+            color.contrast.Override(10f);
+            color.saturation.Override(0f);
+            color.colorFilter.Override(new Color(1f, 0.97f, 0.92f));
+            if (!profile.TryGet(out Bloom bloom)) bloom = profile.Add<Bloom>(true);
+            bloom.threshold.Override(1.15f);
+            bloom.intensity.Override(0.25f);
+            if (!profile.TryGet(out Vignette vignette)) vignette = profile.Add<Vignette>(true);
+            vignette.intensity.Override(0.16f);
+            foreach (VolumeComponent component in profile.components) EditorUtility.SetDirty(component);
+            foreach (VolumeComponent component in profile.components)
+                if (!AssetDatabase.Contains(component)) AssetDatabase.AddObjectToAsset(component, profile);
+            EditorUtility.SetDirty(profile);
+
+            var go = new GameObject("PostProcessing");
+            var volume = go.AddComponent<Volume>();
+            volume.isGlobal = true;
+            volume.sharedProfile = profile;
+        }
+
+        /// <summary>Contact shadows ground the buildings. The URP feature type is not public, so it is added by name.</summary>
+        private static void EnsureAmbientOcclusion()
+        {
+            var data = AssetDatabase.LoadAssetAtPath<UniversalRendererData>(SettingsDir + "/URP_Renderer.asset");
+            var type = typeof(UniversalRendererData).Assembly.GetType("UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion");
+            if (data == null || type == null) { Debug.LogWarning("SDT: SSAO not added."); return; }
+            foreach (ScriptableRendererFeature existing in data.rendererFeatures)
+                if (existing != null && existing.GetType() == type) return;
+            var feature = (ScriptableRendererFeature)ScriptableObject.CreateInstance(type);
+            feature.name = "SSAO";
+            feature.SetActive(true);
+            AssetDatabase.AddObjectToAsset(feature, data);
+            data.rendererFeatures.Add(feature);
+            AssetDatabase.TryGetGUIDAndLocalFileIdentifier(feature, out string _, out long id);
+            var so = new SerializedObject(data);
+            SerializedProperty map = so.FindProperty("m_RendererFeatureMap");
+            map.InsertArrayElementAtIndex(map.arraySize);
+            map.GetArrayElementAtIndex(map.arraySize - 1).longValue = id;
+            so.ApplyModifiedPropertiesWithoutUndo();
+            EditorUtility.SetDirty(data);
+        }
+
         private static FacilityStyle Style(Material body, Material roof, float x, float height, float z) =>
             new FacilityStyle { body = body, roof = roof, size = new Vector3(x, height, z) };
 
-        private static Material Mat(string name, Color color, bool transparent = false)
+        private static Material Mat(string name, Color color, bool transparent = false, float smoothness = 0.15f)
         {
             string path = $"{MaterialsDir}/{name}.mat";
             var material = AssetDatabase.LoadAssetAtPath<Material>(path);
@@ -203,7 +289,7 @@ namespace SchoolDirectorTycoon.EditorTools
                 AssetDatabase.CreateAsset(material, path);
             }
             material.SetColor("_BaseColor", color);
-            material.SetFloat("_Smoothness", 0.15f);
+            material.SetFloat("_Smoothness", smoothness);
             if (transparent)
             {
                 material.SetFloat("_Surface", 1f);

@@ -1,0 +1,151 @@
+/* Flex only, no left/right offsets, so an .rtl class can mirror it when Arabic arrives. */
+:root {
+    --maroon: rgb(122, 28, 56);
+    --maroon-deep: rgb(84, 17, 38);
+    --paper: rgb(250, 245, 236);
+    --card: rgb(255, 252, 246);
+    --ink: rgb(40, 32, 30);
+    --soft: rgb(118, 104, 96);
+    --line: rgba(84, 17, 38, 0.14);
+    --gold: rgb(214, 164, 72);
+    --good: rgb(36, 128, 92);
+    --bad: rgb(190, 54, 54);
+}
+
+.hidden { display: none; }
+
+/* Advanced text shaping joins Arabic letters and orders mixed-direction text. */
+.ch Label, .ch Button {
+    -unity-font-definition: url("Fonts/Tajawal-Regular.ttf");
+    -unity-text-generator: advanced;
+}
+.ch .ch-title, .ch .ch-money, .ch .ch-week, .ch .ch-chip, .ch .ch-next, .ch .ch-tag, .ch .ch-ending, .ch .ch-grade, .ch .ch-clock__time, .ch .ch-clock__period, .ch .ch-reward, .ch .ch-building__name, .ch .ch-step__value {
+    -unity-font-definition: url("Fonts/Tajawal-Bold.ttf");
+}
+.ch { flex-grow: 1; background-color: var(--paper); }
+
+.ch-head { flex-shrink: 0; background-color: var(--maroon); padding: 18px 20px 14px 20px; }
+.ch-title { color: rgb(255, 255, 255); font-size: 25px; margin: 0 0 6px 0; padding: 0; }
+.ch-row { flex-shrink: 0; flex-direction: row; align-items: center; }
+.ch-meta { color: rgb(240, 216, 222); font-size: 15px; margin: 0 16px 0 0; padding: 0; }
+.ch-money { color: var(--gold); font-size: 19px; flex-grow: 1; -unity-text-align: middle-right; margin: 0; padding: 0; }
+
+.ch-log { flex-grow: 1; flex-shrink: 1; flex-basis: 0; padding: 8px 14px; }
+.ch-week { color: var(--maroon); font-size: 14px; margin: 12px 0 2px 2px; padding: 0; }
+.ch-line {
+    background-color: var(--card);
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: var(--line);
+    padding: 11px 13px;
+    margin: 4px 0;
+    opacity: 1;
+    translate: 0 0;
+    transition-property: opacity, translate;
+    transition-duration: 0.28s;
+}
+.ch-line--new { opacity: 0; translate: 0 14px; }
+.ch-line__text { color: var(--ink); font-size: 18px; white-space: normal; margin: 0; padding: 0; }
+.ch-chips { flex-direction: row; flex-wrap: wrap; margin-top: 7px; }
+.ch-chip { font-size: 14px; border-radius: 9px; padding: 3px 9px; margin: 2px 6px 2px 0; color: rgb(255, 255, 255); }
+.ch-chip--good { background-color: var(--good); }
+.ch-chip--bad { background-color: var(--bad); }
+
+.ch-stats { flex-shrink: 0; background-color: var(--card); border-top-width: 1px; border-color: var(--line); padding: 10px 18px 4px 18px; }
+.ch-stat { flex-shrink: 0; flex-direction: row; align-items: center; margin-bottom: 7px; }
+.ch-stat__name { color: var(--ink); font-size: 15px; width: 104px; margin: 0; padding: 0; }
+.ch-stat__track { flex-grow: 1; height: 14px; border-radius: 7px; background-color: rgb(232, 224, 212); overflow: hidden; }
+.ch-stat__fill { height: 100%; border-radius: 7px; background-color: var(--good); transition-property: width, background-color; transition-duration: 0.4s; }
+.ch-stat__fill--warn { background-color: var(--gold); }
+.ch-stat__fill--low { background-color: var(--bad); }
+.ch-stat__value { color: var(--soft); font-size: 15px; width: 38px; -unity-text-align: middle-right; margin: 0; padding: 0; }
+
+.ch-next {
+    flex-shrink: 0;
+    background-color: var(--maroon);
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    height: 66px;
+    margin: 8px 16px 18px 16px;
+    border-radius: 16px;
+    border-width: 0;
+}
+.ch-next:hover { background-color: var(--maroon-deep); }
+.ch-next:active { scale: 0.98 0.98; }
+
+.ch-overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(30, 14, 18, 0.62); justify-content: center; padding: 20px; }
+.ch-card { background-color: var(--card); border-radius: 20px; padding: 22px 20px 16px 20px; }
+.ch-tag { color: var(--maroon); font-size: 15px; margin: 0 0 8px 0; padding: 0; }
+.ch-body { color: var(--ink); font-size: 22px; white-space: normal; margin: 0 0 16px 0; padding: 0; }
+.ch-choice {
+    background-color: rgb(244, 236, 224);
+    color: var(--ink);
+    font-size: 19px;
+    white-space: normal;
+    min-height: 58px;
+    margin: 0 0 9px 0;
+    padding: 8px 12px;
+    border-radius: 13px;
+    border-width: 1px;
+    border-color: var(--line);
+}
+.ch-choice:hover { background-color: rgb(236, 222, 204); }
+.ch-ending { color: var(--maroon); font-size: 32px; white-space: normal; margin: 0 0 10px 0; padding: 0; }
+.ch-grade { color: var(--ink); font-size: 26px; margin: 0 0 8px 0; padding: 0; }
+
+.ch-toast { position: absolute; bottom: 96px; align-self: center; background-color: var(--bad); color: rgb(255, 255, 255); font-size: 16px; padding: 8px 14px; border-radius: 9px; opacity: 0; transition-property: opacity; transition-duration: 0.2s; }
+.ch-toast.visible { opacity: 1; }
+
+.ch-lang { background-color: rgba(255, 255, 255, 0.16); color: rgb(255, 255, 255); font-size: 15px; border-width: 0; border-radius: 9px; height: 32px; padding: 0 12px; margin: 0 0 8px 0; }
+.ch-title { flex-grow: 1; }
+
+/* Right-to-left */
+.rtl .ch-row, .rtl .ch-stat, .rtl .ch-chips { flex-direction: row-reverse; }
+.rtl .ch-title, .rtl .ch-meta, .rtl .ch-week, .rtl .ch-line__text, .rtl .ch-tag, .rtl .ch-body, .rtl .ch-ending, .rtl .ch-grade, .rtl .ch-stat__name { -unity-text-align: upper-right; }
+.rtl .ch-meta { margin: 0 0 0 16px; }
+.rtl .ch-money { -unity-text-align: middle-left; }
+.rtl .ch-stat__value { -unity-text-align: middle-left; }
+.rtl .ch-chip { margin: 2px 0 2px 6px; }
+
+/* School day clock */
+.ch-clock { flex-shrink: 0; background-color: var(--maroon-deep); padding: 10px 20px 10px 20px; transition-property: background-color; transition-duration: 0.2s; }
+.ch-clock--bell { background-color: var(--gold); }
+.ch-clock__time { color: rgb(255, 255, 255); font-size: 46px; margin: 0; padding: 0; }
+.ch-clock__info { flex-grow: 1; margin: 0 14px; }
+.ch-clock__period { color: rgb(255, 255, 255); font-size: 19px; margin: 0; padding: 0; }
+.ch-clock__left { color: rgb(240, 216, 222); font-size: 15px; margin: 0; padding: 0; }
+.ch-clock__track { height: 10px; border-radius: 5px; background-color: rgba(255, 255, 255, 0.18); overflow: hidden; margin-top: 6px; }
+.ch-clock__fill { height: 100%; border-radius: 5px; background-color: var(--gold); }
+.ch-dots { flex-direction: row; justify-content: center; margin-top: 8px; }
+.ch-dot { width: 12px; height: 12px; border-radius: 6px; margin: 0 4px; background-color: rgba(255, 255, 255, 0.2); }
+.ch-dot--done { background-color: var(--good); }
+.ch-dot--now { background-color: var(--gold); }
+.ch-speeds { flex-direction: row; justify-content: center; margin-top: 8px; }
+.ch-speed { flex-grow: 1; flex-basis: 0; height: 32px; margin: 0 3px; font-size: 15px; color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0.13); border-width: 0; border-radius: 9px; }
+.ch-speed--on { background-color: var(--gold); color: var(--maroon-deep); }
+
+/* Setup and settings */
+.ch-screen { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: var(--paper); }
+.ch-intro { color: rgb(240, 216, 222); font-size: 17px; white-space: normal; margin: 4px 0 0 0; padding: 0; }
+.ch-building { background-color: var(--card); border-radius: 14px; border-width: 2px; border-color: var(--line); padding: 10px 14px; margin: 5px 0; min-height: 66px; }
+.ch-building:hover { background-color: rgb(248, 240, 228); }
+.ch-building--on { border-color: var(--maroon); background-color: rgb(248, 234, 226); }
+.ch-building__name { color: var(--maroon); font-size: 20px; margin: 0; padding: 0; -unity-text-align: upper-left; }
+.ch-building__info { color: var(--soft); font-size: 15px; margin: 0; padding: 0; white-space: normal; -unity-text-align: upper-left; }
+.ch-step { flex-direction: row; align-items: center; margin: 5px 0; flex-shrink: 0; }
+.ch-step__name { color: var(--ink); font-size: 18px; flex-grow: 1; margin: 0; padding: 0; }
+.ch-step__button { width: 44px; height: 42px; font-size: 25px; color: rgb(255, 255, 255); background-color: var(--maroon); border-width: 0; border-radius: 11px; margin: 0; padding: 0; }
+.ch-step__value { color: var(--ink); font-size: 18px; width: 104px; -unity-text-align: middle-center; margin: 0; padding: 0; }
+.ch-estimate { flex-shrink: 0; color: var(--ink); font-size: 16px; white-space: normal; background-color: rgb(244, 236, 224); padding: 9px 18px; margin: 8px 0 0 0; }
+.ch-next--card { margin: 12px 0 4px 0; }
+.ch-link { background-color: rgba(0, 0, 0, 0); border-width: 0; color: var(--maroon); font-size: 17px; height: 40px; margin: 4px 0 0 0; }
+
+/* Letters and evenings */
+.ch-overlay--night { background-color: rgba(14, 12, 40, 0.84); }
+.ch-card--letter { background-color: rgb(253, 246, 226); border-width: 2px; border-color: var(--gold); }
+.ch-reward { color: var(--good); font-size: 19px; white-space: normal; margin: 0 0 10px 0; padding: 0; }
+.ch-tease { color: var(--soft); font-size: 15px; margin: 4px 0 0 0; padding: 0; -unity-text-align: middle-center; }
+
+.rtl .ch-step { flex-direction: row-reverse; }
+.rtl .ch-speeds, .rtl .ch-dots { flex-direction: row-reverse; }
+.rtl .ch-clock__period, .rtl .ch-clock__left, .rtl .ch-step__name, .rtl .ch-reward, .rtl .ch-intro, .rtl .ch-estimate, .rtl .ch-building__name, .rtl .ch-building__info { -unity-text-align: upper-right; }
