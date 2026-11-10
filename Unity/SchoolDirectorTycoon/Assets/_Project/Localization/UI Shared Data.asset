@@ -1591,6 +1591,2926 @@ MonoBehaviour:
     m_Key: rule.LifeLetterWaiting
     m_Metadata:
       m_Items: []
+  - m_Id: 504264794963968
+    m_Key: life.speed.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627264
+    m_Key: life.name.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627265
+    m_Key: life.name.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627266
+    m_Key: life.name.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627267
+    m_Key: life.name.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627268
+    m_Key: life.name.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627269
+    m_Key: life.name.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627270
+    m_Key: life.name.6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627271
+    m_Key: life.name.7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627272
+    m_Key: life.name.8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627273
+    m_Key: life.name.9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627274
+    m_Key: life.name.10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627275
+    m_Key: life.name.11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627276
+    m_Key: life.name.12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627277
+    m_Key: life.name.13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627278
+    m_Key: life.name.14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627279
+    m_Key: life.name.15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627280
+    m_Key: life.name.16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627281
+    m_Key: life.name.17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627282
+    m_Key: life.name.18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627283
+    m_Key: life.name.19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627284
+    m_Key: life.name.20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627285
+    m_Key: life.name.21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627286
+    m_Key: life.name.22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627287
+    m_Key: life.name.23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627288
+    m_Key: life.subject.arabic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627289
+    m_Key: life.subject.english
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627290
+    m_Key: life.subject.math
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627291
+    m_Key: life.subject.science
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627292
+    m_Key: life.subject.islamic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627293
+    m_Key: life.subject.social
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627294
+    m_Key: life.subject.computing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627295
+    m_Key: life.subject.sports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627296
+    m_Key: life.trait.punctual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627297
+    m_Key: life.trait.punctual.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627298
+    m_Key: life.trait.late
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627299
+    m_Key: life.trait.late.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627300
+    m_Key: life.trait.patient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627301
+    m_Key: life.trait.patient.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627302
+    m_Key: life.trait.strict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627303
+    m_Key: life.trait.strict.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627304
+    m_Key: life.trait.creative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627305
+    m_Key: life.trait.creative.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627306
+    m_Key: life.trait.ambitious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627307
+    m_Key: life.trait.ambitious.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627308
+    m_Key: life.interview.reply.experience.punctual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627309
+    m_Key: life.interview.reply.experience.late
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627310
+    m_Key: life.interview.reply.experience.patient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627311
+    m_Key: life.interview.reply.experience.strict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627312
+    m_Key: life.interview.reply.experience.creative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627313
+    m_Key: life.interview.reply.experience.ambitious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627314
+    m_Key: life.interview.reply.discipline.punctual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627315
+    m_Key: life.interview.reply.discipline.late
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627316
+    m_Key: life.interview.reply.discipline.patient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627317
+    m_Key: life.interview.reply.discipline.strict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627318
+    m_Key: life.interview.reply.discipline.creative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627319
+    m_Key: life.interview.reply.discipline.ambitious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627320
+    m_Key: life.interview.reply.dream.punctual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627321
+    m_Key: life.interview.reply.dream.late
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627322
+    m_Key: life.interview.reply.dream.patient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627323
+    m_Key: life.interview.reply.dream.strict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627324
+    m_Key: life.interview.reply.dream.creative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627325
+    m_Key: life.interview.reply.dream.ambitious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627326
+    m_Key: life.case.fight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821568
+    m_Key: life.case.fight.punish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821569
+    m_Key: life.case.fight.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821570
+    m_Key: life.case.fight.parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821571
+    m_Key: life.case.fight.punish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821572
+    m_Key: life.case.fight.talk.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821573
+    m_Key: life.case.fight.parents.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821574
+    m_Key: life.case.phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821575
+    m_Key: life.case.phone.punish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821576
+    m_Key: life.case.phone.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821577
+    m_Key: life.case.phone.parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821578
+    m_Key: life.case.phone.punish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821579
+    m_Key: life.case.phone.talk.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821580
+    m_Key: life.case.phone.parents.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821581
+    m_Key: life.case.cheating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821582
+    m_Key: life.case.cheating.punish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821583
+    m_Key: life.case.cheating.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821584
+    m_Key: life.case.cheating.parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821585
+    m_Key: life.case.cheating.punish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821586
+    m_Key: life.case.cheating.talk.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821587
+    m_Key: life.case.cheating.parents.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821588
+    m_Key: life.case.skipped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821589
+    m_Key: life.case.skipped.punish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821590
+    m_Key: life.case.skipped.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821591
+    m_Key: life.case.skipped.parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821592
+    m_Key: life.case.skipped.punish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821593
+    m_Key: life.case.skipped.talk.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821594
+    m_Key: life.case.skipped.parents.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821595
+    m_Key: life.case.rude
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821596
+    m_Key: life.case.rude.punish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821597
+    m_Key: life.case.rude.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821598
+    m_Key: life.case.rude.parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821599
+    m_Key: life.case.rude.punish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821600
+    m_Key: life.case.rude.talk.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821601
+    m_Key: life.case.rude.parents.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821602
+    m_Key: life.case.late_again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821603
+    m_Key: life.case.late_again.punish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821604
+    m_Key: life.case.late_again.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821605
+    m_Key: life.case.late_again.parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821606
+    m_Key: life.case.late_again.punish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821607
+    m_Key: life.case.late_again.talk.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821608
+    m_Key: life.case.late_again.parents.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821609
+    m_Key: life.case.vandal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821610
+    m_Key: life.case.vandal.punish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821611
+    m_Key: life.case.vandal.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821612
+    m_Key: life.case.vandal.parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821613
+    m_Key: life.case.vandal.punish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821614
+    m_Key: life.case.vandal.talk.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821615
+    m_Key: life.case.vandal.parents.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821616
+    m_Key: life.case.bullied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821617
+    m_Key: life.case.bullied.punish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821618
+    m_Key: life.case.bullied.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821619
+    m_Key: life.case.bullied.parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821620
+    m_Key: life.case.bullied.punish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821621
+    m_Key: life.case.bullied.talk.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821622
+    m_Key: life.case.bullied.parents.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821623
+    m_Key: life.case.followup.punish.good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821624
+    m_Key: life.case.followup.punish.bad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821625
+    m_Key: life.case.followup.talk.good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821626
+    m_Key: life.case.followup.talk.bad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821627
+    m_Key: life.case.followup.parents.good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821628
+    m_Key: life.case.followup.parents.bad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821629
+    m_Key: life.action.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821630
+    m_Key: life.action.gate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821631
+    m_Key: life.action.broadcast_kindness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821632
+    m_Key: life.action.broadcast_study
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821633
+    m_Key: life.action.broadcast_discipline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821634
+    m_Key: life.action.observe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821635
+    m_Key: life.up.ac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821636
+    m_Key: life.up.ac.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821637
+    m_Key: life.up.ac.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821638
+    m_Key: life.up.canteen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821639
+    m_Key: life.up.canteen.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821640
+    m_Key: life.up.canteen.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821641
+    m_Key: life.up.library
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821642
+    m_Key: life.up.library.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821643
+    m_Key: life.up.library.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821644
+    m_Key: life.up.lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821645
+    m_Key: life.up.lab.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821646
+    m_Key: life.up.lab.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821647
+    m_Key: life.up.playground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821648
+    m_Key: life.up.playground.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821649
+    m_Key: life.up.playground.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821650
+    m_Key: life.up.garden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821651
+    m_Key: life.up.garden.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821652
+    m_Key: life.up.garden.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821653
+    m_Key: life.up.bus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821654
+    m_Key: life.up.bus.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821655
+    m_Key: life.up.bus.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821656
+    m_Key: life.up.training_center
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821657
+    m_Key: life.up.training_center.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821658
+    m_Key: life.up.training_center.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821659
+    m_Key: life.up.training_center2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821660
+    m_Key: life.up.training_center2.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821661
+    m_Key: life.up.training_center2.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821662
+    m_Key: life.up.wing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821663
+    m_Key: life.up.wing.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821664
+    m_Key: life.up.wing.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821665
+    m_Key: life.course.method
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821666
+    m_Key: life.course.method.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821667
+    m_Key: life.course.method.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821668
+    m_Key: life.course.subject
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821669
+    m_Key: life.course.subject.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821670
+    m_Key: life.course.subject.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821671
+    m_Key: life.course.master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821672
+    m_Key: life.course.master.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821673
+    m_Key: life.course.master.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821674
+    m_Key: life.course.care
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821675
+    m_Key: life.course.care.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821676
+    m_Key: life.course.care.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821677
+    m_Key: life.school.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821678
+    m_Key: life.school.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821679
+    m_Key: life.school.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821680
+    m_Key: life.school.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821681
+    m_Key: life.school.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821682
+    m_Key: life.school.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821683
+    m_Key: life.school.6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821684
+    m_Key: life.school.7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821685
+    m_Key: life.crest.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821686
+    m_Key: life.crest.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821687
+    m_Key: life.crest.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821688
+    m_Key: life.crest.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821689
+    m_Key: life.crest.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821690
+    m_Key: life.crest.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821691
+    m_Key: life.phil.strict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821692
+    m_Key: life.phil.strict.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821693
+    m_Key: life.phil.creative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821694
+    m_Key: life.phil.creative.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821695
+    m_Key: life.phil.sports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821696
+    m_Key: life.phil.sports.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821697
+    m_Key: life.phil.faith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821698
+    m_Key: life.phil.faith.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821699
+    m_Key: life.act.summer_camp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821700
+    m_Key: life.act.summer_camp.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821701
+    m_Key: life.act.adult_courses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821702
+    m_Key: life.act.adult_courses.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821703
+    m_Key: life.loan.button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821704
+    m_Key: life.loan.taken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821705
+    m_Key: life.loan.paid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821706
+    m_Key: life.rival.30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821707
+    m_Key: life.rival.30.scholarship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821708
+    m_Key: life.rival.30.open_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821709
+    m_Key: life.rival.30.ignore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821710
+    m_Key: life.rival.30.scholarship.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821711
+    m_Key: life.rival.30.open_day.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821712
+    m_Key: life.rival.30.ignore.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821713
+    m_Key: life.rival.60
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821714
+    m_Key: life.rival.60.scholarship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821715
+    m_Key: life.rival.60.open_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821716
+    m_Key: life.rival.60.ignore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821717
+    m_Key: life.rival.60.scholarship.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821718
+    m_Key: life.rival.60.open_day.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821719
+    m_Key: life.rival.60.ignore.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821720
+    m_Key: life.season.exams_mid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821721
+    m_Key: life.season.exams_mid.banner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821722
+    m_Key: life.season.ramadan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821723
+    m_Key: life.season.ramadan.banner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821724
+    m_Key: life.season.national
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821725
+    m_Key: life.season.national.banner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821726
+    m_Key: life.season.exams_final
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821727
+    m_Key: life.season.exams_final.banner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821728
+    m_Key: life.ministry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821729
+    m_Key: life.ministry.show
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821730
+    m_Key: life.ministry.show.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821731
+    m_Key: life.ministry.show.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821732
+    m_Key: life.ministry.prepare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821733
+    m_Key: life.ministry.prepare.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821734
+    m_Key: life.ministry.prepare.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821735
+    m_Key: life.ministry.honest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821736
+    m_Key: life.ministry.honest.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821737
+    m_Key: life.ministry.honest.fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821738
+    m_Key: life.grad.body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821739
+    m_Key: life.grad.thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821740
+    m_Key: life.grad.thanks.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821741
+    m_Key: life.grad.dreams
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821742
+    m_Key: life.grad.dreams.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821743
+    m_Key: life.grad.duty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821744
+    m_Key: life.grad.duty.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821745
+    m_Key: life.rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821746
+    m_Key: life.goal.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821747
+    m_Key: life.goal.no_low_mood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821748
+    m_Key: life.goal.reach_parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821749
+    m_Key: life.goal.earn_tonight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821750
+    m_Key: life.goal.visit_gate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821751
+    m_Key: life.goal.observe_teacher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821752
+    m_Key: life.goal.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821753
+    m_Key: life.ach.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821754
+    m_Key: life.ach.no_dismissals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821755
+    m_Key: life.ach.no_dismissals.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821756
+    m_Key: life.ach.full_house
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821757
+    m_Key: life.ach.full_house.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821758
+    m_Key: life.ach.first_upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821759
+    m_Key: life.ach.first_upgrade.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821760
+    m_Key: life.ach.trained_five
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821761
+    m_Key: life.ach.trained_five.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821762
+    m_Key: life.ach.rank_one
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821763
+    m_Key: life.ach.rank_one.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821764
+    m_Key: life.ach.streak_seven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821765
+    m_Key: life.ach.streak_seven.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821766
+    m_Key: life.memories.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821767
+    m_Key: life.tab.school
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821768
+    m_Key: life.tab.people
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821769
+    m_Key: life.tab.build
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821770
+    m_Key: life.tab.train
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821771
+    m_Key: life.tab.office
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821772
+    m_Key: life.people.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821773
+    m_Key: life.people.hire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821774
+    m_Key: life.people.dismiss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821775
+    m_Key: life.people.observe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821776
+    m_Key: life.people.skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821777
+    m_Key: life.people.mood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821778
+    m_Key: life.people.pay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821779
+    m_Key: life.people.trait.unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821780
+    m_Key: life.people.in_training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821781
+    m_Key: life.interview.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821782
+    m_Key: life.interview.ask.experience
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821783
+    m_Key: life.interview.ask.discipline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821784
+    m_Key: life.interview.ask.dream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821785
+    m_Key: life.interview.hire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821786
+    m_Key: life.interview.cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821787
+    m_Key: life.interview.band.low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821788
+    m_Key: life.interview.band.mid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821789
+    m_Key: life.interview.band.high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821790
+    m_Key: life.build.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015872
+    m_Key: life.build.cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015873
+    m_Key: life.build.time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015874
+    m_Key: life.build.building
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015875
+    m_Key: life.build.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015876
+    m_Key: life.build.start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015877
+    m_Key: life.train.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015878
+    m_Key: life.train.slots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015879
+    m_Key: life.train.start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015880
+    m_Key: life.train.need_center
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015881
+    m_Key: life.train.remaining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015882
+    m_Key: life.time.remaining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015883
+    m_Key: life.time.duration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015884
+    m_Key: life.clock.extend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015885
+    m_Key: life.clock.shorten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015886
+    m_Key: life.identity.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015887
+    m_Key: life.identity.name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015888
+    m_Key: life.identity.crest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015889
+    m_Key: life.identity.colour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015890
+    m_Key: life.identity.philosophy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015891
+    m_Key: life.form.period_minutes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015892
+    m_Key: life.form.break_minutes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015893
+    m_Key: life.students.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015894
+    m_Key: life.students.marks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015895
+    m_Key: life.students.conduct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015896
+    m_Key: rule.LifeTeacherBusy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015897
+    m_Key: rule.LifeNoCandidate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015898
+    m_Key: rule.LifeUpgradeBusy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015899
+    m_Key: rule.LifeUpgradeDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015900
+    m_Key: rule.LifeUpgradeLocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015901
+    m_Key: rule.LifeNoTrainingSlot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015902
+    m_Key: rule.LifeNeedsTrainingCenter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015903
+    m_Key: rule.LifeLoanActive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015904
+    m_Key: rule.LifeActionUsed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015905
+    m_Key: rule.LifeCasePending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015906
+    m_Key: rule.LifeLastTeacher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015907
+    m_Key: rule.LifeDayLimit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505616996630528
+    m_Key: life.pace.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505617084710912
+    m_Key: life.pace.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505617084710913
+    m_Key: life.pace.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505617084710914
+    m_Key: life.pace.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505617084710915
+    m_Key: life.pace.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962787848192
+    m_Key: life.tease.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900096
+    m_Key: life.tease.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900097
+    m_Key: life.tease.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900098
+    m_Key: life.tease.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900099
+    m_Key: life.tease.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900100
+    m_Key: life.tease.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900101
+    m_Key: life.tease.6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900102
+    m_Key: life.tease.7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900103
+    m_Key: life.tease.8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900104
+    m_Key: life.tease.9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900105
+    m_Key: life.tease.10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094400
+    m_Key: life.tease.11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094401
+    m_Key: life.month.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094402
+    m_Key: life.month.compare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094403
+    m_Key: life.month.body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094404
+    m_Key: life.celebrate.star.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094405
+    m_Key: life.celebrate.star.body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094406
+    m_Key: life.celebrate.achievement.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094407
+    m_Key: life.celebrate.level.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094408
+    m_Key: life.celebrate.level.body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094409
+    m_Key: life.celebrate.gift.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094410
+    m_Key: life.celebrate.promotion.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094411
+    m_Key: life.celebrate.title.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094412
+    m_Key: life.title.caring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094413
+    m_Key: life.title.caring.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094414
+    m_Key: life.title.budget_king
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094415
+    m_Key: life.title.budget_king.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094416
+    m_Key: life.title.no_dismissals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094417
+    m_Key: life.title.no_dismissals.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094418
+    m_Key: life.title.on_paper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094419
+    m_Key: life.title.on_paper.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094420
+    m_Key: life.title.iron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094421
+    m_Key: life.title.iron.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094422
+    m_Key: life.title.reformer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094423
+    m_Key: life.title.reformer.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094424
+    m_Key: life.title.beloved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094425
+    m_Key: life.title.beloved.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094426
+    m_Key: life.title.shady
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094427
+    m_Key: life.title.shady.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094428
+    m_Key: life.title.gambler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094429
+    m_Key: life.title.gambler.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094430
+    m_Key: life.title.builder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094431
+    m_Key: life.title.builder.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094432
+    m_Key: life.title.mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094433
+    m_Key: life.title.mentor.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094434
+    m_Key: life.title.survivor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094435
+    m_Key: life.title.survivor.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094436
+    m_Key: life.parent.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094437
+    m_Key: life.parent.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094438
+    m_Key: life.parent.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094439
+    m_Key: life.parent.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094440
+    m_Key: life.parent.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094441
+    m_Key: life.parent.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094442
+    m_Key: life.parent.6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094443
+    m_Key: life.parent.7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094444
+    m_Key: life.parent.8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094445
+    m_Key: life.parent.9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094446
+    m_Key: life.parent.10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094447
+    m_Key: life.parent.11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094448
+    m_Key: life.chat.fee_up.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094449
+    m_Key: life.chat.fee_up.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094450
+    m_Key: life.chat.fee_up.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094451
+    m_Key: life.chat.fee_up.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094452
+    m_Key: life.chat.fee_up.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094453
+    m_Key: life.chat.fee_high.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094454
+    m_Key: life.chat.fee_high.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094455
+    m_Key: life.chat.fee_high.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094456
+    m_Key: life.chat.fee_high.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094457
+    m_Key: life.chat.fee_high.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094458
+    m_Key: life.chat.late_bell.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094459
+    m_Key: life.chat.late_bell.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094460
+    m_Key: life.chat.late_bell.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094461
+    m_Key: life.chat.late_bell.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094462
+    m_Key: life.chat.late_bell.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094463
+    m_Key: life.chat.long_day.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094464
+    m_Key: life.chat.long_day.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094465
+    m_Key: life.chat.long_day.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094466
+    m_Key: life.chat.long_day.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094467
+    m_Key: life.chat.long_day.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094468
+    m_Key: life.chat.event_good.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094469
+    m_Key: life.chat.event_good.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094470
+    m_Key: life.chat.event_good.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094471
+    m_Key: life.chat.event_good.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094472
+    m_Key: life.chat.event_good.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094473
+    m_Key: life.chat.event_bad.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094474
+    m_Key: life.chat.event_bad.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094475
+    m_Key: life.chat.event_bad.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094476
+    m_Key: life.chat.event_bad.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094477
+    m_Key: life.chat.event_bad.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094478
+    m_Key: life.chat.upgrade.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094479
+    m_Key: life.chat.upgrade.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094480
+    m_Key: life.chat.upgrade.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094481
+    m_Key: life.chat.upgrade.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094482
+    m_Key: life.chat.upgrade.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094483
+    m_Key: life.chat.quiet.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094484
+    m_Key: life.chat.quiet.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094485
+    m_Key: life.chat.quiet.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094486
+    m_Key: life.chat.quiet.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094487
+    m_Key: life.chat.quiet.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094488
+    m_Key: life.chat.parking.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094489
+    m_Key: life.chat.parking.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094490
+    m_Key: life.chat.parking.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094491
+    m_Key: life.chat.parking.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094492
+    m_Key: life.chat.parking.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094493
+    m_Key: life.chat.exams.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094494
+    m_Key: life.chat.exams.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094495
+    m_Key: life.chat.exams.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094496
+    m_Key: life.chat.exams.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094497
+    m_Key: life.chat.exams.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094498
+    m_Key: life.chat.ramadan.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094499
+    m_Key: life.chat.ramadan.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094500
+    m_Key: life.chat.ramadan.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094501
+    m_Key: life.chat.ramadan.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094502
+    m_Key: life.chat.ramadan.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094503
+    m_Key: life.chat.rival.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094504
+    m_Key: life.chat.rival.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094505
+    m_Key: life.chat.rival.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094506
+    m_Key: life.chat.rival.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094507
+    m_Key: life.chat.rival.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094508
+    m_Key: life.chat.grades_low.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094509
+    m_Key: life.chat.grades_low.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094510
+    m_Key: life.chat.grades_low.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094511
+    m_Key: life.chat.grades_low.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094512
+    m_Key: life.chat.grades_low.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094513
+    m_Key: life.chat.grades_high.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094514
+    m_Key: life.chat.grades_high.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094515
+    m_Key: life.chat.grades_high.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094516
+    m_Key: life.chat.grades_high.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094517
+    m_Key: life.chat.grades_high.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094518
+    m_Key: life.chat.letter.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094519
+    m_Key: life.chat.letter.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094520
+    m_Key: life.chat.letter.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094521
+    m_Key: life.chat.letter.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094522
+    m_Key: life.chat.letter.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094523
+    m_Key: life.chat.ministry.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094524
+    m_Key: life.chat.ministry.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094525
+    m_Key: life.chat.ministry.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094526
+    m_Key: life.chat.ministry.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094527
+    m_Key: life.chat.ministry.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094528
+    m_Key: life.chat.parents_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094529
+    m_Key: life.chat.staff_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094530
+    m_Key: life.chat.empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094531
+    m_Key: life.room.low_mood.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094532
+    m_Key: life.room.low_mood.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094533
+    m_Key: life.room.low_mood.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094534
+    m_Key: life.room.low_mood.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094535
+    m_Key: life.room.low_mood.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288704
+    m_Key: life.room.training.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288705
+    m_Key: life.room.training.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288706
+    m_Key: life.room.training.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288707
+    m_Key: life.room.training.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288708
+    m_Key: life.room.training.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288709
+    m_Key: life.room.dismissed.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288710
+    m_Key: life.room.dismissed.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288711
+    m_Key: life.room.dismissed.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288712
+    m_Key: life.room.dismissed.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288713
+    m_Key: life.room.dismissed.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288714
+    m_Key: life.room.praise.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288715
+    m_Key: life.room.praise.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288716
+    m_Key: life.room.praise.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288717
+    m_Key: life.room.praise.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288718
+    m_Key: life.room.praise.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288719
+    m_Key: life.room.gossip.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288720
+    m_Key: life.room.gossip.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288721
+    m_Key: life.room.gossip.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288722
+    m_Key: life.room.gossip.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288723
+    m_Key: life.room.gossip.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288724
+    m_Key: life.room.overtime.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288725
+    m_Key: life.room.overtime.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288726
+    m_Key: life.room.overtime.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288727
+    m_Key: life.room.overtime.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288728
+    m_Key: life.room.overtime.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288729
+    m_Key: life.room.rivalry.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288730
+    m_Key: life.room.rivalry.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288731
+    m_Key: life.room.rivalry.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288732
+    m_Key: life.room.rivalry.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288733
+    m_Key: life.room.rivalry.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288734
+    m_Key: life.room.promotion.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288735
+    m_Key: life.room.promotion.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288736
+    m_Key: life.room.promotion.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288737
+    m_Key: life.room.promotion.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288738
+    m_Key: life.room.promotion.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288739
+    m_Key: life.seed.debt_repaid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288740
+    m_Key: life.seed.debt_repaid.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288741
+    m_Key: life.seed.inclusion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288742
+    m_Key: life.seed.inclusion.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288743
+    m_Key: life.seed.grade_exposed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288744
+    m_Key: life.seed.grade_exposed.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288745
+    m_Key: life.seed.cover_exposed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288746
+    m_Key: life.seed.cover_exposed.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288747
+    m_Key: life.seed.leak_exposed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288748
+    m_Key: life.seed.leak_exposed.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288749
+    m_Key: life.seed.bully_healed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288750
+    m_Key: life.seed.bully_healed.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288751
+    m_Key: life.seed.star_stays
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288752
+    m_Key: life.seed.star_stays.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288753
+    m_Key: life.seed.expelled_returns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288754
+    m_Key: life.seed.expelled_returns.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288755
+    m_Key: life.seed.donor_demands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288756
+    m_Key: life.seed.donor_demands.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288757
+    m_Key: life.seed.staff_remembers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288758
+    m_Key: life.seed.staff_remembers.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288759
+    m_Key: life.conscience.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288760
+    m_Key: life.conscience.high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288761
+    m_Key: life.conscience.mid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288762
+    m_Key: life.conscience.low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288763
+    m_Key: life.scandal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288764
+    m_Key: life.scandal.confess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288765
+    m_Key: life.scandal.deny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288766
+    m_Key: life.scandal.confess.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288767
+    m_Key: life.scandal.deny.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288768
+    m_Key: life.ending.conscience.high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288769
+    m_Key: life.ending.conscience.mid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288770
+    m_Key: life.ending.conscience.low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288771
+    m_Key: life.scenario.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288772
+    m_Key: life.scenario.standard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288773
+    m_Key: life.scenario.standard.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288774
+    m_Key: life.scenario.standard.opening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288775
+    m_Key: life.scenario.rescue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288776
+    m_Key: life.scenario.rescue.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288777
+    m_Key: life.scenario.rescue.opening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288778
+    m_Key: life.scenario.village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288779
+    m_Key: life.scenario.village.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288780
+    m_Key: life.scenario.village.opening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288781
+    m_Key: life.scenario.girls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288782
+    m_Key: life.scenario.girls.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288783
+    m_Key: life.scenario.girls.opening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288784
+    m_Key: life.scenario.international
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288785
+    m_Key: life.scenario.international.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288786
+    m_Key: life.scenario.international.opening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288787
+    m_Key: life.absent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288788
+    m_Key: life.absent.cover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288789
+    m_Key: life.absent.merge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288790
+    m_Key: life.absent.substitute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288791
+    m_Key: life.absent.cover.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288792
+    m_Key: life.absent.merge.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288793
+    m_Key: life.absent.substitute.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288794
+    m_Key: life.results.good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288795
+    m_Key: life.results.mid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288796
+    m_Key: life.results.bad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288797
+    m_Key: life.results.publish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288798
+    m_Key: life.results.round_up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288799
+    m_Key: life.results.publish.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288800
+    m_Key: life.results.round_up.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288801
+    m_Key: life.results.top
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288802
+    m_Key: life.challenge.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288803
+    m_Key: life.challenge.won
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288804
+    m_Key: life.challenge.lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288805
+    m_Key: life.challenge.few_teachers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288806
+    m_Key: life.challenge.few_teachers.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288807
+    m_Key: life.challenge.no_loan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288808
+    m_Key: life.challenge.no_loan.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288809
+    m_Key: life.challenge.happy_staff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288810
+    m_Key: life.challenge.happy_staff.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288811
+    m_Key: life.challenge.full_seats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288812
+    m_Key: life.challenge.full_seats.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288813
+    m_Key: life.challenge.no_tutoring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288814
+    m_Key: life.challenge.no_tutoring.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288815
+    m_Key: life.challenge.high_parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288816
+    m_Key: life.challenge.high_parents.info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288817
+    m_Key: life.home.child_failing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288818
+    m_Key: life.home.child_failing.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288819
+    m_Key: life.home.child_failing.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288820
+    m_Key: life.home.child_failing.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288821
+    m_Key: life.home.child_failing.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288822
+    m_Key: life.home.anniversary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288823
+    m_Key: life.home.anniversary.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288824
+    m_Key: life.home.anniversary.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288825
+    m_Key: life.home.anniversary.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288826
+    m_Key: life.home.anniversary.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288827
+    m_Key: life.home.job_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288828
+    m_Key: life.home.job_offer.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288829
+    m_Key: life.home.job_offer.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288830
+    m_Key: life.home.job_offer.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288831
+    m_Key: life.home.job_offer.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288832
+    m_Key: life.home.doctor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288833
+    m_Key: life.home.doctor.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288834
+    m_Key: life.home.doctor.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288835
+    m_Key: life.home.doctor.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288836
+    m_Key: life.home.doctor.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288837
+    m_Key: life.home.parent_ill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288838
+    m_Key: life.home.parent_ill.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288839
+    m_Key: life.home.parent_ill.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288840
+    m_Key: life.home.parent_ill.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288841
+    m_Key: life.home.parent_ill.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288842
+    m_Key: life.home.friend_loan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288843
+    m_Key: life.home.friend_loan.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288844
+    m_Key: life.home.friend_loan.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288845
+    m_Key: life.home.friend_loan.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288846
+    m_Key: life.home.friend_loan.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288847
+    m_Key: life.home.kid_at_school
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288848
+    m_Key: life.home.kid_at_school.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288849
+    m_Key: life.home.kid_at_school.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288850
+    m_Key: life.home.kid_at_school.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288851
+    m_Key: life.home.kid_at_school.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288852
+    m_Key: life.home.vacation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288853
+    m_Key: life.home.vacation.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288854
+    m_Key: life.home.vacation.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288855
+    m_Key: life.home.vacation.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288856
+    m_Key: life.home.vacation.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288857
+    m_Key: life.home.crisis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288858
+    m_Key: life.home.crisis.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288859
+    m_Key: life.home.crisis.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288860
+    m_Key: life.home.crisis.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288861
+    m_Key: life.home.crisis.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288862
+    m_Key: life.director.energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288863
+    m_Key: life.director.family
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288864
+    m_Key: life.promote.head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288865
+    m_Key: life.promote.deputy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288866
+    m_Key: life.promote.head.button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288867
+    m_Key: life.promote.deputy.button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288868
+    m_Key: life.totm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288869
+    m_Key: life.totm.button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288870
+    m_Key: life.epilogue.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288871
+    m_Key: life.epilogue.good.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288872
+    m_Key: life.epilogue.good.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288873
+    m_Key: life.epilogue.good.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288874
+    m_Key: life.epilogue.mid.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288875
+    m_Key: life.epilogue.mid.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288876
+    m_Key: life.epilogue.mid.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288877
+    m_Key: life.epilogue.bad.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288878
+    m_Key: life.epilogue.bad.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288879
+    m_Key: life.epilogue.bad.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288880
+    m_Key: life.arc.teacher_quit.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288881
+    m_Key: life.arc.teacher_quit.0.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288882
+    m_Key: life.arc.teacher_quit.0.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288883
+    m_Key: life.arc.teacher_quit.0.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288884
+    m_Key: life.arc.teacher_quit.0.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288885
+    m_Key: life.arc.teacher_quit.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288886
+    m_Key: life.arc.teacher_quit.1.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288887
+    m_Key: life.arc.teacher_quit.1.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288888
+    m_Key: life.arc.teacher_quit.1.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288889
+    m_Key: life.arc.teacher_quit.1.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288890
+    m_Key: life.arc.teacher_quit.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288891
+    m_Key: life.arc.teacher_quit.2.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288892
+    m_Key: life.arc.teacher_quit.2.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288893
+    m_Key: life.arc.teacher_quit.2.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288894
+    m_Key: life.arc.teacher_quit.2.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288895
+    m_Key: life.arc.parent_threat.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288896
+    m_Key: life.arc.parent_threat.0.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288897
+    m_Key: life.arc.parent_threat.0.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288898
+    m_Key: life.arc.parent_threat.0.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288899
+    m_Key: life.arc.parent_threat.0.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288900
+    m_Key: life.arc.parent_threat.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288901
+    m_Key: life.arc.parent_threat.1.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288902
+    m_Key: life.arc.parent_threat.1.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288903
+    m_Key: life.arc.parent_threat.1.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288904
+    m_Key: life.arc.parent_threat.1.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288905
+    m_Key: life.arc.parent_threat.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288906
+    m_Key: life.arc.parent_threat.2.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288907
+    m_Key: life.arc.parent_threat.2.b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288908
+    m_Key: life.arc.parent_threat.2.a.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288909
+    m_Key: life.arc.parent_threat.2.b.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288910
+    m_Key: life.tab.home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288911
+    m_Key: life.career.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288912
+    m_Key: life.career.level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288913
+    m_Key: life.career.xp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288914
+    m_Key: life.career.next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288915
+    m_Key: life.career.hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288916
+    m_Key: life.career.empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288917
+    m_Key: life.career.quick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288918
+    m_Key: life.report.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288919
+    m_Key: life.report.cash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288920
+    m_Key: life.report.best
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288921
+    m_Key: life.report.tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288922
+    m_Key: life.report.none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288923
+    m_Key: life.stars.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288924
+    m_Key: life.timetable.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288925
+    m_Key: life.timetable.morning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288926
+    m_Key: life.timetable.hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288927
+    m_Key: life.locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288928
+    m_Key: life.album.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288929
+    m_Key: life.album.locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288930
+    m_Key: life.card.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288931
+    m_Key: rule.LifeLocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288932
+    m_Key: rule.LifeNoEnergy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288933
+    m_Key: rule.LifeBadTimetable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288934
+    m_Key: rule.LifeNotQualified
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288935
+    m_Key: rule.LifeRoleFull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288936
+    m_Key: rule.LifeMonthDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288937
+    m_Key: rule.LifeNoCelebration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288938
+    m_Key: life.sheet.close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288939
+    m_Key: life.celebrate.tap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288940
+    m_Key: life.gift.tap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288941
+    m_Key: life.ending.xp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288942
+    m_Key: life.ending.title_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288943
+    m_Key: life.month.number
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288944
+    m_Key: life.month.standing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288945
+    m_Key: life.month.first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288946
+    m_Key: life.timetable.save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288947
+    m_Key: life.timetable.saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288948
+    m_Key: life.role.head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288949
+    m_Key: life.role.deputy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288950
+    m_Key: life.hall.memory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288951
+    m_Key: life.album.titles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288952
+    m_Key: life.challenge.status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288953
+    m_Key: life.month.cash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518949325897728
+    m_Key: life.month.grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536546398306304
+    m_Key: life.app.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536546477998080
+    m_Key: life.app.language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536546477998081
+    m_Key: life.app.lang.ar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536546477998082
+    m_Key: life.app.lang.en
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

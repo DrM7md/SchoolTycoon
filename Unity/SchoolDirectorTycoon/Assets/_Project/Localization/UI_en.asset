@@ -1692,6 +1692,3334 @@ MonoBehaviour:
     m_Localized: Read the morning letter first.
     m_Metadata:
       m_Items: []
+  - m_Id: 504264794963968
+    m_Localized: Very fast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627264
+    m_Localized: Ahmed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627265
+    m_Localized: Maryam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627266
+    m_Localized: Khalid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627267
+    m_Localized: Fatima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627268
+    m_Localized: Hamad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627269
+    m_Localized: Aisha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627270
+    m_Localized: Jassim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627271
+    m_Localized: Latifa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627272
+    m_Localized: Abdulla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627273
+    m_Localized: Moza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627274
+    m_Localized: Saeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627275
+    m_Localized: Shaikha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627276
+    m_Localized: Faisal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627277
+    m_Localized: Hessa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627278
+    m_Localized: Nasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627279
+    m_Localized: Amna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627280
+    m_Localized: Mubarak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627281
+    m_Localized: Sara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627282
+    m_Localized: Rashid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627283
+    m_Localized: Dana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627284
+    m_Localized: Ali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627285
+    m_Localized: Reem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627286
+    m_Localized: Sultan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627287
+    m_Localized: Noof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627288
+    m_Localized: Arabic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627289
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627290
+    m_Localized: Maths
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627291
+    m_Localized: Science
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627292
+    m_Localized: Islamic studies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627293
+    m_Localized: Social studies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627294
+    m_Localized: Computing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627295
+    m_Localized: Sports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627296
+    m_Localized: Punctual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627297
+    m_Localized: Always in the room before the bell. The bell has started to feel
+      judged.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627298
+    m_Localized: Often late
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627299
+    m_Localized: Blames the traffic, even on days with no traffic. Some lessons start
+      without a teacher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627300
+    m_Localized: Patient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627301
+    m_Localized: Will explain fractions a ninth time in the same calm voice as the
+      first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627302
+    m_Localized: Strict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627303
+    m_Localized: Silent classrooms, straight rows and the occasional complaint from
+      home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627304
+    m_Localized: Creative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627305
+    m_Localized: Taught the water cycle with a kettle and a song. Now and then it
+      lifts the whole school.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627306
+    m_Localized: Ambitious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627307
+    m_Localized: Has already asked what your job pays. Learns fast and expects to
+      be noticed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627308
+    m_Localized: In eleven years I have never needed a bell to tell me where to be.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627309
+    m_Localized: Three schools, all excellent. Sorry again about this morning, the
+      roundabout was a disgrace.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627310
+    m_Localized: I once spent a whole term on one boy and long division. We got there
+      in May.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627311
+    m_Localized: My classes finish the syllabus early. Nobody has ever asked me why
+      they are so quiet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627312
+    m_Localized: I have taught in six rooms and rearranged the furniture in all of
+      them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627313
+    m_Localized: Four years as a teacher, one as head of department. I am early for
+      the next step.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627314
+    m_Localized: I am at the door when they arrive. It is difficult to be late to
+      someone already waiting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627315
+    m_Localized: Children settle down on their own, I find, if you give them ten
+      minutes before you get there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627316
+    m_Localized: I wait. Nobody can stay angry at a person who is simply waiting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627317
+    m_Localized: One warning. I have rarely needed to explain what comes after it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627318
+    m_Localized: The loudest child gets to run the experiment. Suddenly the loudest
+      child wants silence.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627319
+    m_Localized: I keep records of everything. Results improve, and I can show you
+      the graph.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627320
+    m_Localized: A timetable that holds for one full week. I would frame it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627321
+    m_Localized: A house next door to the school. Possibly inside the school.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627322
+    m_Localized: To meet one of my old students who still remembers how to do fractions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627323
+    m_Localized: An exam hall where nobody asks to borrow a ruler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627324
+    m_Localized: A classroom without walls. Failing that, one with a very large window.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627325
+    m_Localized: Your chair, Director, in about five years. I mean that respectfully.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264895627326
+    m_Localized: A fight in the yard after break, with {name} in the middle of it.
+      One torn shirt and three versions of events.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821568
+    m_Localized: Suspend for a day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821569
+    m_Localized: Sit down and listen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821570
+    m_Localized: Call the family in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821571
+    m_Localized: '{name} spent a day at home. The yard was quiet, and the shirt was
+      not mentioned again.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821572
+    m_Localized: You heard {name} out over a cup of water. There turned out to be
+      a fourth version of events.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821573
+    m_Localized: The family of {name} arrived in force. Everyone apologised to everyone,
+      at length.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821574
+    m_Localized: A phone rang in the middle of a science test, and it belongs to
+      {name}. The ringtone was, unfortunately, memorable.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821575
+    m_Localized: Confiscate it for a week
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821576
+    m_Localized: Have a quiet word
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821577
+    m_Localized: Hand it to the family
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821578
+    m_Localized: The phone of {name} now lives in your drawer, where it receives
+      many messages.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821579
+    m_Localized: A short talk with {name}, and the phone went back in the bag, on
+      silent, for now.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821580
+    m_Localized: The phone went home by way of the family of {name}. Word is it stayed
+      there.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821581
+    m_Localized: The maths teacher has two identical papers, down to the same wrong
+      answer. One of them is by {name}.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821582
+    m_Localized: Zero on the paper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821583
+    m_Localized: Ask for the truth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821584
+    m_Localized: Inform the family
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821585
+    m_Localized: '{name} received a zero, written very clearly. The other paper got
+      the same.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821586
+    m_Localized: It took a long silence, and then {name} told you everything. A retest
+      was agreed.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821587
+    m_Localized: You showed both papers to the family of {name}. Nobody needed the
+      mistake explained.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821588
+    m_Localized: The register says {name} was absent. The guard saw someone very
+      similar at the corner shop at ten, holding a karak.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821589
+    m_Localized: Detention all week
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821590
+    m_Localized: Ask what is going on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821591
+    m_Localized: Telephone home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821592
+    m_Localized: '{name} spent the week in detention, and discovered that the library
+      has a clock that ticks.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821593
+    m_Localized: '{name} was avoiding one particular lesson. You now know which one,
+      and why.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821594
+    m_Localized: The phone call to the home of {name} was short. The next morning's
+      arrival was very early.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821595
+    m_Localized: '{name} answered a teacher back in front of the whole class, and
+      the staff room is still discussing the wording.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821596
+    m_Localized: Written apology and detention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821597
+    m_Localized: Talk it through
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821598
+    m_Localized: Bring the family in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821599
+    m_Localized: '{name} wrote the apology in full. The grammar, the teacher noted,
+      was excellent.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821600
+    m_Localized: You asked {name} what had really happened that day. The answer had
+      little to do with the teacher.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821601
+    m_Localized: The family of {name} sat in your office and agreed with the teacher,
+      loudly.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821602
+    m_Localized: '{name} has been late four times in two weeks. The excuses have
+      become quite inventive.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821603
+    m_Localized: Stay after the last bell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821604
+    m_Localized: Ask about mornings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821605
+    m_Localized: Speak to the family
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821606
+    m_Localized: '{name} now stays behind after school, making up each minute under
+      the eye of the guard.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821607
+    m_Localized: There are younger siblings to be walked to another school. You and
+      {name} worked out a new start time.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821608
+    m_Localized: The family of {name} promised an alarm clock. Two were delivered.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821609
+    m_Localized: Someone carved a name into a new desk with a compass. The name is
+      {name}, which at least saved time.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821610
+    m_Localized: Pay for the desk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821611
+    m_Localized: Sand it down together
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821612
+    m_Localized: Show the family the desk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821613
+    m_Localized: '{name} paid for the desk from a month of pocket money, in instalments.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821614
+    m_Localized: You and {name} spent an afternoon with sandpaper. The desk looks
+      fine. The talk was better.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821615
+    m_Localized: The family of {name} looked at the desk for some time, then offered
+      to buy it.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821616
+    m_Localized: 'A note has reached your office: {name} has been eating lunch alone
+      in the stairwell, and some classmates have made sure of it.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821617
+    m_Localized: Punish those responsible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821618
+    m_Localized: Sit with the student
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821619
+    m_Localized: Call both families
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821620
+    m_Localized: The ringleaders lost a month of break. {name} ate in the yard the
+      next day, cautiously.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821621
+    m_Localized: You sat with {name} on the stairs during lunch. You did not say
+      much, and that seemed to help.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821622
+    m_Localized: Two families met in your office with {name} in mind. It was uncomfortable,
+      and it needed to be.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821623
+    m_Localized: A week on, {name} has stayed out of trouble. The lesson seems to
+      have held.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821624
+    m_Localized: A week on, {name} is back in the corridor with a new grievance.
+      Punishment did not reach far.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821625
+    m_Localized: A week on, {name} stopped by your door just to say good morning.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821626
+    m_Localized: A week on, {name} nods politely and has changed nothing. Talking
+      was the easy part.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821627
+    m_Localized: A week on, the homework of {name} arrives signed and on time. Someone
+      at home is watching.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821628
+    m_Localized: A week on, things at home are tense, and {name} has brought them
+      to school.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821629
+    m_Localized: Director's day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821630
+    m_Localized: Morning at the gate with the parents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821631
+    m_Localized: Morning broadcast on kindness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821632
+    m_Localized: Morning broadcast on study
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821633
+    m_Localized: Morning broadcast on discipline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821634
+    m_Localized: You sat at the back of a lesson by {name}, notebook closed.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821635
+    m_Localized: New air conditioning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821636
+    m_Localized: A cool building forgives a great deal. Softens one parent complaint
+      each week.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821637
+    m_Localized: The new air conditioning is running. Nobody has mentioned the heat,
+      which is the highest praise available.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821638
+    m_Localized: Proper canteen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821639
+    m_Localized: Hot food at fair prices, and steady income every week.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821640
+    m_Localized: The canteen has opened. The samosa shortage is officially over.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821641
+    m_Localized: Library
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821642
+    m_Localized: Shelves, quiet and a slow, reliable rise in academics.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821643
+    m_Localized: The library is open. The first book was borrowed within four minutes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821644
+    m_Localized: Science lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821645
+    m_Localized: Real experiments, and steadily better academics.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821646
+    m_Localized: The lab is ready. Please note the location of the fire blanket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821647
+    m_Localized: Shaded playground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821648
+    m_Localized: Children come home tired and happy. Parents notice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821649
+    m_Localized: The playground is finished. Break now feels shorter to everyone
+      but the teachers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821650
+    m_Localized: Front garden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821651
+    m_Localized: Passers-by start to talk about the school in a kinder voice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821652
+    m_Localized: The garden is planted. Three teachers have told you about it already.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821653
+    m_Localized: School buses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821654
+    m_Localized: Families further away can consider you now. More students apply.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821655
+    m_Localized: The buses have arrived, freshly painted. The drivers have already
+      formed opinions about the car park.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821656
+    m_Localized: Training centre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821657
+    m_Localized: Send teachers on courses, right here on the grounds. Two places.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821658
+    m_Localized: The training centre is open. The whiteboard is new, and the markers
+      still work.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821659
+    m_Localized: Training centre extension
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821660
+    m_Localized: Two more places, so the staff room need not empty all at once.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821661
+    m_Localized: The extension is ready. Four teachers can now be improved at the
+      same time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821662
+    m_Localized: New wing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821663
+    m_Localized: A whole new wing, sixty more seats, and a great deal of dust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821664
+    m_Localized: The new wing is finished. Sixty empty chairs are waiting, and the
+      paint is nearly dry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821665
+    m_Localized: Teaching methods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821666
+    m_Localized: A solid refresher. The teacher comes back with new habits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821667
+    m_Localized: The teaching methods course is over, and {name} is back in {subject}
+      lessons with fresh ideas.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821668
+    m_Localized: Subject mastery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821669
+    m_Localized: Deep study of the teacher's own subject. A long absence, a large
+      gain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821670
+    m_Localized: The subject mastery course is over. {name} now knows more {subject}
+      than the textbook does.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821671
+    m_Localized: Master teacher programme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821672
+    m_Localized: The hardest course offered. The best results, and a tired teacher
+      afterwards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821673
+    m_Localized: The master programme is over. {name} is back in {subject}, exhausted
+      and formidable.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821674
+    m_Localized: Staff wellbeing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821675
+    m_Localized: Short, cheap and restful. Teaches nothing and repairs a lot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821676
+    m_Localized: The wellbeing course is over, and {name} returned to {subject} lessons
+      smiling, which alarmed the students.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821677
+    m_Localized: Al Fanar School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821678
+    m_Localized: Al Sidra School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821679
+    m_Localized: Al Bidaa School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821680
+    m_Localized: Al Maha School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821681
+    m_Localized: Al Dana School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821682
+    m_Localized: Al Ghaf School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821683
+    m_Localized: Al Shamal School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821684
+    m_Localized: Al Rayyan Gate School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821685
+    m_Localized: Falcon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821686
+    m_Localized: Palm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821687
+    m_Localized: Dhow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821688
+    m_Localized: Lamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821689
+    m_Localized: Crescent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821690
+    m_Localized: Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821691
+    m_Localized: Rigour first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821692
+    m_Localized: High standards and good results. Some parents will find it a little
+      much.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821693
+    m_Localized: Curiosity first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821694
+    m_Localized: Teachers love the freedom. Exam marks occasionally pay for it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821695
+    m_Localized: Body and mind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821696
+    m_Localized: Parents love a school with a team. Lesson time sometimes loses out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821697
+    m_Localized: Faith and character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821698
+    m_Localized: Manners, values and the steady trust of families.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821699
+    m_Localized: Run a summer camp, {cash} QAR
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821700
+    m_Localized: The camp filled every room. Teachers who wished for a quiet summer
+      are not speaking to you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821701
+    m_Localized: Host adult evening classes, {cash} QAR
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821702
+    m_Localized: Grown men squeezed into small desks to learn spreadsheets. They
+      paid on time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821703
+    m_Localized: Take a bank loan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821704
+    m_Localized: The bank agreed quickly, which worried you. Repayments now come
+      out every week.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821705
+    m_Localized: The last repayment has gone through. The bank sent a card. You did
+      not frame it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821706
+    m_Localized: A new academy has opened two streets away, with a banner taller
+      than your building. Parents are asking questions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821707
+    m_Localized: Offer scholarships
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821708
+    m_Localized: Hold an open day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821709
+    m_Localized: Pay it no attention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821710
+    m_Localized: Your scholarships were the talk of the neighbourhood for a week.
+      The banner looked slightly smaller.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821711
+    m_Localized: Families toured your classrooms, ate your biscuits and stayed to
+      chat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821712
+    m_Localized: You kept your eyes on your own school. The banner stayed where it
+      was.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821713
+    m_Localized: The academy is now offering free tablets and a parent app. Some
+      of your families have stopped meeting your eye at the gate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821714
+    m_Localized: Fund more scholarships
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821715
+    m_Localized: Open the doors again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821716
+    m_Localized: Trust your reputation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821717
+    m_Localized: It cost a painful amount. Several families who had packed their
+      files unpacked them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821718
+    m_Localized: Your old students came back to speak. No tablet has yet managed
+      that.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821719
+    m_Localized: You said nothing and carried on. A few more desks stand empty at
+      the back.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821720
+    m_Localized: Midterm exams begin. The corridors have gone suspiciously tidy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821721
+    m_Localized: Midterm exams
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821722
+    m_Localized: Ramadan has come. Shorter days, softer voices and a canteen with
+      nothing to do.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821723
+    m_Localized: Ramadan Kareem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821724
+    m_Localized: National day. Flags on every window, and a parade that was almost
+      in step.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821725
+    m_Localized: National day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821726
+    m_Localized: Final exams. Nobody is borrowing a ruler without a very good reason.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821727
+    m_Localized: Final exams
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821728
+    m_Localized: An inspector from the ministry is at the gate, with a thick file
+      and no appointment. You have ten minutes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821729
+    m_Localized: Show the best classes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821730
+    m_Localized: The inspector saw your finest lessons and wrote for a long time,
+      nodding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821731
+    m_Localized: The inspector opened one door you had not chosen. The note was brief,
+      and it was underlined.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821732
+    m_Localized: Hand over the records
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821733
+    m_Localized: Every file was in order. The inspector looked almost disappointed,
+      then signed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821734
+    m_Localized: The records were neat, and the results inside them were not. The
+      inspector turned each page slowly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821735
+    m_Localized: Tell the whole truth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821736
+    m_Localized: You listed your own weaknesses before being asked. The inspector
+      closed the file and asked for tea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821737
+    m_Localized: You were honest, and the inspector was grateful, and wrote down
+      all of it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821738
+    m_Localized: The last evening of the year. Chairs in rows, gowns slightly too
+      long, and every parent holding a phone up. They are waiting for you to speak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821739
+    m_Localized: Thank the teachers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821740
+    m_Localized: You read the name of every teacher and the room stood up. A few
+      of them pretended to have something in their eye.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821741
+    m_Localized: Speak of their futures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821742
+    m_Localized: You told them the world was smaller than it looks and theirs to
+      cross. Several parents wrote that down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821743
+    m_Localized: Speak of duty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821744
+    m_Localized: You asked them to come back one day and leave this city better.
+      The hall went quiet, and stayed that way.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821745
+    m_Localized: 'City rank: {rank} of 10'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264899821746
+    m_Localized: Today's goal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821747
+    m_Localized: Keep every teacher in a decent mood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821748
+    m_Localized: Get the parents on your side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821749
+    m_Localized: Earn something tonight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821750
+    m_Localized: Greet the parents at the gate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821751
+    m_Localized: Sit in on a lesson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821752
+    m_Localized: Goal met. A small bonus has found its way to the accounts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821753
+    m_Localized: Achievements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821754
+    m_Localized: Nobody left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821755
+    m_Localized: Finish the year without dismissing a single teacher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821756
+    m_Localized: Full house
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821757
+    m_Localized: Fill every seat in the school.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821758
+    m_Localized: Under construction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821759
+    m_Localized: Complete your first building project.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821760
+    m_Localized: Staff college
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821761
+    m_Localized: Send five teachers through a course.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821762
+    m_Localized: Best in the city
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821763
+    m_Localized: Reach first place in the city ranking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821764
+    m_Localized: Seven mornings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821765
+    m_Localized: Read the morning letter seven days in a row.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821766
+    m_Localized: Memories
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821767
+    m_Localized: School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821768
+    m_Localized: People
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821769
+    m_Localized: Build
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821770
+    m_Localized: Train
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821771
+    m_Localized: Office
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821772
+    m_Localized: Your staff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821773
+    m_Localized: Interview candidates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821774
+    m_Localized: Dismiss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821775
+    m_Localized: Observe a lesson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821776
+    m_Localized: Skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821777
+    m_Localized: Mood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821778
+    m_Localized: Weekly pay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821779
+    m_Localized: Not yet known
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821780
+    m_Localized: On a course
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821781
+    m_Localized: Interviews
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821782
+    m_Localized: Tell me about your experience.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821783
+    m_Localized: How do you handle a difficult class?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821784
+    m_Localized: What do you dream of?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821785
+    m_Localized: Hire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821786
+    m_Localized: Send them all home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821787
+    m_Localized: Seems inexperienced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821788
+    m_Localized: Seems capable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821789
+    m_Localized: Seems excellent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264899821790
+    m_Localized: Building projects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015872
+    m_Localized: Cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015873
+    m_Localized: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015874
+    m_Localized: Under construction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015875
+    m_Localized: Built
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015876
+    m_Localized: Start work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015877
+    m_Localized: Training centre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015878
+    m_Localized: Places
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015879
+    m_Localized: Send on course
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015880
+    m_Localized: Build the training centre first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015881
+    m_Localized: Time left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015882
+    m_Localized: '{hours}h {minutes}m left'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264904015883
+    m_Localized: '{hours}h {minutes}m'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 504264904015884
+    m_Localized: Extend today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015885
+    m_Localized: Shorten today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015886
+    m_Localized: Your school's identity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015887
+    m_Localized: School name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015888
+    m_Localized: Crest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015889
+    m_Localized: Colour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015890
+    m_Localized: Philosophy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015891
+    m_Localized: Minutes per lesson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015892
+    m_Localized: Minutes of break
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015893
+    m_Localized: Students to watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015894
+    m_Localized: Marks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015895
+    m_Localized: Conduct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015896
+    m_Localized: That teacher is away on a course.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015897
+    m_Localized: That candidate is not available.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015898
+    m_Localized: A building project is already under way.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015899
+    m_Localized: That has already been built.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015900
+    m_Localized: An earlier project must be finished first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015901
+    m_Localized: There are no free places on courses.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015902
+    m_Localized: This needs a training centre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015903
+    m_Localized: You are still repaying a loan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015904
+    m_Localized: You have already done that today.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015905
+    m_Localized: Deal with the matter on your desk first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015906
+    m_Localized: The school cannot run without a teacher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504264904015907
+    m_Localized: The school day cannot change any further.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505616996630528
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505617084710912
+    m_Localized: Slow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505617084710913
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505617084710914
+    m_Localized: Fast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505617084710915
+    m_Localized: Very fast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962787848192
+    m_Localized: The maintenance office has been making a noise nobody has reported
+      yet. Tomorrow someone will.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900096
+    m_Localized: Tomorrow the parents' group will have an opinion. Nobody knows about
+      what. Neither do they.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900097
+    m_Localized: Somebody left an envelope with the gate guard. He says he will give
+      it to you in the morning, after his tea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900098
+    m_Localized: The staff room went quiet when you walked past it today. Enjoy the
+      mystery overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900099
+    m_Localized: The photocopier has held out for a whole week. It cannot last.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900100
+    m_Localized: A parent has asked for 'five minutes' tomorrow. Clear the morning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900101
+    m_Localized: Grade 7 were polite to a teacher today. Find out why before they
+      do it again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900102
+    m_Localized: The canteen is trying something new tomorrow. It has a name but
+      no one will say what is in it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900103
+    m_Localized: Your accountant asked if you will be in early. She asked it very
+      gently.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900104
+    m_Localized: Tomorrow's timetable looks perfect. That has never once been a good
+      sign.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962896900105
+    m_Localized: Someone has been asking about your school at the barber's. Word
+      travels at the speed of a fade.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094400
+    m_Localized: Tomorrow morning the bell will ring whether you are ready or not.
+      It has never asked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094401
+    m_Localized: Monthly certificate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094402
+    m_Localized: Compared with last month
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094403
+    m_Localized: Twenty school days, signed and stamped. Nobody asked for this certificate,
+      and you will still keep it in a drawer forever.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094404
+    m_Localized: A new star
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094405
+    m_Localized: '{stars} stars. The sign painter has already sent his quote.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962901094406
+    m_Localized: Achievement earned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094407
+    m_Localized: Career level up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094408
+    m_Localized: Level {level}. Directors you once envied now ask how you did it.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962901094409
+    m_Localized: Finished overnight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094410
+    m_Localized: A promotion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094411
+    m_Localized: A title of your own
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094412
+    m_Localized: The One Who Asked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094413
+    m_Localized: You knew whose father was ill and whose bus was late, and you did
+      something about both.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094414
+    m_Localized: Keeper of the Ledger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094415
+    m_Localized: The accounts balanced. The accountant wept. Nobody else noticed,
+      which is the point.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094416
+    m_Localized: Nobody Went Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094417
+    m_Localized: A full year without dismissing one member of staff, including that
+      one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094418
+    m_Localized: Excellent on Paper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094419
+    m_Localized: The numbers were magnificent. Reality has asked for a copy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094420
+    m_Localized: The Iron Corridor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094421
+    m_Localized: Children stopped running when they heard your shoes. So did some
+      teachers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094422
+    m_Localized: The Reformer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094423
+    m_Localized: You changed the way this school teaches, and only half the staff
+      still complain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094424
+    m_Localized: Beloved of the Group Chat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094425
+    m_Localized: Parents said thank you without being asked. Historians doubt it
+      happened.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094426
+    m_Localized: It Was Handled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094427
+    m_Localized: Certain marks moved. Certain files did not. Nobody can prove anything,
+      and you know it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094428
+    m_Localized: The Gambler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094429
+    m_Localized: Your cash went to the edge and looked over several times. It enjoyed
+      the view less than you did.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094430
+    m_Localized: The Builder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094431
+    m_Localized: Dust followed you everywhere this year. The school is bigger, and
+      so is the dust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094432
+    m_Localized: Maker of Teachers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094433
+    m_Localized: Teachers came to you ordinary and left you insufferably good at
+      their jobs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094434
+    m_Localized: Still Standing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094435
+    m_Localized: There was no reason to expect the doors to open in June. They opened
+      in June.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094436
+    m_Localized: Um Saud 3B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094437
+    m_Localized: Abu Faisal (New Number)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094438
+    m_Localized: Um Hamad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094439
+    m_Localized: Abu Rashid Parking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094440
+    m_Localized: Mum of Dana G5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094441
+    m_Localized: Abu Salem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094442
+    m_Localized: Um Jassim 2nd Phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094443
+    m_Localized: Dr. Hessa (Parent)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094444
+    m_Localized: Abu Nasser Office
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094445
+    m_Localized: Um Mubarak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094446
+    m_Localized: Grandfather of Ali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094447
+    m_Localized: Um Reem Class Rep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094448
+    m_Localized: Fees went up?? Did the teachers also go up, or only the fees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094449
+    m_Localized: '[Voice note, 4:12. Mostly a car indicator. The word ''fees'' appears
+      eleven times.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094450
+    m_Localized: For this money I expect the school to come to my house and teach
+      them there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094451
+    m_Localized: May Allah bless the director and open the director's heart and lower
+      the fees. Ameen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094452
+    m_Localized: Sorry just saw this. Which fees? Is this about the trip in October?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094453
+    m_Localized: I added it up. For the same money the kids could go to school in
+      Switzerland, with cheese.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094454
+    m_Localized: My brother pays less and his school has a pool. It also has no teachers
+      but it has a pool.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094455
+    m_Localized: Is there a discount for the third child? Asking as a person with
+      three children and no hair left.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094456
+    m_Localized: Everyone please stop complaining here. Complain in the other group,
+      the one the Class Rep is not in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094457
+    m_Localized: Sorry just saw this. Yes, very high. Also does anyone know the Wi-Fi
+      at the gate?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094458
+    m_Localized: The bell was late AGAIN. I was on time for the first time since
+      2019 and nobody saw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094459
+    m_Localized: Please inform the school there is a clock in every phone now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094460
+    m_Localized: My youngest says the bell is 'resting'. Who is teaching them these
+      words.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094461
+    m_Localized: If bell is late can I also be late. Honest question. I have a meeting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094462
+    m_Localized: Sorry just saw this. What time is pickup today? Yesterday's today,
+      I mean.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094463
+    m_Localized: My child came home and fell asleep with the shoes on and the bag
+      on. Is this education or the army.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094464
+    m_Localized: They are in school longer than I am at work. In fairness, they also
+      do more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094465
+    m_Localized: '[Voice note, 0:03. Only a very long sigh.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094466
+    m_Localized: Long day is good. Please make it longer. Please. I am begging. They
+      are at home on Friday and it is a lot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094467
+    m_Localized: Sorry just saw this. Is tomorrow a holiday? My wife says no but
+      she has been wrong before. She is reading this.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094468
+    m_Localized: Mashallah beautiful event, may Allah protect the children and whoever
+      organised the chairs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094469
+    m_Localized: I filmed the whole thing. Forty minutes. Mostly the back of Abu
+      Nasser's head. Will share.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094470
+    m_Localized: I cried. My husband says it was the dust. It was not the dust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094471
+    m_Localized: Very nice, but who parked behind me. White car. Everyone knows which
+      white car.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094472
+    m_Localized: Sorry just saw this. There was an event? Was mine in it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094473
+    m_Localized: Two hours in the sun and the microphone worked for one word. The
+      word was 'testing'.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094474
+    m_Localized: My child was a tree. Third row. Nobody could see the tree. Three
+      weeks we rehearsed that tree.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094475
+    m_Localized: 'With respect, and I say this with all respect, and I want it noted
+      that it is with respect: what was that.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094476
+    m_Localized: May Allah forgive whoever chose the juice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094477
+    m_Localized: Sorry just saw this. Is it finished? I am at the gate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094478
+    m_Localized: Mashallah new building work at the school. Will there be parking
+      in it. Please say parking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094479
+    m_Localized: I see the improvements. I also see where my fees went. They look
+      nice. They have tiles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094480
+    m_Localized: May Allah bless this school and increase it, and increase the shade
+      near the gate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094481
+    m_Localized: They have painted everything. I leaned on a wall. Please do not
+      ask about my abaya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094482
+    m_Localized: Sorry just saw this. Is that why the road was closed last month?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094483
+    m_Localized: 'Good morning to all. [Picture of a rose and a cup of coffee, forwarded
+      many times.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094484
+    m_Localized: Has anyone seen a small blue lunchbox? It has been missing since
+      last term. It should be found soon, or buried.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094485
+    m_Localized: Where do we park tomorrow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094486
+    m_Localized: Wrong group, sorry. Please ignore the message about my sister-in-law.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094487
+    m_Localized: Sorry just saw this. Thank you. Thank you for what, please?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094488
+    m_Localized: Where do we park tomorrow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094489
+    m_Localized: 'To the person blocking the gate: I know your car. I know your children.
+      I know their marks.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094490
+    m_Localized: Same question as yesterday, is there parking near the side gate?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094491
+    m_Localized: Abu Rashid has asked about parking for 14 months. Abu Rashid, the
+      answer is no. It has always been no. We love you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094492
+    m_Localized: Sorry just saw this. Yes I can move my car. Which day was this?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094493
+    m_Localized: Does anyone have the Science revision sheet? Asking on behalf of
+      my child, who says there is no revision sheet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094494
+    m_Localized: Exam is on chapters 3 to 7. No, 3 to 6. No. The child is now crying.
+      It is 3 to 7.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094495
+    m_Localized: May Allah make it easy on them, and on us, because I do not understand
+      this maths at all.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094496
+    m_Localized: We have stopped all screens at home for exams. Day one. I already
+      want to transfer schools.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094497
+    m_Localized: Sorry just saw this. Exams are when?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094498
+    m_Localized: Ramadan Kareem to all. Please confirm the new timings before I fall
+      asleep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094499
+    m_Localized: Kindly no homework in Ramadan. Nor after Ramadan. May Allah accept.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094500
+    m_Localized: 'To the parent who sounded the horn at 7 a.m. while we are all fasting:
+      Allah sees you, and so does the guard.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094501
+    m_Localized: '[Voice note, 2:40. Recipe for harees. Clearly meant for another
+      group. Nobody tells her because it is excellent.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094502
+    m_Localized: Sorry just saw this. Eid already? Ramadan Kareem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094503
+    m_Localized: The other school gave every student a tablet. I am not saying anything.
+      I am only saying tablet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094504
+    m_Localized: Their brochure has a drone photo. Ours has Mr. Hassan pointing at
+      a board.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094505
+    m_Localized: I went for a visit there. Only a visit. They have a coffee machine
+      for parents. Only saying.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094506
+    m_Localized: 'Whoever is thinking of moving: that school''s parents'' group has
+      800 messages a day and the car park is worse.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094507
+    m_Localized: Sorry just saw this. Which school is better? Decide quickly, I have
+      to register by Sunday. Which Sunday I do not know.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094508
+    m_Localized: My child's marks came home. They did not come home alone. A note
+      came with them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094509
+    m_Localized: Forty out of a hundred and the teacher wrote 'Keep it up'. Keep
+      WHAT up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094510
+    m_Localized: With my own money I got a tutor for the tutor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094511
+    m_Localized: Is it only me or is everyone's child suddenly having a difficult
+      year. Please say everyone's.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094512
+    m_Localized: Sorry just saw this. There were marks? He told me the school does
+      not give marks this year.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094513
+    m_Localized: Mashallah the results. May Allah protect them from the evil eye
+      and from their cousins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094514
+    m_Localized: Full marks! Who is this child and where have they put mine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094515
+    m_Localized: 'I am not one to boast. [Attachment: certificate. Attachment: certificate,
+      closer. Attachment: certificate, with grandmother.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094516
+    m_Localized: Thanks to the teachers. And to me, who stayed up. Mostly to me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094517
+    m_Localized: Sorry just saw this. Mabrook to everyone! Who passed?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094518
+    m_Localized: Did everyone get the letter? Mine was folded inside a sandwich box.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094519
+    m_Localized: I read the letter three times. Could someone with a law degree say
+      whether we are in trouble.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094520
+    m_Localized: Thank you for the letter. In future a WhatsApp is enough. In future
+      a shorter WhatsApp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094521
+    m_Localized: The letter says 'dear parents'. It is the kindest anyone has been
+      to me this week.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094522
+    m_Localized: Sorry just saw this. What letter? Is this the one from last year?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094523
+    m_Localized: Ministry car at the gate. Repeat, Ministry car at the gate. Everyone
+      act educated.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094524
+    m_Localized: Why are the corridors suddenly smelling of oud and all the teachers
+      wearing their good shoes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094525
+    m_Localized: My child says an important man asked what they learned and the class
+      said 'a lot' all together. Rehearsed?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094526
+    m_Localized: If the inspectors need to talk to a parent I am free. I have prepared
+      some notes. Eleven pages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094527
+    m_Localized: Sorry just saw this. Ask the Ministry about the parking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094528
+    m_Localized: Parents' group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094529
+    m_Localized: Staff room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094530
+    m_Localized: Silence. Enjoy it, and do not ask how long it will last.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094531
+    m_Localized: Does anyone remember why we chose this. I wrote it down once, but
+      I marked over it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094532
+    m_Localized: I told Grade 8 I was disappointed. They asked if that was on the
+      test.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094533
+    m_Localized: I sat in my car for twenty minutes before coming in. It is the best
+      room in the school.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094534
+    m_Localized: My tea has gone cold four times today. I have stopped taking it
+      personally. I have not.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962901094535
+    m_Localized: Is it Thursday? Please, somebody, say it is Thursday.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288704
+    m_Localized: The course was excellent. I have forty slides and one idea and I
+      am keeping the idea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288705
+    m_Localized: They taught us 'active listening'. Nobody has listened to me describe
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288706
+    m_Localized: Back from training. I have a certificate, a lanyard and a new fear
+      of group work.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288707
+    m_Localized: Who covered my classes while I was away? Whoever you are, why do
+      they now know the words to a song.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288708
+    m_Localized: We did an icebreaker for three hours. The ice is still there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288709
+    m_Localized: '{name}''s mug is still on the shelf. Nobody will move it. Nobody
+      will wash it, either.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288710
+    m_Localized: So that is {name} gone. Who has the key to the science cupboard?
+      Oh.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288711
+    m_Localized: Nobody said goodbye properly to {name}. I bought a cake anyway.
+      We ate it very quietly.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288712
+    m_Localized: We are all very calm about {name}. I have updated my CV out of calm.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288713
+    m_Localized: '{name} left the good stapler. There is a lesson in this. I am taking
+      the stapler.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288714
+    m_Localized: Did you see {name}'s class today? Silence, and not even the frightened
+      kind.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288715
+    m_Localized: A parent thanked {name} in person. We have asked for the details.
+      We need to study this.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288716
+    m_Localized: A student told me {name} made fractions make sense. I have been
+      here nineteen years and I am furious.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288717
+    m_Localized: 'I will admit it once and I will deny it later: {name} is good.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288718
+    m_Localized: '{name} got a note of thanks from the Director. We passed it around.
+      It is real.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288719
+    m_Localized: I heard {name} has a second job. I heard it is at the rival school.
+      I heard it from the canteen.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288720
+    m_Localized: Why was {name} in the Director's office with the door closed? That
+      door has never closed. It sticks.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288721
+    m_Localized: '{name} is getting engaged, or moving to Muscat, or both. My source
+      is reliable. My source is in Grade 6.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288722
+    m_Localized: Someone has been using {name}'s milk. There will be consequences.
+      There is a label now.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288723
+    m_Localized: They say {name} once corrected the Ministry inspector's grammar.
+      They say the inspector thanked {name}.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288724
+    m_Localized: It got dark and the guard locked me in. I marked another nine papers
+      before I called him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288725
+    m_Localized: My children have asked for my photograph so they can recognise me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288726
+    m_Localized: We are all here very late. Is this a staff meeting or have we simply
+      stopped leaving?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288727
+    m_Localized: I have eaten dinner from the vending machine. I chose the crisps
+      with vegetables on the packet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288728
+    m_Localized: I said 'see you tomorrow' to the cleaner and he said 'it is tomorrow'.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288729
+    m_Localized: '{name} has booked the projector until June. In pen.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288730
+    m_Localized: I am very happy for {name}'s results. I have calculated them again,
+      out of happiness.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288731
+    m_Localized: '{name} moved my chair. Two centimetres. I measured. I know what
+      this means.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288732
+    m_Localized: Grade 9 say {name} is their favourite. Grade 9 will have a quiz
+      tomorrow.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288733
+    m_Localized: '{name} said good morning to me today in a tone. I replied in a
+      tone.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288734
+    m_Localized: Congratulations to {name}. Will you still sit with us or is there
+      a different kettle now.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288735
+    m_Localized: So {name} is senior now. I would like it known I taught {name} where
+      the photocopier is.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288736
+    m_Localized: '{name} deserved it. I am saying so loudly, in case the Director
+      is near the door.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288737
+    m_Localized: '{name} has a new title and the same chair. That is the most honest
+      thing about this school.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288738
+    m_Localized: Already {name} has used the phrase 'going forward'. It has begun.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288739
+    m_Localized: 'An envelope arrived with no name, holding every riyal of a debt
+      you forgave last term, and a note: ''It took a while. Thank you for not asking.'''
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288740
+    m_Localized: The debt came home on its own. You read the note twice and put it
+      where the receipts do not go.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288741
+    m_Localized: The family you made room for has been talking. Two more families
+      phoned today to ask whether it is true what they heard about your school.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288742
+    m_Localized: It was true. You said so, and the ramp outside was busier this week
+      than it has ever been.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288743
+    m_Localized: A teacher compared the mark book with the certificate. The two documents
+      disagree, and the teacher has brought both of them to your door.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288744
+    m_Localized: The changed mark has found its way out. People say nothing to your
+      face, and they are quite careful about it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288745
+    m_Localized: The thing you covered up has uncovered itself. A classmate told
+      a cousin, who told the whole of Friday lunch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288746
+    m_Localized: Everyone now knows who cheated and who looked away. Only one of
+      those was a child.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288747
+    m_Localized: The leaked paper has surfaced again, with screenshots and dates.
+      Your silence is mentioned, by name, in the forwarded version.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288748
+    m_Localized: It turned out silence was the one thing that could be forwarded.
+      Your phone did not stop until Isha.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288749
+    m_Localized: The counsellor brought a drawing to your office, by the child in
+      that video. It is of the yard. Everyone in it is standing up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288750
+    m_Localized: The drawing is pinned behind your desk now, where you can see it
+      and visitors cannot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288751
+    m_Localized: 'Your best teacher was offered more money again. The answer was
+      given before the sentence ended: ''They looked after me when it counted.'''
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288752
+    m_Localized: The raise you once gave has been paying you back ever since. It
+      came in again today.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288753
+    m_Localized: The student you sent away over money was seen at the rival school's
+      open day, on stage, with a microphone, talking about what happened.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288754
+    m_Localized: It was quite a good speech. Several of your parents have watched
+      it. Several have watched it twice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288755
+    m_Localized: The donor whose name you accepted has rung. There is a nephew who
+      needs a job, and a hall that needs a larger plaque.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288756
+    m_Localized: Generosity, it turns out, has a payment schedule. The plaque is
+      being measured.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288757
+    m_Localized: The month you borrowed to pay salaries on time has come up in the
+      staff room. Nobody has forgotten which director did that.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288758
+    m_Localized: When you came in this morning, somebody had already made your tea.
+      It was terrible, and you drank all of it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288759
+    m_Localized: Conscience
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288760
+    m_Localized: Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288761
+    m_Localized: Uneasy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288762
+    m_Localized: Heavy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288763
+    m_Localized: A journalist has phoned. She has dates, documents and an unsettlingly
+      calm voice, and she would like a comment by this evening about what has been
+      happening in your school.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288764
+    m_Localized: Tell her everything
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288765
+    m_Localized: Deny it all
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288766
+    m_Localized: You told her. The story ran. It was the worst week of your career,
+      and for the first time in months you slept.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288767
+    m_Localized: You denied it in a steady voice. She thanked you, and said she had
+      thought you might.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288768
+    m_Localized: You can walk past any parent in any supermarket in this city. It
+      sounds like a small thing. Ask a director who cannot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288769
+    m_Localized: There are a few files you would rather not reopen. Most nights you
+      do not think of them. Most.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288770
+    m_Localized: The school survived. You kept everything you set out to keep. You
+      have started taking the long way round the old filing cabinet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288771
+    m_Localized: Choose your school
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288772
+    m_Localized: A New Licence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288773
+    m_Localized: A fresh start with fair winds. Nothing is broken yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288774
+    m_Localized: The licence is framed, the paint is drying, and no one has complained
+      so far. Note the time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288775
+    m_Localized: The Rescue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288776
+    m_Localized: A school with a bad name, a thin bank account and an old debt due
+      every week. Pays extra career XP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288777
+    m_Localized: The last director left in a hurry and took the good chairs. The
+      debt collector has already introduced himself, warmly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288778
+    m_Localized: The Village School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288779
+    m_Localized: One old villa, forty seats, low fees and families who already know
+      you. There are not many of them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288780
+    m_Localized: Everybody in the village has heard you are here. By noon they will
+      have heard what you had for breakfast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288781
+    m_Localized: The Girls' School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288782
+    m_Localized: Parents start out kinder and watch every riyal more closely. The
+      sports philosophy is unavailable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288783
+    m_Localized: The mothers have inspected the gate, the curtains and the bus driver.
+      You have passed, provisionally.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288784
+    m_Localized: The International School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288785
+    m_Localized: High fees, expensive staff and families who will only come if the
+      Academics are real.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288786
+    m_Localized: The brochure says 'world-class'. The world has been told. It would
+      now like to see the laboratory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288787
+    m_Localized: '{name} phoned at 6:40 to say it will be impossible to come in today.
+      The voice was very weak, and the traffic behind it was very strong.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288788
+    m_Localized: Ask a colleague to cover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288789
+    m_Localized: Merge two classes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288790
+    m_Localized: Pay a substitute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288791
+    m_Localized: A colleague took the lesson of {name} during a free period, and
+      has been describing the sacrifice ever since.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288792
+    m_Localized: Two classes, one room, and a shortage of chairs. The absence of
+      {name} could be heard from the car park.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288793
+    m_Localized: The substitute taught the wrong chapter with great confidence. The
+      classes of {name} did not suffer, exactly.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288794
+    m_Localized: Results day. They are good, and they are real, and the teachers
+      have started pretending they always expected it. The notice board is waiting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288795
+    m_Localized: Results day. Respectable. Nothing to hide and nothing to frame,
+      unless perhaps a few marks were to round themselves upward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288796
+    m_Localized: Results day. The sheet in your hand is not good, and the parents'
+      group is already typing. A kinder arithmetic is available, if you are willing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288797
+    m_Localized: Publish them as they are
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288798
+    m_Localized: Round them up a little
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288799
+    m_Localized: The real numbers went on the board. You stood next to them for a
+      while, as you would with a relative at a wedding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288800
+    m_Localized: The numbers looked better on the board. Numbers always do, once
+      somebody has helped them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288801
+    m_Localized: 'At the top of the sheet: {name}. The family has asked for six copies.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288802
+    m_Localized: This week's challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288803
+    m_Localized: Challenge complete. Somebody left a bonus on your desk and, for
+      once, it is not a bill.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288804
+    m_Localized: Challenge lost. Nobody saw, apart from the entire staff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288805
+    m_Localized: Lean Staff Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288806
+    m_Localized: Get through the school week without adding to the teaching staff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288807
+    m_Localized: Own Money Only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288808
+    m_Localized: Finish the school week without borrowing a riyal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288809
+    m_Localized: Smiles in the Staff Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288810
+    m_Localized: Keep staff standing high until the end of the school week.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288811
+    m_Localized: No Empty Chairs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288812
+    m_Localized: Finish the school week with the seats full.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288813
+    m_Localized: Early Nights
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288814
+    m_Localized: Do not run a single tutoring night all school week.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288815
+    m_Localized: Peace in the Group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288816
+    m_Localized: Keep parent standing high until the end of the school week.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288817
+    m_Localized: Your own child's school rang. The irony was not lost on the receptionist.
+      Maths has been going badly for some time, and you are, apparently, the last
+      to know.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288818
+    m_Localized: Sit down and study together
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288819
+    m_Localized: Hire a tutor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288820
+    m_Localized: You did long division at the kitchen table until ten. You were wrong
+      twice. Nobody at home has let it go.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288821
+    m_Localized: A tutor now comes on Mondays. You have become one of those parents,
+      and you know exactly what they say.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288822
+    m_Localized: It is your anniversary. You remembered at 4:15 p.m., in a budget
+      meeting, and your face did something that the accountant noticed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288823
+    m_Localized: Leave now, and buy flowers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288824
+    m_Localized: Finish the budget first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288825
+    m_Localized: You got home early with flowers from the petrol station. They were
+      received as what they were, and it was still a good evening.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288826
+    m_Localized: The budget balanced. You came home to a plate in the fridge, with
+      cling film over it and a very neat label.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288827
+    m_Localized: A headhunter rang from Dubai. Twice the salary, a car, an office
+      with a window that opens. They do not need an answer until tomorrow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288828
+    m_Localized: Stay with your school
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288829
+    m_Localized: Negotiate with your board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288830
+    m_Localized: You thanked them and said no. Afterwards you looked at your window
+      for a while. It does not open.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288831
+    m_Localized: You mentioned Dubai, once and lightly. The money appeared. So did
+      some coolness in the corridors.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288832
+    m_Localized: Your doctor has read the results and used the word 'stress', then
+      the word 'pressure', and then asked you what exactly it is that you do.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288833
+    m_Localized: Take a few days to rest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288834
+    m_Localized: Take the tablets and carry on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288835
+    m_Localized: You rested. On the second day you caught yourself looking at the
+      ceiling and thinking about the timetable. Then you stopped.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288836
+    m_Localized: The tablets are in your desk drawer, next to the confiscated phones.
+      You are all in there together now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288837
+    m_Localized: Your mother is not well, and she has asked everyone not to tell
+      you. Your sister told you at once.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288838
+    m_Localized: Go and stay with her
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288839
+    m_Localized: Pay for a nurse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288840
+    m_Localized: You sat with her for days. She corrected your posture and asked
+      why you looked so thin. She is better now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288841
+    m_Localized: The nurse is excellent. Your mother tells her everything, including
+      what she thinks about you not being there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288842
+    m_Localized: An old friend needs money, again, and promises it is the last time,
+      again. He has brought his own cardamom, as a sign of seriousness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288843
+    m_Localized: Lend it to him
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288844
+    m_Localized: Tell him no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288845
+    m_Localized: You lent it. He cried a little and hugged you. The cardamom has
+      stayed. So far, it is all that has come back.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288846
+    m_Localized: You said no as kindly as a person can. He took the cardamom with
+      him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288847
+    m_Localized: Your own child's marks at your own school are not what anyone would
+      like. The teacher has come to ask, very carefully, what you would like to happen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288848
+    m_Localized: Mark it like anyone else's
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288849
+    m_Localized: Suggest a little kindness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288850
+    m_Localized: The mark stood. Dinner at home was quiet. The teacher looked at
+      you differently afterwards, and better.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288851
+    m_Localized: The mark improved. Nobody mentioned it. You will notice how nobody
+      mentioned it for quite a long time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288852
+    m_Localized: Your family has found a week by the sea, with a very good price
+      and no signal. The photographs have been left on your pillow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288853
+    m_Localized: Go, and leave the phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288854
+    m_Localized: Next year, inshallah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288855
+    m_Localized: You went. On the third day you stopped checking for a signal. On
+      the fourth, you noticed your children have got taller.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288856
+    m_Localized: Next year, you said. Your family nodded, in the way that people
+      nod at a weather forecast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288857
+    m_Localized: You came home to find them waiting at the table, with no food on
+      it. 'We would like to know,' somebody said, 'when you are planning to live
+      here.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288858
+    m_Localized: Promise, and mean it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288859
+    m_Localized: Explain about the school
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288860
+    m_Localized: You put your phone in the drawer in front of them. It rang. You
+      let it. It was the longest minute of the year.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288861
+    m_Localized: You explained about the school. It was a very good explanation.
+      By the end you were the only one still at the table.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288862
+    m_Localized: Energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288863
+    m_Localized: Family
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288864
+    m_Localized: '{name} is now a head of department, and has already asked about
+      the bigger cupboard.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288865
+    m_Localized: '{name} is now Deputy Director. The office door has been fixed,
+      so it can be closed meaningfully.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288866
+    m_Localized: Make head of department
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288867
+    m_Localized: Make deputy director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288868
+    m_Localized: 'Teacher of the month: {name}. The photo went up by the office.
+      The rest of the staff have seen it. Often.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288869
+    m_Localized: Teacher of the month
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288870
+    m_Localized: What became of them
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288871
+    m_Localized: Twelve years later, the name on the door of a clinic in Doha was
+      {name}. There is a photo of your school in the waiting room.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288872
+    m_Localized: '{name} went on to teach. On the first day, in front of a new class,
+      the opening words were ones you used to say.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288873
+    m_Localized: A bridge in another country was signed off by {name}. The site office
+      has a small framed school certificate that nobody is allowed to move.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288874
+    m_Localized: '{name} works at a bank now, is good at it, and sends a message
+      to the old maths teacher every Eid.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288875
+    m_Localized: '{name} took over the family shop and runs the accounts without
+      a mistake. Your school''s fees are still remembered as an example of robbery,
+      fondly.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288876
+    m_Localized: '{name} passed, and left, and remembers mostly the canteen. There
+      are worse things to have given someone.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288877
+    m_Localized: No one could tell you where {name} went. You asked more than once.
+      The file has only a forwarding address that no longer forwards.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288878
+    m_Localized: '{name} left school early and does not talk about it. Years later
+      a chance meeting at a petrol station lasted one nod.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288879
+    m_Localized: You saw the name {name} on a list you wished had been a different
+      list. You sat for a while before starting the day.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288880
+    m_Localized: '{name} has put a resignation letter on your desk. It is short,
+      and very polite, and has been folded and unfolded many times.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288881
+    m_Localized: Ask what went wrong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288882
+    m_Localized: Accept it, with thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288883
+    m_Localized: '{name} talked for an hour. You took notes. Neither of you touched
+      the tea.'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288884
+    m_Localized: You accepted the letter of {name} with thanks. Nothing happened
+      next. Nothing is still happening, very loudly.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288885
+    m_Localized: The staff room has picked sides over the letter from {name}. Two
+      teachers have stopped speaking, and a third is speaking far too much.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288886
+    m_Localized: Offer better terms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288887
+    m_Localized: Call the staff together
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288888
+    m_Localized: Your offer reached {name} before lunch and the rest of the staff
+      by the end of it.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288889
+    m_Localized: You said it to everyone at once, in one room. It was uncomfortable,
+      and at least nobody can claim to have heard a different version.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288890
+    m_Localized: It is the last day of the notice. {name} is standing at your door
+      with a box of books, waiting to hear what you will say.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288891
+    m_Localized: Ask one last time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288892
+    m_Localized: Wish them well
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288893
+    m_Localized: You asked. There was a long silence, and then an answer, and the
+      matter of {name} is closed.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288894
+    m_Localized: You shook hands at the door. Grade 6 had made a card for {name},
+      and it was spelled nearly correctly.
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288895
+    m_Localized: A father is in reception with a folder. He says his lawyer is a
+      close friend. He says it several times, to several people.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288896
+    m_Localized: Invite him in for coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288897
+    m_Localized: Ask for it in writing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288898
+    m_Localized: He drank three cups and described the complaint from its beginnings
+      in about 2011. He seemed slightly calmer, and left the folder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288899
+    m_Localized: He said you would be hearing from him in writing. You have since
+      learned that he types with one finger, and is very committed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288900
+    m_Localized: He has taken it to the parents' group. There are screenshots, a
+      long voice note, and one very enthusiastic ally who has not understood the
+      problem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288901
+    m_Localized: Reply to the group yourself
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288902
+    m_Localized: Stay out of the group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288903
+    m_Localized: You wrote four careful sentences. Twenty parents replied with a
+      thumbs-up, and one asked where to park.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288904
+    m_Localized: You said nothing. The group said it for you, in over three hundred
+      messages, until someone posted a rose and a coffee.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288905
+    m_Localized: A letter on real legal paper has arrived, and with it a final offer
+      from him. It is time for this to end, one way or the other.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288906
+    m_Localized: Settle it quietly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288907
+    m_Localized: Let him take it further
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288908
+    m_Localized: It ended with a signature and a very cold handshake. At the gate,
+      he asked you about the parking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288909
+    m_Localized: You told him the door was open and the law was too. The matter has
+      been settled, and the folder has at last gone home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288910
+    m_Localized: Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288911
+    m_Localized: Your career
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288912
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288913
+    m_Localized: Experience
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288914
+    m_Localized: To next level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288915
+    m_Localized: Hall of fame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288916
+    m_Localized: No names on the wall yet. Finish a year and hang one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288917
+    m_Localized: Same again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288918
+    m_Localized: End of the day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288919
+    m_Localized: Cash today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288920
+    m_Localized: Best moment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288921
+    m_Localized: Tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288922
+    m_Localized: Nothing happened. Write that down; it is rare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288923
+    m_Localized: School rating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288924
+    m_Localized: Timetable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288925
+    m_Localized: Morning lessons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288926
+    m_Localized: Pick three different subjects. Children can think until about eleven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288927
+    m_Localized: Unlocks at level {level}
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288928
+    m_Localized: Album
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288929
+    m_Localized: Not yet earned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288930
+    m_Localized: Understood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288931
+    m_Localized: Your career has not reached that yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288932
+    m_Localized: You have nothing left today. Go home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288933
+    m_Localized: The morning needs exactly three different subjects.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288934
+    m_Localized: This teacher is not ready for that role yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288935
+    m_Localized: That role is already taken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288936
+    m_Localized: This month already has its teacher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288937
+    m_Localized: There is nothing to celebrate at the moment.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288938
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288939
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288940
+    m_Localized: Something was left for you. Tap to open it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288941
+    m_Localized: 'Experience earned: {xp}'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288942
+    m_Localized: Your title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288943
+    m_Localized: Month {month}
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 517962905288944
+    m_Localized: School standing, month by month
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288945
+    m_Localized: The first month. There is nothing to compare it with yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288946
+    m_Localized: Save timetable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288947
+    m_Localized: The timetable is on the wall.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288948
+    m_Localized: Head of department
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288949
+    m_Localized: Deputy director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288950
+    m_Localized: Best memory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288951
+    m_Localized: Titles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288952
+    m_Localized: Still running
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517962905288953
+    m_Localized: Cash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518949325897728
+    m_Localized: 'Grade this month: {grade}'
+    m_Metadata:
+      m_Items:
+      - rid: 16764438439788569
+  - m_Id: 536546398306304
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536546477998080
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536546477998081
+    m_Localized: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536546477998082
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
@@ -1736,3 +5064,107 @@ MonoBehaviour:
         - id: 358896732078129
         - id: 358896732078130
         - id: 358896732078131
+        - id: 504264895627326
+        - id: 504264899821571
+        - id: 504264899821572
+        - id: 504264899821573
+        - id: 504264899821574
+        - id: 504264899821578
+        - id: 504264899821579
+        - id: 504264899821580
+        - id: 504264899821581
+        - id: 504264899821585
+        - id: 504264899821586
+        - id: 504264899821587
+        - id: 504264899821588
+        - id: 504264899821592
+        - id: 504264899821593
+        - id: 504264899821594
+        - id: 504264899821595
+        - id: 504264899821599
+        - id: 504264899821600
+        - id: 504264899821601
+        - id: 504264899821602
+        - id: 504264899821606
+        - id: 504264899821607
+        - id: 504264899821608
+        - id: 504264899821609
+        - id: 504264899821613
+        - id: 504264899821614
+        - id: 504264899821615
+        - id: 504264899821616
+        - id: 504264899821620
+        - id: 504264899821621
+        - id: 504264899821622
+        - id: 504264899821623
+        - id: 504264899821624
+        - id: 504264899821625
+        - id: 504264899821626
+        - id: 504264899821627
+        - id: 504264899821628
+        - id: 504264899821634
+        - id: 504264899821667
+        - id: 504264899821670
+        - id: 504264899821673
+        - id: 504264899821676
+        - id: 504264899821699
+        - id: 504264899821701
+        - id: 504264899821745
+        - id: 504264904015882
+        - id: 504264904015883
+        - id: 517962901094405
+        - id: 517962901094408
+        - id: 517962905288709
+        - id: 517962905288710
+        - id: 517962905288711
+        - id: 517962905288712
+        - id: 517962905288713
+        - id: 517962905288714
+        - id: 517962905288715
+        - id: 517962905288716
+        - id: 517962905288717
+        - id: 517962905288718
+        - id: 517962905288719
+        - id: 517962905288720
+        - id: 517962905288721
+        - id: 517962905288722
+        - id: 517962905288723
+        - id: 517962905288729
+        - id: 517962905288730
+        - id: 517962905288731
+        - id: 517962905288732
+        - id: 517962905288733
+        - id: 517962905288734
+        - id: 517962905288735
+        - id: 517962905288736
+        - id: 517962905288737
+        - id: 517962905288738
+        - id: 517962905288787
+        - id: 517962905288791
+        - id: 517962905288792
+        - id: 517962905288793
+        - id: 517962905288801
+        - id: 517962905288864
+        - id: 517962905288865
+        - id: 517962905288868
+        - id: 517962905288871
+        - id: 517962905288872
+        - id: 517962905288873
+        - id: 517962905288874
+        - id: 517962905288875
+        - id: 517962905288876
+        - id: 517962905288877
+        - id: 517962905288878
+        - id: 517962905288879
+        - id: 517962905288880
+        - id: 517962905288883
+        - id: 517962905288884
+        - id: 517962905288885
+        - id: 517962905288888
+        - id: 517962905288890
+        - id: 517962905288893
+        - id: 517962905288894
+        - id: 517962905288927
+        - id: 517962905288941
+        - id: 517962905288943
+        - id: 518949325897728

@@ -16,7 +16,7 @@ namespace SchoolDirectorTycoon.Core
     public sealed record ChronicleEvent(string Id, int MinWeek, ImmutableArray<ChronicleChoice> Choices);
 
     /// <summary>One line of the school's story. <see cref="Key"/> is a localization key, never display text.</summary>
-    public sealed record ChronicleEntry(int Week, string Key, ChronicleEffect Effect);
+    public sealed record ChronicleEntry(int Week, string Key, ChronicleEffect Effect, int Name = -1, string? Subject = null);
 
     /// <summary>Immutable state of one school year in the text-driven mode. Same state and choices give the same result.</summary>
     public sealed record ChronicleState

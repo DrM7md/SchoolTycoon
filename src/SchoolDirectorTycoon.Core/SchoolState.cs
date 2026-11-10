@@ -13,7 +13,10 @@ namespace SchoolDirectorTycoon.Core
         LotOnMainPath, LotOccupied, InsufficientCashToBuild, TuitionOutOfRange, NoPendingIncident,
         InsufficientCashToIntervene, CampaignEnded, IncidentPending, LimitReached, RoleEmpty,
         ChronicleEventPending, ChronicleNoPendingEvent, ChronicleUnknownChoice,
-        LifeNotEnoughCash, LifeInvalidPlan, LifeWrongPhase, LifeUnknownActivity, LifeNoLetter, LifeLetterWaiting
+        LifeNotEnoughCash, LifeInvalidPlan, LifeWrongPhase, LifeUnknownActivity, LifeNoLetter, LifeLetterWaiting,
+        LifeTeacherBusy, LifeNoCandidate, LifeUpgradeBusy, LifeUpgradeDone, LifeUpgradeLocked, LifeNoTrainingSlot,
+        LifeNeedsTrainingCenter, LifeLoanActive, LifeActionUsed, LifeCasePending, LifeLastTeacher, LifeDayLimit,
+        LifeLocked, LifeNoEnergy, LifeBadTimetable, LifeNotQualified, LifeRoleFull, LifeMonthDone, LifeNoCelebration
     }
 
     public sealed record Campus(int Classrooms, int Labs, int Libraries, int Buses, int Canteens)

@@ -171,6 +171,8 @@ namespace SchoolDirectorTycoon.EditorTools
                 C("normal", "ثق بما دُرّس", "سينالون ما استحقوه."),
                 C("easy_paper", "سهّل الأسئلة", "عاد الجميع سعداء.", "طلب المدققون الخارجيون رؤية الأوراق."));
             AddLifeArabic(t);
+            AddLife2Arabic(t);
+            AddLife3Arabic(t);
             return t;
         }
     }

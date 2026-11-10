@@ -12,7 +12,7 @@ namespace SchoolDirectorTycoon.Core
     public sealed record LifeBuilding(string Id, int Capacity, int WeeklyRent, bool HasGym);
 
     /// <summary>Everything the director sets by hand. Minutes count from midnight.</summary>
-    public sealed record LifePlan(string BuildingId, int Seats, int Fee, int Teachers, int Admins, int StartMinute, int Periods);
+    public sealed record LifePlan(string BuildingId, int Seats, int Fee, int Teachers, int Admins, int StartMinute, int Periods, int PeriodMinutes = SchoolLife.DefaultPeriodMinutes, int BreakMinutes = SchoolLife.DefaultBreakMinutes);
 
     /// <summary>Immutable state of one hands-on school year. The caller supplies elapsed game minutes and the real
     /// calendar day, so the same state and the same calls always give the same result.</summary>
@@ -40,19 +40,96 @@ namespace SchoolDirectorTycoon.Core
         public string? PendingLetter { get; init; }
         public int LetterBonus { get; init; }
         public int AwayIncome { get; init; }
+
+        public LifeIdentity? Identity { get; init; }
+        public int DayExtra { get; init; }
+        public int NextPersonId { get; init; } = 1;
+        public ImmutableArray<LifeTeacher> Roster { get; init; } = ImmutableArray<LifeTeacher>.Empty;
+        public ImmutableArray<LifeCandidate> Candidates { get; init; } = ImmutableArray<LifeCandidate>.Empty;
+        public bool InterviewAsked { get; init; }
+        public string? InterviewReply { get; init; }
+        public int Dismissals { get; init; }
+        public int CoursesFinished { get; init; }
+        public ImmutableArray<LifeStudent> Followed { get; init; } = ImmutableArray<LifeStudent>.Empty;
+        public LifeCase? CaseToday { get; init; }
+        public LifeCase? PendingCase { get; init; }
+        public ImmutableArray<LifeFollowUp> FollowUps { get; init; } = ImmutableArray<LifeFollowUp>.Empty;
+        public ImmutableArray<string> ActionsToday { get; init; } = ImmutableArray<string>.Empty;
+        public int LastNow { get; init; }
+        public string? BuildingJob { get; init; }
+        public int BuildingEnd { get; init; }
+        public ImmutableArray<string> UpgradesDone { get; init; } = ImmutableArray<string>.Empty;
+        public int LoanWeeks { get; init; }
+        public int RivalPressure { get; init; }
+        public int RivalStage { get; init; }
+        public string? PendingRival { get; init; }
+        public bool PendingMinistry { get; init; }
+        public bool PendingSpeech { get; init; }
+        public string? GoalId { get; init; }
+        public bool GoalDone { get; init; }
+        public ImmutableArray<string> Achievements { get; init; } = ImmutableArray<string>.Empty;
+        public ImmutableArray<int> Memories { get; init; } = ImmutableArray<int>.Empty;
+
+        public string Scenario { get; init; } = "standard";
+        public uint RunId { get; init; }
+        public LifePlan? OpeningPlan { get; init; }
+        public int DebtWeeks { get; init; }
+        public LifeDayReport? LastDay { get; init; }
+        public int MarkCash { get; init; }
+        public int MarkRep { get; init; }
+        public int MarkParents { get; init; }
+        public int MarkStaff { get; init; }
+        public int MarkAcad { get; init; }
+        public int MarkLog { get; init; }
+        public ImmutableArray<LifeMonth> MonthCards { get; init; } = ImmutableArray<LifeMonth>.Empty;
+        public int StarsBest { get; init; } = 1;
+        public ImmutableArray<LifeCelebration> Celebrations { get; init; } = ImmutableArray<LifeCelebration>.Empty;
+        public ImmutableArray<LifeChat> Chat { get; init; } = ImmutableArray<LifeChat>.Empty;
+        /// <summary>Things that happened since the last chat, for the staff room to talk about.</summary>
+        public ImmutableArray<string> Tags { get; init; } = ImmutableArray<string>.Empty;
+        public int LastFee { get; init; }
+        public ImmutableArray<LifeSeed> Seeds { get; init; } = ImmutableArray<LifeSeed>.Empty;
+        public int Conscience { get; init; } = SchoolLife.StartConscience;
+        public bool ScandalDone { get; init; }
+        public ImmutableArray<LifeQueued> CardQueue { get; init; } = ImmutableArray<LifeQueued>.Empty;
+        public ImmutableArray<string> Morning { get; init; } = SchoolLife.DefaultMorning;
+        public int Energy { get; init; } = SchoolLife.StartEnergy;
+        public int Family { get; init; } = SchoolLife.StartFamily;
+        public int LastCrisisDay { get; init; } = -100;
+        public int LastTotmMonth { get; init; } = -1;
+        public ImmutableArray<LifeArc> StoryArcs { get; init; } = ImmutableArray<LifeArc>.Empty;
+        public string? ChallengeId { get; init; }
+        public int ChallengeWeek { get; init; } = -1;
+        public int ChallengeDay { get; init; }
+        public bool ChallengeBroken { get; init; }
+        public bool ChallengeDone { get; init; }
+        public int ChallengesWon { get; init; }
+        public int RoundUps { get; init; }
+        public int RisksTaken { get; init; }
+        public int CasePunishes { get; init; }
+        public int CaseTalks { get; init; }
+
+        /// <summary>School week 1..36; 0 before opening.</summary>
+        public int Week => Day <= 0 ? 0 : (Day - 1) / SchoolLife.DaysInWeek + 1;
+        /// <summary>Season id for the UI banner, or null.</summary>
+        public string? Season => SchoolLife.SeasonAt(Week);
+        /// <summary>The one decision currently stopping the clock, or null. Letters are separate.</summary>
+        public LifeCard? PendingCard => SchoolLife.CardOf(this);
         public ImmutableArray<string> Decisions { get; init; } = ImmutableArray<string>.Empty;
         public ImmutableArray<string> UsedEvents { get; init; } = ImmutableArray<string>.Empty;
         public ImmutableArray<ChronicleEntry> Log { get; init; } = ImmutableArray<ChronicleEntry>.Empty;
     }
 
     /// <summary>Rules of the hands-on mode: rent a school, staff it, run the clock, earn after hours, read the morning letter.</summary>
-    public static class SchoolLife
+    public static partial class SchoolLife
     {
         public const int StartingCash = 120000;
         public const int DaysInYear = 180;
         public const int DaysInWeek = 5;
-        public const int PeriodMinutes = 45;
-        public const int BreakMinutes = 20;
+        public const int DefaultPeriodMinutes = 45, MinPeriodMinutes = 30, MaxPeriodMinutes = 60;
+        public const int DefaultBreakMinutes = 20, MinBreakMinutes = 10, MaxBreakMinutes = 40;
+        public const int MinutesStep = 5, ExtendStep = 15, MinDayExtra = -45, MaxDayExtra = 60;
+        public const int CaseChancePercent = 12;
         public const int BreakAfterPeriod = 3;
         public const int EventChancePercent = 17;
         public const int QuietLines = 8;
@@ -62,19 +139,25 @@ namespace SchoolDirectorTycoon.Core
         public const int DepositWeeks = 4;
         public const int FurnishPerSeat = 100;
         public const int HiringCost = 500;
+        public const int TutoringPerStudent = 25;
         public const int GymNightPay = 1800;
         public const int GymContractNightly = 800;
         public const int GymContractAwayDaily = 600;
         public const int MaxAwayDays = 3;
         public const int MinFee = 80, MaxFee = 500, MinStaff = 1, MaxTeachers = 40, MaxAdmins = 15;
+        public const int InterviewCost = 300, SummerCampWeek = 28, SummerCampPay = 2500, AdultCoursesPay = 700;
+        public const int LoanAmount = 50000, LoanPayment = 2200, LoanTerm = 30, CanteenWeekly = 1500;
+        public const int WingSeats = 60, TrainingSlots = 2, ExtraTrainingSlots = 2, GoalReward = 800;
+        public const int RivalStartWeek = 10, MinistryWeek = 24, FollowUpDays = 7;
         public const int MinStart = 390, MaxStart = 540, MinPeriods = 4, MaxPeriods = 8;
+        public const int NightlyRecovery = 5;
 
         public static readonly ImmutableArray<LifeBuilding> Buildings = ImmutableArray.Create(
             new LifeBuilding("villa", 90, 5000, false),
             new LifeBuilding("campus", 180, 9000, true),
             new LifeBuilding("academy", 320, 16000, true));
 
-        public static readonly ImmutableArray<string> ActivityIds = ImmutableArray.Create("tutoring", "gym_night", "gym_contract", "parents_night", "home");
+        public static readonly ImmutableArray<string> ActivityIds = ImmutableArray.Create("tutoring", "gym_night", "gym_contract", "parents_night", "summer_camp", "adult_courses", "home");
 
         public static LifeBuilding Building(string id) => Buildings.First(b => b.Id == id);
 
@@ -88,8 +171,8 @@ namespace SchoolDirectorTycoon.Core
             RandomState = seed == 0 ? 2463534242u : seed,
         };
 
-        public static int OpeningCost(LifePlan plan) =>
-            Building(plan.BuildingId).WeeklyRent * DepositWeeks + plan.Seats * FurnishPerSeat + (plan.Teachers + plan.Admins) * HiringCost;
+        public static int OpeningCost(LifePlan plan, string scenario = "standard") =>
+            ScenarioRent(scenario, Building(plan.BuildingId)) * DepositWeeks + plan.Seats * FurnishPerSeat + (plan.Teachers + plan.Admins) * HiringCost;
 
         public static int WeeklyBill(LifePlan plan, int students) =>
             Building(plan.BuildingId).WeeklyRent + plan.Teachers * TeacherWeeklyPay + plan.Admins * AdminWeeklyPay + students * UtilityPerStudent;
@@ -99,22 +182,48 @@ namespace SchoolDirectorTycoon.Core
 
         public static int ExpectedStudents(LifePlan plan, int reputation = 50, int parents = 55) => Math.Min(plan.Seats, Demand(plan.Fee, reputation, parents));
 
-        public static int EndMinute(LifePlan plan) => plan.StartMinute + plan.Periods * PeriodMinutes + BreakMinutes;
+        public static int EndMinute(LifePlan plan) => plan.StartMinute + plan.Periods * plan.PeriodMinutes + plan.BreakMinutes;
+
+        /// <summary>Today's last bell, including the director's extension.</summary>
+        public static int DayEnd(LifeState state) => EndMinute(state.Plan!) + state.DayExtra;
+
+        /// <summary>Lengthens or shortens today by one 15-minute step while school is in session.</summary>
+        public static LifeState ExtendDay(LifeState state, int delta)
+        {
+            RequireOpen(state);
+            RequirePhase(state, LifePhase.School);
+            RequireNoPending(state);
+            int extra = state.DayExtra + delta;
+            int end = EndMinute(state.Plan!) + extra;
+            if ((delta != ExtendStep && delta != -ExtendStep) || extra < MinDayExtra || extra > MaxDayExtra || end < state.Minute)
+                throw new RuleException(RuleCode.LifeDayLimit, "لا يمكن تعديل اليوم أكثر من ذلك.", "The day cannot be changed any further.");
+            // A shortened day still reaches today's scheduled decision.
+            int due = state.EventMinute > end ? Math.Max(state.Minute, end) : state.EventMinute;
+            return state with { DayExtra = extra, EventMinute = due };
+        }
 
         /// <summary>The first day's bell. Throws when the plan is invalid or cannot be paid for.</summary>
-        public static LifeState Open(LifeState state, LifePlan plan)
+        public static LifeState Open(LifeState state, LifePlan plan, LifeStart start)
         {
             RequireOpen(state);
             RequirePhase(state, LifePhase.Setup);
-            Validate(plan);
-            int cost = OpeningCost(plan);
-            if (cost > state.Cash)
+            Validate(plan, start.Scenario);
+            ValidateStart(start, plan);
+            int cost = OpeningCost(plan, start.Scenario);
+            int cash = start.Scenario == "rescue" ? start.StartingCash * 70 / 100 : start.StartingCash;
+            if (cost > cash)
                 throw new RuleException(RuleCode.LifeNotEnoughCash, "لا يكفي المال لهذه الخطة.", "There is not enough money for this plan.");
-            uint random = state.RandomState;
-            int students = Math.Min(plan.Seats, Demand(plan.Fee, state.Reputation, state.Parents) * (85 + Chronicle.Roll(ref random, 16)) / 100);
-            LifeState opened = state with { Plan = plan, Students = students, RandomState = random };
+            (int rep, int parents) = ScenarioStanding(start.Scenario, state.Reputation, state.Parents);
+            LifeState set = state with
+            {
+                Plan = plan, OpeningPlan = plan, Identity = start.Identity, Scenario = start.Scenario, Cash = cash, Reputation = rep, Parents = parents,
+                RunId = state.RandomState, LastFee = plan.Fee, DebtWeeks = start.Scenario == "rescue" ? RescueDebtWeeks : 0,
+            };
+            uint random = set.RandomState;
+            int students = Math.Min(plan.Seats, CurrentDemand(set) * (85 + Chronicle.Roll(ref random, 16)) / 100);
+            LifeState opened = ScheduleArcs(SeedPeople(set with { Students = students, RandomState = random }));
             opened = Apply(opened with { Day = 1 }, new ChronicleEffect(Cash: -cost, Students: students), "life.opening");
-            return BeginDay(opened);
+            return BeginDay(opened with { MarkCash = opened.Cash, MarkRep = rep, MarkParents = parents, MarkStaff = opened.Staff, MarkAcad = opened.Academics, MarkLog = opened.Log.Length });
         }
 
         /// <summary>Moves the school clock forward. Stops early at the day's event or the last bell.</summary>
@@ -123,16 +232,21 @@ namespace SchoolDirectorTycoon.Core
             RequireOpen(state);
             RequirePhase(state, LifePhase.School);
             RequireNoPending(state);
-            int end = EndMinute(state.Plan!);
+            int end = DayEnd(state);
             int target = Math.Min(state.Minute + Math.Max(0, minutes), end);
-            if (state.EventToday != null && state.EventMinute >= 0 && target >= state.EventMinute)
-                return state with { Minute = state.EventMinute, PendingEvent = state.EventToday, EventToday = null, EventMinute = -1 };
+            if (state.EventMinute >= 0 && target >= state.EventMinute)
+            {
+                if (state.EventToday != null)
+                    return state with { Minute = state.EventMinute, PendingEvent = state.EventToday, EventToday = null, CaseToday = null, EventMinute = -1 };
+                if (state.CaseToday != null)
+                    return state with { Minute = state.EventMinute, PendingCase = state.CaseToday, CaseToday = null, EventMinute = -1 };
+            }
             if (target < end) return state with { Minute = target };
             LifeState done = state with { Minute = end, Phase = LifePhase.Evening };
-            if (done.Log.Length > 0 && done.Log[done.Log.Length - 1].Week == done.Day) return done;
+            if (done.Log.Length > 0 && done.Log[done.Log.Length - 1].Week == done.Day) return FinishDay(done);
             uint random = done.RandomState;
             string line = "life.quiet." + Chronicle.Roll(ref random, QuietLines);
-            return Apply(done with { RandomState = random }, new ChronicleEffect(), line);
+            return FinishDay(Apply(done with { RandomState = random }, new ChronicleEffect(), line));
         }
 
         public static LifeState Choose(LifeState state, string choiceId)
@@ -147,7 +261,8 @@ namespace SchoolDirectorTycoon.Core
             uint random = state.RandomState;
             bool failed = choice.Failure != null && Chronicle.Roll(ref random, 100) < choice.RiskPercent;
             string key = $"ev.{current.Id}.{choice.Id}.{(failed ? "fail" : "ok")}";
-            return Close(Apply(state with { RandomState = random, PendingEvent = null }, failed ? choice.Failure! : choice.Effect, key));
+            LifeState chosen = Apply(state with { RandomState = random, PendingEvent = null }, failed ? choice.Failure! : choice.Effect, key);
+            return Close(AfterEvent(chosen, current, choice, failed));
         }
 
         /// <summary>The activities on offer tonight, in display order.</summary>
@@ -158,6 +273,7 @@ namespace SchoolDirectorTycoon.Core
             {
                 "gym_night" => gym && !state.GymContract,
                 "gym_contract" => gym && !state.GymContract,
+                "summer_camp" => state.Week >= SummerCampWeek,
                 _ => true,
             }).ToArray();
         }
@@ -168,10 +284,12 @@ namespace SchoolDirectorTycoon.Core
             "tutoring" => Tutoring(state),
             "gym_night" => GymNightPay,
             "gym_contract" => GymContractNightly,
+            "summer_camp" => SummerCampPay,
+            "adult_courses" => AdultCoursesPay,
             _ => 0,
         };
 
-        private static int Tutoring(LifeState state) => Math.Min(state.Students / 5, state.Plan!.Teachers * 6) * 40;
+        private static int Tutoring(LifeState state) => Math.Min(state.Students / 5, state.Plan!.Teachers * 6) * TutoringPerStudent;
 
         /// <summary>Spends tonight, then pays the week if it ended and opens the next morning.</summary>
         public static LifeState Evening(LifeState state, string activity)
@@ -181,6 +299,7 @@ namespace SchoolDirectorTycoon.Core
             RequireNoPending(state);
             if (!Activities(state).Contains(activity))
                 throw new RuleException(RuleCode.LifeUnknownActivity, "هذا النشاط غير متاح.", "That activity is not available.");
+            if (activity != "home") RequireEnergy(state);
 
             uint random = state.RandomState;
             int contract = state.GymContract ? GymContractNightly : 0;
@@ -209,16 +328,32 @@ namespace SchoolDirectorTycoon.Core
                 case "parents_night":
                     effect = new ChronicleEffect(Cash: contract - 400, Parents: 2, Reputation: Chronicle.Roll(ref random, 100) < 30 ? 1 : 0, Staff: Chronicle.Roll(ref random, 100) < 30 ? -1 : 0);
                     break;
+                case "summer_camp":
+                    effect = new ChronicleEffect(Cash: contract + SummerCampPay, Staff: -1);
+                    break;
+                case "adult_courses":
+                    effect = new ChronicleEffect(Cash: contract + AdultCoursesPay, Staff: Chronicle.Roll(ref random, 100) < 20 ? -1 : 0);
+                    break;
                 default:
-                    effect = new ChronicleEffect(Cash: contract, Staff: 2);
+                    effect = new ChronicleEffect(Cash: contract, Staff: state.Energy > 0 ? 2 : 0); // A collapse is not a rest the staff feel.
                     break;
             }
 
+            if (state.DayExtra >= 30)
+                effect = effect with
+                {
+                    Staff = effect.Staff + (Chronicle.Roll(ref random, 100) < 30 ? -1 : 0),
+                    Academics = effect.Academics + (Chronicle.Roll(ref random, 100) < 40 ? 1 : 0),
+                };
+
             LifeState next = Apply(state with { RandomState = random, GymContract = state.GymContract || signs }, effect, $"life.act.{activity}.{result}");
+            next = Personal(next, ActivityEnergy(activity) + NightlyRecovery, activity == "home" ? 3 : -1);
+            if (activity == "tutoring" && next.ChallengeId == "no_tutoring") next = next with { ChallengeBroken = true };
+            next = CheckGoal(next, effect.Cash > 0);
             if (next.Day % DaysInWeek == 0) next = PayWeek(next);
             next = Close(next);
             if (next.Ending != ChronicleEnding.InProgress) return next;
-            if (next.Day >= DaysInYear) return next with { Ending = ChronicleEnding.YearCompleted };
+            if (next.Day >= DaysInYear) return next with { PendingSpeech = true };
             return BeginDay(next with { Day = next.Day + 1 });
         }
 
@@ -227,18 +362,17 @@ namespace SchoolDirectorTycoon.Core
         {
             RequireOpen(state);
             RequirePhase(state, LifePhase.Evening);
-            Validate(plan);
+            RequireNoPending(state);
+            Validate(plan, state.Scenario, Capacity(state));
             LifePlan old = state.Plan!;
-            if (plan.BuildingId != old.BuildingId)
-                throw new RuleException(RuleCode.LifeInvalidPlan, "لا يمكن تغيير المبنى خلال العام.", "The building cannot change during the year.");
-            int hires = Math.Max(0, plan.Teachers - old.Teachers) + Math.Max(0, plan.Admins - old.Admins);
-            int dismissed = Math.Max(0, old.Teachers - plan.Teachers) + Math.Max(0, old.Admins - plan.Admins);
-            int cost = hires * HiringCost + Math.Max(0, plan.Seats - old.Seats) * FurnishPerSeat
-                + Math.Max(0, old.Teachers - plan.Teachers) * TeacherWeeklyPay + Math.Max(0, old.Admins - plan.Admins) * AdminWeeklyPay;
+            if (plan.BuildingId != old.BuildingId || plan.Teachers != old.Teachers)
+                throw new RuleException(RuleCode.LifeInvalidPlan, "لا يمكن تغيير المبنى أو عدد المعلمين من هنا.", "The building and teacher count cannot change here.");
+            int cost = Math.Max(0, plan.Admins - old.Admins) * HiringCost + Math.Max(0, plan.Seats - old.Seats) * FurnishPerSeat
+                + Math.Max(0, old.Admins - plan.Admins) * AdminWeeklyPay;
             if (cost > state.Cash)
                 throw new RuleException(RuleCode.LifeNotEnoughCash, "لا يكفي المال لهذه التغييرات.", "There is not enough money for these changes.");
             if (plan == old) return state;
-            return Apply(state with { Plan = plan }, new ChronicleEffect(Cash: -cost, Staff: -2 * dismissed), "life.adjusted");
+            return Apply(state with { Plan = plan }, new ChronicleEffect(Cash: -cost, Staff: -2 * Math.Max(0, old.Admins - plan.Admins)), "life.adjusted");
         }
 
         /// <summary>Call when the game opens. The first opening of each new calendar day leaves a letter on the desk.
@@ -250,14 +384,16 @@ namespace SchoolDirectorTycoon.Core
             int gap = state.LastRealDay == 0 ? 0 : realDay - state.LastRealDay;
             int streak = state.LastRealDay != 0 && gap <= 2 ? state.Streak + 1 : 1;
             int away = state.GymContract ? Math.Min(gap, MaxAwayDays) * GymContractAwayDaily : 0;
-            return state with
+            return StartChallenge(state with
             {
                 LastRealDay = realDay,
                 Streak = streak,
                 PendingLetter = LetterKey(state.LetterIndex, state.Decisions),
+                GoalId = Goals[((realDay % Goals.Length) + Goals.Length) % Goals.Length],
+                GoalDone = false,
                 LetterBonus = 400 + 200 * Math.Min(streak - 1, 6),
                 AwayIncome = away,
-            };
+            }, realDay);
         }
 
         /// <summary>The answers a letter asks for; empty when it only needs reading.</summary>
@@ -279,7 +415,9 @@ namespace SchoolDirectorTycoon.Core
             var effect = extra with { Cash = extra.Cash + state.LetterBonus + state.AwayIncome, Reputation = extra.Reputation + milestone };
             ImmutableArray<string> decisions = decides ? state.Decisions.Add(Arc(key) + ":" + choice) : state.Decisions;
             LifeState read = state with { PendingLetter = null, LetterBonus = 0, AwayIncome = 0, LetterIndex = state.LetterIndex + 1, Decisions = decisions };
-            return Close(Apply(read, effect, decides ? $"{key}.{choice}" : key));
+            LifeState after = Apply(read, effect, decides ? $"{key}.{choice}" : key);
+            if (after.Streak >= 7) after = Award(after, "streak_seven");
+            return Close(after);
         }
 
         public static readonly ImmutableArray<string> Arcs = ImmutableArray.Create("salem", "noura", "yousef");
@@ -313,39 +451,58 @@ namespace SchoolDirectorTycoon.Core
         {
             int score = (state.Reputation + state.Parents + state.Staff + state.Academics) / 4;
             if (state.Ending != ChronicleEnding.YearCompleted) return ChronicleGrade.D;
-            return score >= 75 ? ChronicleGrade.S : score >= 62 ? ChronicleGrade.A : score >= 50 ? ChronicleGrade.B : ChronicleGrade.C;
+            return GradeOf(score);
         }
 
         private static LifeState BeginDay(LifeState state)
         {
             uint random = state.RandomState;
             LifePlan plan = state.Plan!;
-            int week = (state.Day - 1) / DaysInWeek + 1;
+            int week = state.Week;
             string? drawn = null;
+            LifeCase? todayCase = null;
             int minute = -1;
-            ChronicleEvent[] open = ChronicleDeck.All.Where(e => e.MinWeek <= week && !state.UsedEvents.Contains(e.Id)).ToArray();
-            if (Chronicle.Roll(ref random, 100) < EventChancePercent && open.Length > 0)
+            int window = Math.Max(1, EndMinute(plan) - plan.StartMinute - 60);
+            if (Chronicle.Roll(ref random, 100) < CaseChancePercent && state.Followed.Length > 0)
             {
-                drawn = open[Chronicle.Roll(ref random, open.Length)].Id;
-                minute = plan.StartMinute + 30 + Chronicle.Roll(ref random, Math.Max(1, EndMinute(plan) - plan.StartMinute - 60));
+                LifeStudent student = state.Followed[Chronicle.Roll(ref random, state.Followed.Length)];
+                todayCase = new LifeCase(student.Id, CaseIds[Chronicle.Roll(ref random, CaseIds.Length)]);
+                minute = plan.StartMinute + 30 + Chronicle.Roll(ref random, window);
             }
-            return state with
+            else
+            {
+                ChronicleEvent[] open = ChronicleDeck.All.Where(e => e.MinWeek <= week && !state.UsedEvents.Contains(e.Id)).ToArray();
+                if (Chronicle.Roll(ref random, 100) < EventChancePercent && open.Length > 0)
+                {
+                    drawn = open[Chronicle.Roll(ref random, open.Length)].Id;
+                    minute = plan.StartMinute + 30 + Chronicle.Roll(ref random, window);
+                }
+            }
+            LifeState next = state with
             {
                 Phase = LifePhase.School,
                 Minute = plan.StartMinute,
                 RandomState = random,
                 EventToday = drawn,
+                CaseToday = todayCase,
                 EventMinute = minute,
+                DayExtra = 0,
+                ActionsToday = ImmutableArray<string>.Empty,
                 UsedEvents = drawn != null ? state.UsedEvents.Add(drawn) : state.UsedEvents,
+                PendingMinistry = state.PendingMinistry || (week == MinistryWeek && (state.Day - 1) % DaysInWeek == 0),
             };
+            return MorningCards(RunFollowUps(MarkSeason(next)));
         }
 
         private static LifeState PayWeek(LifeState state)
         {
             LifePlan plan = state.Plan!;
             int week = state.Day / DaysInWeek, academics = 0, staff = 0, parents = 0, reputation = 0;
+            bool Every(int n) => week % n == 0;
+            bool Has(string id) => state.UpgradesDone.Contains(id);
+            uint random = state.RandomState;
 
-            int perTeacher = state.Students / plan.Teachers;
+            int perTeacher = state.Students / Math.Max(1, Teaching(state));
             if (perTeacher > 26) { academics -= 3; staff -= 2; }
             else if (perTeacher > 20) academics -= 2;
             else if (perTeacher <= 14) { academics += 1; staff += 1; }
@@ -354,32 +511,89 @@ namespace SchoolDirectorTycoon.Core
             if (perAdmin > 70) parents -= 2;
             else if (perAdmin > 45) parents -= 1;
 
-            if (plan.Periods <= 5) { academics -= 1; staff += 1; }
-            else if (plan.Periods == 7) { academics += 1; staff -= 1; }
-            else if (plan.Periods >= 8) { academics += 2; staff -= 2; }
+            int taught = plan.Periods * plan.PeriodMinutes;
+            if (taught < 240) { if (SeasonAt(week) != "ramadan") academics -= 1; }
+            else if (taught > 330) { academics += 1; staff -= 1; }
 
             if (plan.StartMinute < 420 || plan.StartMinute > 480) parents -= 1;
-            if (plan.Fee > 350) parents -= 4;
-            else if (plan.Fee > 280) parents -= 2;
-            if (week % 4 == 0) { staff -= 1; academics -= 1; }
+            int feeShift = state.Scenario == "international" ? 300 : 0;
+            if (plan.Fee > 350 + feeShift) parents -= 4;
+            else if (plan.Fee > 280 + feeShift) parents -= 2;
+            if (Every(4)) { staff -= 1; academics -= 1; }
             if (state.Academics >= 65) reputation += 1;
             else if (state.Academics < 40) { reputation -= 2; parents -= 1; }
 
-            uint random = state.RandomState;
-            int target = Math.Min(plan.Seats, Demand(plan.Fee, state.Reputation, state.Parents));
+            PeopleWeek(state, week, ref random, ref academics, ref staff, ref parents);
+            TimetableWeek(state, week, ref academics, ref parents);
+            if (Every(2))
+            {
+                academics += state.Roster.Count(t => t.Role == "head");
+                staff += state.Roster.Count(t => t.Role == "deputy");
+            }
+            // A burnt-out director and a neglected home both show up at work.
+            if (state.Energy < 25) { staff -= 1; academics -= 1; }
+            if (state.Family < 25) { reputation -= 1; parents -= 1; }
+
+            // Expectations rise with success, so the top of every scale has to be defended.
+            static int Expectation(int value) => value > 88 ? 3 : value > 75 ? 2 : value > 60 ? 1 : 0;
+            reputation -= Expectation(state.Reputation);
+            parents -= Expectation(state.Parents);
+            staff -= Expectation(state.Staff);
+            academics -= Expectation(state.Academics);
+
+            switch (state.Identity?.Philosophy)
+            {
+                case "strict": if (Every(2)) academics += 1; if (Every(4)) parents -= 1; break;
+                case "creative": if (Every(2)) staff += 1; if (Every(4)) academics -= 1; break;
+                case "sports": if (Every(2)) parents += 1; if (Every(4)) academics -= 1; break;
+                case "faith": if (Every(2)) parents += 1; if (Every(4)) reputation -= 1; break;
+            }
+
+            if (Has("library") && Every(2)) academics += 1;
+            if (Has("lab") && Every(2)) academics += 1;
+            if (Has("playground") && Every(4)) parents += 1;
+            if (Has("garden") && Every(4)) reputation += 1;
+            if (Has("ac") && parents < 0) parents += 1;
+
+            int demand = CurrentDemand(state);
+            int target = Math.Min(plan.Seats, demand);
             int step = 1 + Chronicle.Roll(ref random, 3);
             int moved = target > state.Students ? Math.Min(step, target - state.Students) : -Math.Min(step, state.Students - target);
 
-            var effect = new ChronicleEffect(state.Students * plan.Fee - WeeklyBill(plan, state.Students), moved, reputation, parents, staff, academics);
-            return Apply(state with { RandomState = random }, effect, "life.week");
+            int pressure = state.RivalPressure, stage = state.RivalStage;
+            string? rival = state.PendingRival;
+            if (week >= RivalStartWeek)
+            {
+                pressure = Math.Clamp(pressure + (state.Reputation >= 65 ? 1 : state.Reputation < 45 ? 3 : 2), 0, 100);
+                if (pressure > 50) moved -= 1 + Chronicle.Roll(ref random, 3);
+                if (stage == 0 && pressure >= 30) { rival = "rival.30"; stage = 1; }
+                else if (stage == 1 && pressure >= 60) { rival = "rival.60"; stage = 2; }
+            }
+
+            int income = state.Students * plan.Fee - WeeklyBill(state) + (Has("canteen") ? CanteenWeekly : 0);
+            var effect = new ChronicleEffect(income, moved, reputation, parents, staff, academics);
+            LifeState paid = Apply(state with
+            {
+                RandomState = random,
+                RivalPressure = pressure,
+                RivalStage = stage,
+                PendingRival = rival,
+                LoanWeeks = Math.Max(0, state.LoanWeeks - 1),
+                DebtWeeks = Math.Max(0, state.DebtWeeks - 1),
+            }, effect, "life.week");
+            if (state.LoanWeeks == 1) paid = Apply(paid, new ChronicleEffect(), "life.loan.paid");
+            if (paid.Students >= plan.Seats && plan.Seats >= 60) paid = Award(paid, "full_house");
+            return StudentsWeek(paid);
         }
 
-        private static void Validate(LifePlan p)
+        private static void Validate(LifePlan p, string scenario, int? capacity = null)
         {
             LifeBuilding? building = Buildings.FirstOrDefault(b => b.Id == p.BuildingId);
-            if (building == null || p.Seats < 1 || p.Seats > building.Capacity || p.Fee < MinFee || p.Fee > MaxFee
+            if (building == null || p.Seats < 1 || p.Seats > (capacity ?? ScenarioCapacity(scenario, building)) || p.Fee < MinFee || p.Fee > ScenarioFeeCap(scenario)
                 || p.Teachers < MinStaff || p.Teachers > MaxTeachers || p.Admins < MinStaff || p.Admins > MaxAdmins
-                || p.StartMinute < MinStart || p.StartMinute > MaxStart || p.Periods < MinPeriods || p.Periods > MaxPeriods)
+                || p.StartMinute < MinStart || p.StartMinute > MaxStart || p.Periods < MinPeriods || p.Periods > MaxPeriods
+                || p.PeriodMinutes < MinPeriodMinutes || p.PeriodMinutes > MaxPeriodMinutes || p.PeriodMinutes % MinutesStep != 0
+                || p.BreakMinutes < MinBreakMinutes || p.BreakMinutes > MaxBreakMinutes || p.BreakMinutes % MinutesStep != 0)
                 throw new RuleException(RuleCode.LifeInvalidPlan, "هذه الخطة غير صالحة.", "That plan is not valid.");
         }
 
@@ -401,9 +615,11 @@ namespace SchoolDirectorTycoon.Core
                 throw new RuleException(RuleCode.ChronicleEventPending, "قرر في الحدث الحالي أولًا.", "Decide the current event first.");
             if (state.PendingLetter != null)
                 throw new RuleException(RuleCode.LifeLetterWaiting, "اقرأ رسالة الصباح أولًا.", "Read the morning letter first.");
+            if (state.PendingCase != null || state.PendingRival != null || state.PendingMinistry || state.PendingSpeech || !state.CardQueue.IsEmpty)
+                throw new RuleException(RuleCode.LifeCasePending, "قرر في الأمر المعروض أولًا.", "Decide the waiting matter first.");
         }
 
-        private static LifeState Apply(LifeState state, ChronicleEffect e, string key) => state with
+        private static LifeState Apply(LifeState state, ChronicleEffect e, string key, int name = -1, string? subject = null) => state with
         {
             Cash = state.Cash + e.Cash,
             Students = Math.Max(0, state.Students + (key == "life.opening" ? 0 : e.Students)),
@@ -411,8 +627,13 @@ namespace SchoolDirectorTycoon.Core
             Parents = Math.Clamp(state.Parents + e.Parents, 0, 100),
             Staff = Math.Clamp(state.Staff + e.Staff, 0, 100),
             Academics = Math.Clamp(state.Academics + e.Academics, 0, 100),
-            Log = state.Log.Add(new ChronicleEntry(state.Day, key, e)),
+            Log = state.Log.Add(new ChronicleEntry(state.Day, key, e, name, subject)),
+            Memories = IsMemory(key) ? state.Memories.Add(state.Log.Length) : state.Memories,
         };
+
+        private static bool IsMemory(string key) =>
+            key.StartsWith("life.letter.", StringComparison.Ordinal) || key.StartsWith("life.ministry", StringComparison.Ordinal)
+            || key.StartsWith("life.grad", StringComparison.Ordinal) || key.StartsWith("life.ach.", StringComparison.Ordinal);
 
         private static LifeState Close(LifeState state)
         {
@@ -421,88 +642,7 @@ namespace SchoolDirectorTycoon.Core
                 : state.Reputation <= 0 || state.Parents <= 0 ? ChronicleEnding.Dismissed
                 : state.Staff <= 0 ? ChronicleEnding.StaffWalkout
                 : ChronicleEnding.InProgress;
-            return ending == ChronicleEnding.InProgress ? state : state with { Ending = ending, PendingEvent = null, PendingLetter = null };
+            return ending == ChronicleEnding.InProgress ? state : Ended(state with { Ending = ending, PendingEvent = null, PendingLetter = null, PendingCase = null, PendingRival = null, PendingMinistry = false, PendingSpeech = false, CardQueue = ImmutableArray<LifeQueued>.Empty });
         }
-    }
-
-    /// <summary>Plain-text save for the hands-on mode. Hand-written so it needs no reflection on phones built with IL2CPP.</summary>
-    public static class LifeSave
-    {
-        public const int CurrentVersion = 1;
-        private const string Magic = "SDTLIFE";
-
-        public static string Write(LifeState s)
-        {
-            var b = new StringBuilder();
-            void Put(string name, object? value) => b.Append(name).Append('=').Append(Convert.ToString(value, CultureInfo.InvariantCulture)).Append('\n');
-            b.Append(Magic).Append(' ').Append(CurrentVersion).Append('\n');
-            Put("phase", (int)s.Phase); Put("day", s.Day); Put("minute", s.Minute); Put("cash", s.Cash); Put("students", s.Students);
-            Put("rep", s.Reputation); Put("parents", s.Parents); Put("staff", s.Staff); Put("acad", s.Academics); Put("random", s.RandomState);
-            Put("eventToday", s.EventToday); Put("eventMinute", s.EventMinute); Put("pendingEvent", s.PendingEvent); Put("ending", (int)s.Ending);
-            Put("gym", s.GymContract ? 1 : 0); Put("realDay", s.LastRealDay); Put("streak", s.Streak); Put("letterIndex", s.LetterIndex);
-            Put("letter", s.PendingLetter); Put("bonus", s.LetterBonus); Put("away", s.AwayIncome);
-            Put("decisions", string.Join(",", s.Decisions)); Put("used", string.Join(",", s.UsedEvents));
-            if (s.Plan != null)
-            {
-                LifePlan p = s.Plan;
-                Put("plan", string.Join(",", p.BuildingId, p.Seats, p.Fee, p.Teachers, p.Admins, p.StartMinute, p.Periods));
-            }
-            foreach (ChronicleEntry e in s.Log)
-            {
-                ChronicleEffect f = e.Effect;
-                b.Append("L|").Append(e.Week).Append('|').Append(e.Key).Append('|').Append(string.Join("|", f.Cash, f.Students, f.Reputation, f.Parents, f.Staff, f.Academics)).Append('\n');
-            }
-            return b.ToString();
-        }
-
-        /// <summary>Throws <see cref="FormatException"/> for a damaged or unknown file.</summary>
-        public static LifeState Read(string text)
-        {
-            string[] lines = (text ?? throw new FormatException("Empty save.")).Split('\n');
-            if (lines[0].Trim() != Magic + " " + CurrentVersion) throw new FormatException("Unknown save version.");
-            var values = new Dictionary<string, string>();
-            var log = ImmutableArray.CreateBuilder<ChronicleEntry>();
-            foreach (string line in lines.Skip(1))
-            {
-                if (line.StartsWith("L|", StringComparison.Ordinal))
-                {
-                    string[] p = line.Split('|');
-                    if (p.Length != 9) throw new FormatException("Bad story line.");
-                    log.Add(new ChronicleEntry(N(p[1]), p[2], new ChronicleEffect(N(p[3]), N(p[4]), N(p[5]), N(p[6]), N(p[7]), N(p[8]))));
-                }
-                else if (line.Length > 0)
-                {
-                    int at = line.IndexOf('=');
-                    if (at <= 0) throw new FormatException("Bad line.");
-                    values[line.Substring(0, at)] = line.Substring(at + 1);
-                }
-            }
-
-            string Text(string name) => values.TryGetValue(name, out string? v) ? v : throw new FormatException("Missing " + name);
-            int Int(string name) => N(Text(name));
-            string? Opt(string name) => Text(name).Length == 0 ? null : Text(name);
-            ImmutableArray<string> Items(string name) => Text(name).Length == 0 ? ImmutableArray<string>.Empty : Text(name).Split(',').ToImmutableArray();
-
-            LifePlan? plan = null;
-            if (values.TryGetValue("plan", out string? raw))
-            {
-                string[] p = raw.Split(',');
-                if (p.Length != 7 || !SchoolLife.Buildings.Any(b => b.Id == p[0])) throw new FormatException("Bad plan.");
-                plan = new LifePlan(p[0], N(p[1]), N(p[2]), N(p[3]), N(p[4]), N(p[5]), N(p[6]));
-            }
-            if (!uint.TryParse(Text("random"), NumberStyles.None, CultureInfo.InvariantCulture, out uint random)) throw new FormatException("Bad random state.");
-            return new LifeState
-            {
-                Phase = (LifePhase)Int("phase"), Day = Int("day"), Minute = Int("minute"), Plan = plan, Cash = Int("cash"), Students = Int("students"),
-                Reputation = Int("rep"), Parents = Int("parents"), Staff = Int("staff"), Academics = Int("acad"), RandomState = random,
-                EventToday = Opt("eventToday"), EventMinute = Int("eventMinute"), PendingEvent = Opt("pendingEvent"), Ending = (ChronicleEnding)Int("ending"),
-                GymContract = Int("gym") == 1, LastRealDay = Int("realDay"), Streak = Int("streak"), LetterIndex = Int("letterIndex"),
-                PendingLetter = Opt("letter"), LetterBonus = Int("bonus"), AwayIncome = Int("away"),
-                Decisions = Items("decisions"), UsedEvents = Items("used"), Log = log.ToImmutable(),
-            };
-        }
-
-        private static int N(string text) =>
-            int.TryParse(text, NumberStyles.AllowLeadingSign, CultureInfo.InvariantCulture, out int value) ? value : throw new FormatException("Bad number: " + text);
     }
 }

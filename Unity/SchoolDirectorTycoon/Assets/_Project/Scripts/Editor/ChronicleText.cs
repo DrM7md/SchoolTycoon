@@ -180,6 +180,8 @@ namespace SchoolDirectorTycoon.EditorTools
                 C("normal", "Trust the teaching", "They will get what they have earned."),
                 R3("easy_paper", "Make the papers easier", "Everyone went home happy.", "External moderators asked to see the papers."));
             AddLifeEnglish(t);
+            AddLife2English(t);
+            AddLife3English(t);
             return t;
         }
 
