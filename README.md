@@ -69,7 +69,9 @@ Have an idea or found a bug? Open an issue. Small and focused pull requests are 
 
 ## License
 
-No license has been chosen yet. Until one is added, all rights are reserved by the project owner.
+Source-available under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). You may read, run, change and share the code for any noncommercial purpose: learning, personal projects, research or helping this project. Selling the game or a derivative, or publishing it on any store, needs written permission from the owner. See [NOTICE](NOTICE).
+
+Contributions are welcome under the terms in [CONTRIBUTING.md](CONTRIBUTING.md). They let the owner include your work in the commercial release, and you keep the copyright.
 
 ---
 
@@ -80,3 +82,5 @@ No license has been chosen yet. Until one is added, all rights are reserved by t
 **الحالة:** قيد التطوير ولم تصدر بعد. الأولوية الآن أن تكون اللعبة ممتعة ويعود إليها اللاعب كل يوم.
 
 **للمساهمة:** ابدأ بملف [AGENTS.md](AGENTS.md) ثم [دليل التطوير](Docs/Development.md). القواعد في النواة، ولا نص ثابت في الكود، ويبقى فتح ملفات الحفظ القديمة ممكنًا. شغّل الاختبارات وحدّث [سجل التغييرات](Docs/Changelog.md) قبل طلب الدمج.
+
+**الرخصة:** الكود منشور برخصة PolyForm Noncommercial 1.0.0. يحق لأي أحد قراءته وتشغيله وتعديله لأغراض غير تجارية. أما بيع اللعبة أو نشرها في أي متجر فيحتاج إذنًا مكتوبًا من صاحب المشروع. وبإرسال أي مساهمة يمنح المساهم صاحب المشروع حق استخدامها في النسخة التجارية، ويبقى حق المؤلف له، كما في [CONTRIBUTING.md](CONTRIBUTING.md).
