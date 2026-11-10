@@ -1,27 +1,82 @@
-# School Director Tycoon | مدير المدرسة
+# School Director Tycoon · مدير المدرسة
 
-لعبة إدارة مدرسة خاصة على Windows تعمل دون اتصال. النسخة 0.3 تتضمن حملة قابلة للعب من 30 يومًا (نموذج أولي؛ الهدف طويل المدى أعوام دراسية متتالية في مدرسة خاصة قطرية، والعميل القادم على Unity 6)، وواجهة عربية وإنجليزية قابلة للتبديل من الشريط العلوي أثناء اللعب.
+A portrait mobile life sim where you run a private school, day by day. You rent a building, hire teachers, set the school hours, and watch the lesson clock tick. Then you live with your choices: parents' group chats, staff room gossip, crises that last for days, and a conscience that keeps score.
 
-## تشغيل اللعبة
+Arabic and English. Fully offline. No audio: every piece of feedback is visual.
 
-1. ثبّت **.NET Desktop Runtime 10.0.14** أو تصحيحًا أحدث من سلسلة 10.0، بالمعمارية الموافقة للنسخة. نسخة التسليم الحالية مبنية على Windows x64. [تنزيل Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
-2. فك ضغط `artifacts/SchoolDirectorTycoon-Windows-x64.zip` ثم شغّل `SchoolDirectorTycoon.Desktop.exe` من المجلد المستخرج مع الملفات المرافقة.
-3. اختر مرفقًا من شريط الحرم ثم ضعْه على قطعة أرض في الخريطة. استخدم زرّي التكبير أو اسحب بزر الفأرة الأيمن بعد التكبير. عدّل الموظفين والرسوم، ثم اختر «إنهاء اليوم» أو شغّل الوقت. يكتب التطبيق الحفظ التلقائي بعد كل يوم مكتمل. عند إعادة فتح التطبيق استخدم أحد زري التحميل لاستئناف حملة محفوظة.
+<p>
+  <img src="Docs/images/life-en-school.png" width="200" alt="School tab with the lesson clock">
+  <img src="Docs/images/life-ar-chat-parents.png" width="200" alt="Parents' group chat in Arabic">
+  <img src="Docs/images/life-en-month2.png" width="200" alt="Monthly certificate">
+  <img src="Docs/images/life-ar-cele-star.png" width="200" alt="Star celebration in Arabic">
+</p>
 
-افتح «دليل البداية» من لوحة المدرسة لمعرفة أثر السعة والطاقم والرسوم على يومك الأول. تحفظ اللعبة لغة الواجهة محليًا وتستعيدها عند إعادة التشغيل.
+> **Status:** early development and not yet released. The current focus is making the game fun and worth coming back to every day. The first-run tutorial, notifications and the Android and iOS builds come later.
 
-## التطوير والتسليم
+## What you do as director
 
-- [تسليم العمل للوكيل التالي](AGENTS.md)
-- [تشغيل المصدر والاختبارات والنشر](Docs/Development.md)
-- [الحرم والتحكم بالكاميرا](Docs/CampusWorld.md)
-- [تصميم اللعبة ودليل الأنظمة](Docs/GameDesignDocument.md)
-- [البنية ومسار الجوال](Docs/Architecture.md)
-- [الانتقال إلى Unity](Docs/UnityMigration.md)
-- [أداء المحاكاة والذاكرة](Docs/Performance.md)
-- [الأفكار والأولويات](Docs/Roadmap.md)
-- [سجل التغييرات](Docs/Changelog.md)
+- **Set up your school:** choose a building, seats, fees, teachers, admins and the school day. Pick one of five scenarios: standard, rescue, village, girls or international.
+- **Run the day:** a live lesson clock that you can pause, speed up, or extend. Each morning you do director actions, and each evening you choose how to spend the night: tutoring, renting the gym, parents' night, or going home.
+- **Grow:** a training centre and building upgrades that take real time to finish, promotions, Teacher of the Month, and a timetable.
+- **Live with consequences:** decision cards, delayed outcomes that return weeks later, a hidden conscience, results day, and multi-day crises.
+- **Progress:** a career that lasts across runs, with levels and unlocks, a Hall of Fame, an album, school stars, and a weekly challenge.
 
-## English quick start
+## Repository layout
 
-Install the Windows x64 .NET Desktop Runtime 10.0.14 or a later .NET 10 patch, extract the release ZIP, and launch `SchoolDirectorTycoon.Desktop.exe`. Select **English** in the top bar, then open **Getting started** on the dashboard. The language choice is remembered. Reach 65 students, 70 reputation, and a non-negative cash balance at the end of day 30. Use **Load autosave** to resume from the last completed day.
+| Path | What it is |
+|---|---|
+| `src/SchoolDirectorTycoon.Core` | All game rules in plain C# (netstandard2.1 and net10.0). Deterministic: the same state and choices always give the same result. |
+| `Unity/SchoolDirectorTycoon` | The Unity 6 mobile client (UI Toolkit). This is the main client going forward. |
+| `src/SchoolDirectorTycoon.Desktop` | Older WPF prototype for Windows, kept as a reference until the Unity client reaches parity. |
+| `tests/` | Core rule and balance tests, the netstandard check, and the WPF tests. |
+| `tools/CopyCoreToUnity.ps1` | Builds Core and copies it into the Unity project. |
+| `Docs/` | Design, architecture and system documents. Most of them are written in Arabic. |
+
+## Getting started
+
+Requirements: Windows, the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) (version pinned in `global.json`), Unity **6000.0.85f2**, and [Git LFS](https://git-lfs.com).
+
+```bash
+git clone https://github.com/DrM7md/SchoolTycoon.git
+```
+
+Run the Core tests from the repository root. They include the balance checks:
+
+```bash
+dotnet run --project tests/SchoolDirectorTycoon.Tests -c Release -m:1
+```
+
+After changing Core, copy it into Unity:
+
+```bash
+powershell -ExecutionPolicy Bypass -File tools/CopyCoreToUnity.ps1
+```
+
+Then open `Unity/SchoolDirectorTycoon` in Unity Hub and open the `Chronicle` scene in `Assets/_Project/Scenes`. EditMode tests live in `Assets/_Project/Tests/EditMode`.
+
+## Ground rules for contributions
+
+1. **Rules belong in Core.** Unity only shows state and passes in player input. Real time reaches Core only as integer arguments, so results stay reproducible.
+2. **No hard-coded text.** Every visible string goes in the localization tables in English and Arabic. Core returns keys and rule codes, never sentences. Check right-to-left layout for anything you add.
+3. **Keep old saves working.** If you change the save format, add a migration and a test that loads a save written in the previous version.
+4. **No audio, no network.** If you add a dependency, record its version, license and its effect on offline play in [Docs/ThirdParty.md](Docs/ThirdParty.md).
+5. **Run the tests** and update [Docs/Changelog.md](Docs/Changelog.md) before you open a pull request.
+6. **Original work only.** The game takes inspiration from life sims, but its names, art and text are its own.
+
+Agents and new contributors should start with [AGENTS.md](AGENTS.md), then read [Development](Docs/Development.md), [Architecture](Docs/Architecture.md) and [Unity migration](Docs/UnityMigration.md). Planned work is in the [Roadmap](Docs/Roadmap.md).
+
+Have an idea or found a bug? Open an issue. Small and focused pull requests are easiest to review.
+
+## License
+
+No license has been chosen yet. Until one is added, all rights are reserved by the project owner.
+
+---
+
+## بالعربية
+
+**مدير المدرسة** لعبة محاكاة لإدارة مدرسة خاصة على الجوال بالوضع العمودي. تستأجر المبنى وتوظف المعلمين وتحدد وقت الدوام، ثم تعيش يومك مع ساعة الحصص وقروب الأهالي وغرفة المعلمين وقرارات تلاحقك عواقبها. اللعبة بالعربية والإنجليزية، وتعمل دون اتصال، وبلا صوت.
+
+**الحالة:** قيد التطوير ولم تصدر بعد. الأولوية الآن أن تكون اللعبة ممتعة ويعود إليها اللاعب كل يوم.
+
+**للمساهمة:** ابدأ بملف [AGENTS.md](AGENTS.md) ثم [دليل التطوير](Docs/Development.md). القواعد في النواة، ولا نص ثابت في الكود، ويبقى فتح ملفات الحفظ القديمة ممكنًا. شغّل الاختبارات وحدّث [سجل التغييرات](Docs/Changelog.md) قبل طلب الدمج.
